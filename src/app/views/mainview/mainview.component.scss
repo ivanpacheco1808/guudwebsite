@@ -1,0 +1,64 @@
+.phrase {
+  position: absolute;
+  &:not(.nohover){
+    filter: unset;
+    [class*="st"]{
+      fill: #707070;
+    }
+  }
+
+  &:hover:not(.nohover) {
+    filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);
+    transition: filter 0.75s ease-out;
+    -webkit-transition: filter 0.75s ease-out;
+    -moz-transition: filter 0.75s ease-out;
+    -ms-transition: filter 0.75s ease-out;
+    -o-transition: filter 0.75s ease-out;
+  }
+
+  &.fadeToBlue {
+    .st0{filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);}
+    .st1 {filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);animation: shake 2s infinite linear;}
+  }
+
+  &.fadeToGreen {
+    .st0{filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);}
+    .st1 {filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);animation: shake 2s infinite linear;}
+  }
+
+  &.fadeToRed {
+    .st0{filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%)}
+    .st1 {filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);animation: shake 2s infinite linear;}
+  }
+}
+
+.homearea {
+  box-shadow: inset 0 10px 100px #d4d4d4, inset 0 0 100px #d4d4d4;
+  height: 94vh;
+}
+/*
+#spawnarea {
+  position: relative;
+  border: 1px solid red;
+  width: 90%;
+  height: 80vh;
+  margin: auto;
+  top: 7vh;
+}
+
+.spawnedPhrase {
+  position: absolute;
+  height: 13vw;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  max-width: 22vw;
+}
+
+.dataarea {
+  position: absolute;
+  left: 37.5vw;
+  width: 30vw;
+  text-align: center;
+}
+*/

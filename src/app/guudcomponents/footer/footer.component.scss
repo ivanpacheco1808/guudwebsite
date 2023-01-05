@@ -1,0 +1,72 @@
+
+.logo {
+  width: 8.8vw;
+  top: 0.6vw;
+  position: relative;
+}
+
+.footerarea {
+  width: 52vw;
+  margin: auto;
+  border-bottom: 0.16rem solid #ddd;
+  height: 17vh;
+  ul {
+    list-style: none;
+    color: #1b4544;
+    font-size: 0.8vw;
+    li {
+      margin-bottom: 0.5vw;
+      .bubble {
+        color: #fff;
+        background-color: #1b4544;
+        width: 1.5vw;
+        height: 1.5vw;
+        display: block;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 1.4vw;
+      }
+    }
+  }
+}
+
+.sections1 {
+  position: absolute;
+  top: 2vw;
+  left: 35.2vw;
+  font-size: 0.8vw;
+}
+
+.sections2 {
+  position: absolute;
+  top: 2vw;
+  left: 48vw;
+}
+
+.social{
+  position: absolute;
+  top: 2vw;
+  left: 60.7vw;
+  li{
+    margin-bottom: 0.4vw;
+    &:not(:first-child) {
+      display: inline-block;
+      margin-right: 1vw;
+    }
+  }
+}
+
+
+
+.rights {
+  text-align: center;
+  height: 6vh;
+  font-size: 0.8rem;
+  line-height: 2.8rem;
+  color: #ddd;
+}
+.separator {
+  border-left: 0.1rem solid #ddd;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}

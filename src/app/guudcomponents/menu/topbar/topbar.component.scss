@@ -1,0 +1,30 @@
+
+.logo {
+  position: absolute;
+  width: 9.4vw;
+  top: -0.8vw;
+  left: 21.4vw;
+}
+.menubar {
+  position: sticky;
+  width: 100%;
+  height: 6.6vh;
+  background-color: #FFF;
+  top: 0;
+  z-index: 2;
+}
+
+
+.navigation {
+  list-style: none;
+  //background-color: #ff00002e;
+  width: 59.9vw;
+  right: 6.6vw;
+  position: absolute;
+}
+.navigation li {
+  display: inline-block;
+  //background-color: #16008042;
+  padding: 0.8vw 0.67vw;
+  font-size: 0.93vw;
+}
