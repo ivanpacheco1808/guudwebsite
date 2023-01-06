@@ -16,7 +16,7 @@ export class MainviewComponent implements OnInit {
   ngOnInit(): void {
     setTimeout(() => {
       this._startAnimation();
-    }, 300);
+    }, 777);
   }
   _startAnimation() {
     //Ignora logos
