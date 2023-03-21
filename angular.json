@@ -26,7 +26,9 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/web.config"
+              "src/web.config",
+              "src/assets/ExoRegular.ttf",
+              "src/assets/VerveineRegular.ttf"
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
