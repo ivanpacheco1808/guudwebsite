@@ -1,0 +1,30 @@
+.display {
+  padding: 5.3rem 10rem;
+  height: 55rem;
+}
+
+.icons {
+  text-align: center;
+  padding-top: 10.7rem;
+
+  div {
+    position: relative;
+  }
+
+  h3 {
+    margin-top: 2.5rem;
+  }
+
+  h5 {
+    margin-top: -0.2rem;
+  }
+}
+
+.svgic {
+  position: absolute;
+  margin: auto;
+  top: -3.6rem;
+  left: calc(50% - 3rem);
+  width: 6rem;
+  height: 6rem;
+}

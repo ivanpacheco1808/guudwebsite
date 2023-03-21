@@ -1,4 +1,6 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
 import { CommonModule } from '@angular/common';
 import { TopbarComponent } from './menu/topbar/topbar.component';
 import { FooterComponent } from './footer/footer.component';
@@ -12,10 +14,11 @@ import { FooterComponent } from './footer/footer.component';
   ],
   exports: [
     TopbarComponent ,
-    FooterComponent   
+    FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ]
 })
 export class GuudcomponentsModule { }

@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Exo";
+  src: url('./assets/fonts/ExoRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Verveine";
+  src: url('./assets/fonts/VerveineRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$gray-font: #707070;
+$blue-font: #1b4544;
+
+.menubar .navigation {
+  color: $gray-font;
+}
+.bluefont{
+  color: $blue-font;
+}
+
+h1{
+  font-family: Verveine;
+  color: $gray-font;
+  font-size: 7rem;
+  text-align: center;
+  line-height: 6rem;
+}
+
+
+h2 {
+  font-size: 3.4rem;
+  font-family: Exo;
+  color: $gray-font;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
+  font-family: Verveine;
+  color: $blue-font;
+  font-size: 2.7rem;
+}
+
+h4 {
+  color: $gray-font;
+  text-align: center;
+  margin-top: 1.9rem;
+  font: normal normal normal 18px/22px Exo;
+  font-size: 1.77rem;
+}
+
+h5 {
+  color: $gray-font;
+  text-align: center;
+  margin-top: 1.9rem;
+  font: normal normal normal 18px/22px Exo;
+  font-size: 1.77rem;
+}

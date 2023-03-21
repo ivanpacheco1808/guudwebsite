@@ -1,11 +1,14 @@
 <div class="menubar">
-  <img src="assets/logotipo.svg" alt="" class="logo">
+  <img [routerLink]="'/'" src="assets/logotipo.svg" alt="" class="logo">
   <ul class="navigation">
-    <li>About us</li>
-    <li>Our science</li>
-    <li>History</li>
-    <li>Caring & giving</li>
-    <li>Sustainability</li>
-    <li>Want to be a supplier??</li>
+    <li [routerLink]="'/aboutus'" style="background-color:#fff;">About us</li>
+    <li [routerLink]="'/history'" style="background-color:#fff;">History</li>
+    <li style="background-color:#fff;">Caring & giving</li>
+    <!--[routerLink]="'/caring'"-->
+    <li style="background-color:#fff;">Sustainability</li>
+    <!--[routerLink]="'/sustainability'"-->
+    <li class="bluefont nocursor">Want to be...</li>
+    <li class="bluefont " [routerLink]="'/supplier'" style="font-weight:bold;">Supplier</li>
+    <li class="bluefont " [routerLink]="'/coach'" style="font-weight:bold;">Coach</li>
   </ul>
 </div>
