@@ -1,7 +1,7 @@
 <div class="displayshadow">
-  <div class="display">
+  <div class="col-sm-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 m-auto">
     <div class="row" style="margin: auto;">
-      <div class="col-6">
+      <div class="col-xl-6 col-md-7 col-sm-8 m-auto">
 
         <form class="guudform">
           <div class="row" style="margin-bottom: 2rem;">
@@ -10,46 +10,46 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-6">
-              <label class="labeledinput">
-                <input type="text">
+            <div class="col-12 col-sm-6">
+              <label class="labeledinput" [ngClass]="{'active': dataFormat.firstName}">
+                <input type="text" [(ngModel)]="dataFormat.firstName" name="firstName">
                 <span>First Name</span>
               </label>
             </div>
-            <div class="col-6">
-              <label class="labeledinput">
-                <input type="text">
+            <div class="col-12 col-sm-6">
+              <label class="labeledinput" [ngClass]="{'active': dataFormat.lastName}">
+                <input type="text" [(ngModel)]="dataFormat.lastName" name="lastName">
                 <span>Last Name</span>
               </label>
             </div>
           </div>
           <div class="row">
-            <div class="col-6">
-              <label class="labeledinput">
-                <input type="text">
+            <div class="col-12 col-sm-6">
+              <label class="labeledinput" [ngClass]="{'active': dataFormat.product}">
+                <input type="text" [(ngModel)]="dataFormat.product" name="product">
                 <span>Product</span>
               </label>
             </div>
-            <div class="col-6">
-              <label class="labeledinput">
+            <div class="col-12 col-sm-6">
+              <label class="labeledinput" [ngClass]="{'active': dataFormat.filename}">
                 <img class="inputdeco" src="assets/svg/supplier/Clip.svg"
                 onload="SVGInject(this)">
                 <input type="file" (change)="_setfiles($event)">
-                <div class="fileinput">{{filename}}</div>
+                <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
                 <span>Product Images</span>
               </label>
             </div>
           </div>
           <div class="row">
-            <div class="col-6">
-              <label class="labeledinput">
-                <input type="text">
+            <div class="col-12 col-sm-6">
+              <label class="labeledinput" [ngClass]="{'active': dataFormat.email}">
+                <input type="text" [(ngModel)]="dataFormat.email" name="email">
                 <span>Email</span>
               </label>
             </div>
-            <div class="col-6">
-              <label class="labeledinput">
-                <input type="text">
+            <div class="col-12 col-sm-6">
+              <label class="labeledinput" [ngClass]="{'active': dataFormat.phone}">
+                <input type="text" [(ngModel)]="dataFormat.phone" name="phone">
                 <span>Phone</span>
               </label>
             </div>
@@ -61,8 +61,8 @@
         </form>
 
       </div>
-      <div class="col-6">
-        <img src="assets/svg/supplier/Guud-Coach@2x.png" alt="" style="width: 36.6vw;position: relative;margin: auto;display: block;top: -3.6rem;left: -5rem;">
+      <div class="col-xl-6 col-md-5 col-sm-8 m-auto">
+        <img src="assets/svg/supplier/Guud-Coach@2x.png" alt="" style="width: 36.6vw;position: relative;margin: auto;display: block;top: -3.6rem;">
       </div>
     </div>
   </div>

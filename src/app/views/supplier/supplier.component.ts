@@ -12,8 +12,17 @@ export class SupplierComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  filename='';
+  dataFormat:any = {
+    firstName: null,
+    lastName: null,
+    product: null,
+    productImage: null,
+    email: null,
+    phone: null,
+    filename:null
+  };
+
   _setfiles(e:any){
-    this.filename = e.target.files[0].name;
+    this.dataFormat.filename = e.target.files[0].name;
   }
 }

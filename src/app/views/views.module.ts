@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule }   from '@angular/forms';
 
 import { MainviewComponent } from './mainview/mainview.component';
 
@@ -33,7 +34,8 @@ import { SustainabilityComponent } from './sustainability/sustainability.compone
     SustainabilityComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ]
 })
 export class ViewsModule { }

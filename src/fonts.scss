@@ -59,3 +59,27 @@ h5 {
   font: normal normal normal 18px/22px Exo;
   font-size: 1.77rem;
 }
+
+
+
+
+/*GRIIIID*/
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 910px,
+        lg: 1333px,
+        xl: 1666px,
+        xxl: 1900px
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 850px,
+        lg: 1290px,
+        xl: 1580px,
+        xxl: 1610px
+);
+
+// Import BT sources
+@import "../node_modules/bootstrap/scss/bootstrap";
