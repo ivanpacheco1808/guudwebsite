@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-caring',
+  selector: 'guudview-caring',
   templateUrl: './caring.component.html',
   styleUrls: ['./caring.component.scss']
 })
-export class CaringComponent implements OnInit {
-
+export class CaringComponent {
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  _apply:boolean=true;
+  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

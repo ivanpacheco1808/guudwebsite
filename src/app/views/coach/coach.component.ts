@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'guudview-coach',
   templateUrl: './coach.component.html',
   styleUrls: ['./coach.component.scss']
 })
-export class CoachComponent implements OnInit {
-
+export class CoachComponent {
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  _apply:boolean=true;
+  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

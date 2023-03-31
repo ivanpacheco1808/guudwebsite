@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'guudview-sustainability',
   templateUrl: './sustainability.component.html',
   styleUrls: ['./sustainability.component.scss']
 })
-export class SustainabilityComponent implements OnInit {
-
+export class SustainabilityComponent {
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  _apply:boolean=true;
+  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

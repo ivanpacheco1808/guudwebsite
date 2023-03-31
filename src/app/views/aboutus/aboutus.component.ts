@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-aboutus',
+  selector: 'guudview-aboutus',
   templateUrl: './aboutus.component.html',
   styleUrls: ['./aboutus.component.scss']
 })
-export class AboutusComponent implements OnInit {
-
+export class AboutusComponent {
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  _apply:boolean=true;
+  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

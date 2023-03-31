@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'guudview-supplier',
   templateUrl: './supplier.component.html',
   styleUrls: ['./supplier.component.scss']
 })
-export class SupplierComponent implements OnInit {
-
+export class SupplierComponent {
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  _apply:boolean=true;
+  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

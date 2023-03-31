@@ -79,7 +79,10 @@ $inputtransition: 0.13s;
     width: 2rem;
     position: absolute;
     right: 3rem;
-    top: 0.75rem;
+    top: 1.25rem;
+    &#closeburguer {
+      width: 1.5rem;
+    }
   }
 
   #burgerdisplay {
@@ -149,6 +152,7 @@ $inputtransition: 0.13s;
     z-index: 2;
     opacity: 1;
     display: block;
+    overflow: scroll;
   }
 }
 
