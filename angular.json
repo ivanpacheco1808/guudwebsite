@@ -26,8 +26,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/web.config",
-              "src/.htaccess",
+              "src/webguud.config.json",
               "src/assets/ExoRegular.ttf",
               "src/assets/VerveineRegular.ttf"
             ],
