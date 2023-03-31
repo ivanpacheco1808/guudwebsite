@@ -1,0 +1,22 @@
+<div class="burguermenu">
+  <input type="checkbox" id="burgerstatus" style="display: none;" [(ngModel)]="_menuOpened">
+  <label class="mobileNavigation" for="burgerstatus">
+    <img class="burgertoggler" id="openburger" src="assets/svg/menu.svg">
+    <img class="burgertoggler" id="closeburguer" src="assets/svg/close.svg">
+  </label>
+  <div id="burgerdisplay">
+    <div class="whitedecoration"></div>
+    <ul class="top">
+      <li [routerLink]="'/'" (click)="_menuOpened=false;">Home</li>
+      <li [routerLink]="'/aboutus'" (click)="_menuOpened=false;">About us</li>
+      <li [routerLink]="'/history'" (click)="_menuOpened=false;">History</li>
+      <li>Caring & giving</li>
+      <li>Sustainability</li>
+    </ul>
+    <ul class="bottom">
+      <li>Want to be...</li>
+      <li [routerLink]="'/coach'" (click)="_menuOpened=false;">Coach</li>
+      <li [routerLink]="'/supplier'" (click)="_menuOpened=false;">Supplier</li>
+    </ul>
+  </div>
+</div>

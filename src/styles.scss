@@ -1,13 +1,11 @@
 @import 'fonts.scss';
 $gray-font: #707070;
 $blue-font: #1b4544;
+$animationtime: .77s;
+$animationtimeslow: 1.77s;
+$inputtransition: 0.13s;
 
-
-$animationtime: 1s;
-$animationtimeslow: 2s;
-$inputtransition: .23s;
-
-*{
+* {
   transition: all $animationtime ease-out;
   -webkit-transition: all $animationtime ease-out;
   -moz-transition: all $animationtime ease-out;
@@ -15,7 +13,7 @@ $inputtransition: .23s;
   -o-transition: all $animationtime ease-out;
 }
 
-.animation{
+.animation {
   transition: all $animationtimeslow ease-out;
   -webkit-transition: all $animationtimeslow ease-out;
   -moz-transition: all $animationtimeslow ease-out;
@@ -23,19 +21,30 @@ $inputtransition: .23s;
   -o-transition: all $animationtimeslow ease-out;
 }
 
-.labeledinput * {
+.labeledinput *,
+.menubar * {
   transition: all $inputtransition ease-out;
   -webkit-transition: all $inputtransition ease-out;
   -moz-transition: all $inputtransition ease-out;
   -ms-transition: all $inputtransition ease-out;
   -o-transition: all $inputtransition ease-out;
 }
-
 @keyframes shake {
-  25% { transform: rotate(.66deg); }
-  50% { transform: rotate(0deg); }
-  75% { transform: rotate(-.66deg); }
-  100% { transform: rotate(0deg); }
+  25% {
+    transform: rotate(.66deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-.66deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .reference {
@@ -47,18 +56,106 @@ $inputtransition: .23s;
 
 .displayshadow {
   box-shadow: inset 0 10px 100px #d4d4d4, inset 0 0 100px #d4d4d4;
+  padding-top: 3rem;
 }
 
-.display {
-  width: 57%;
-  margin: auto;
+.whitedecoration {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 12vh;
+  z-index: 0;
+  background-color: #fff;
 }
 
+.menubar {
+  .mobileNavigation {
+    z-index: 3;
+    position: relative;
+    display: block;
+  }
 
+  .burgertoggler {
+    width: 2rem;
+    position: absolute;
+    right: 3rem;
+    top: 0.75rem;
+  }
+
+  #burgerdisplay {
+    background-color: #f8f8f8;
+    height: 100vh;
+    font-family: Exo;
+    color: #707070;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    position: relative;
+    display: none;
+
+    ul {
+      list-style: none;
+      padding: 0.6rem 0;
+      position: relative;
+
+      &.top {
+        background-color: #FFF;
+      }
+
+      &.bottom {
+        li {
+          color: $blue-font;
+          font-weight: bold;
+          &:hover {
+            background-color: #fff;
+          }
+          &:first-child {
+            font-weight: normal;
+            height: 3rem;
+          }
+        }
+      }
+
+      li {
+        height: 4rem;
+        line-height: 4rem;
+        &:hover {
+          background-color: #f8f8f8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  #burgerdisplay,
+  #closeburguer {
+    z-index: -1;
+    opacity: 0;
+  }
+
+  #burgerstatus:checked ~ .mobileNavigation {
+    #openburger {
+      z-index: -1;
+      opacity: 0;
+    }
+
+    #closeburguer {
+      z-index: 2;
+      opacity: 1;
+    }
+  }
+
+  #burgerstatus:checked ~ #burgerdisplay {
+    z-index: 2;
+    opacity: 1;
+    display: block;
+  }
+}
 
 .labeledinput {
   width: 100%;
   position: relative;
+
   .inputdeco {
     position: absolute;
     right: 1rem;
@@ -66,10 +163,14 @@ $inputtransition: .23s;
     width: 2rem;
     height: 2rem;
     color: #b0b0b2;
-    & ~ input, ~ select, ~ .fileinput {
+
+    & ~ input,
+    ~ .fileinput,
+    ~ select {
       padding-right: 3.2rem;
     }
   }
+
   span:not(.inputdeco) {
     color: #a2a1a1;
     position: absolute;
@@ -78,6 +179,7 @@ $inputtransition: .23s;
     padding-left: 1rem;
     font-family: Exo;
   }
+
   &.active {
     span:not(.inputdeco) {
       top: -0.6rem;
@@ -85,8 +187,10 @@ $inputtransition: .23s;
     }
   }
 }
-.fileinput{
+
+.fileinput {
   z-index: 0;
+
   p {
     width: 100%;
     height: 100%;
@@ -94,8 +198,11 @@ $inputtransition: .23s;
     overflow: hidden;
   }
 }
-input, select, .fileinput {
-  &[type="file"]{
+
+input:not([type="checkbox"], [type="radio"]),
+select,
+.fileinput {
+  &[type="file"] {
     display: none;
   }
   -webkit-appearance: none;
@@ -123,9 +230,12 @@ input, select, .fileinput {
 
 .guudform {
   padding: 4rem 0.6rem;
-  [class*="col-"], .row {
+
+  [class*="col-"],
+  .row {
     //padding: 0 1.8rem 0 0;
   }
+
   button {
     width: 100%;
     height: 4.6rem;
@@ -135,5 +245,39 @@ input, select, .fileinput {
     color: #FFF;
     font-size: 1.7rem;
     box-shadow: 0 1rem 4rem -2rem #000;
+  }
+}
+
+.phrase {
+  position: absolute;
+  &:not(.nohover){
+    filter: unset;
+    [class*="st"]{
+      fill: #707070;
+    }
+  }
+
+  &:hover:not(.nohover) {
+    filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);
+    transition: filter 0.75s ease-out;
+    -webkit-transition: filter 0.75s ease-out;
+    -moz-transition: filter 0.75s ease-out;
+    -ms-transition: filter 0.75s ease-out;
+    -o-transition: filter 0.75s ease-out;
+  }
+
+  &.fadeToBlue {
+    .st0{filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);}
+    .st1 {filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);animation: shake 2s infinite linear;}
+  }
+
+  &.fadeToGreen {
+    .st0{filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);}
+    .st1 {filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);animation: shake 2s infinite linear;}
+  }
+
+  &.fadeToRed {
+    .st0{filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%)}
+    .st1 {filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);animation: shake 2s infinite linear;}
   }
 }

@@ -1,31 +1,4 @@
-<!--div [innerHtml]="buildedPhrases" id="spawnarea">
-</div-->
-
 <div class="homearea displayshadow">
-  <img src="assets/svg/mainview/{{data.filename}}"
-       id="{{data.alt}}" class="phrase animation"
-       *ngFor="let data of phrases; let i = index"
-       style="left:{{data.left}};top:{{data.top}};width:{{data.width}};"
-       onload="SVGInject(this)">
+  <guud-imageplacer [imageList]="phrases" [mobilekeys]="mobilekeys"></guud-imageplacer>
 </div>
-<!--img src="assets/ref/home.png" alt="" class="reference" style="width: 100vw;height: 100vh;"-->
-<!--div class="dataarea row">
-  <div class="col-12">
-
-    <div class="row">
-      <div class="col-6">boxWidth</div>
-      <div class="col-6">boxHeight</div>
-    </div>
-    <div class="row">
-      <div class="col-6">{{boxWidth}}</div>
-      <div class="col-6">{{boxHeight}}</div>
-    </div>
-
-    <div class="row">
-      <div class="col-4">Total Lineal</div>
-    </div>
-    <div class="row">
-      <div class="col-4">{{total}}</div>
-    </div>
-  </div>
-</div-->
+<!--img src="assets/ref/mob1.png" alt="" class="reference" style="width: 100vw;  object-fit: contain;top: 0;left: 0rem;"-->

@@ -2,79 +2,10 @@
   <div class="col-sm-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7 m-auto">
     <div class="row" style="margin: auto;">
       <div class="col-xl-6 col-md-7 col-sm-8 m-auto">
-
-        <form class="guudform">
-          <div class="row" style="margin-bottom: 2rem;">
-            <div class="col-12">
-              <h2>Coach</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-6">
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.firstName}">
-                <input type="text" [(ngModel)]="dataFormat.firstName" name="firstName">
-                <span>First Name</span>
-              </label>
-            </div>
-            <div class="col-12 col-sm-6">
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.lastName}">
-                <input type="text" [(ngModel)]="dataFormat.lastName" name="lastName">
-                <span>Last Name</span>
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12">
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.special}">
-                <img class="inputdeco" src="assets/svg/cheveron-down.svg"
-                onload="SVGInject(this)">
-                <select [(ngModel)]="dataFormat.special" name="special">
-                  <option label=" " disabled></option>
-                  <option [value]="'box'">Box</option>
-                  <option [value]="'pilates'">Pilates</option>
-                </select>
-                <span>Speciality</span>
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-6">
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.instagram}">
-                <input type="text" [(ngModel)]="dataFormat.instagram" name="instagram">
-                <span>Instagram</span>
-              </label>
-            </div>
-            <div class="col-12 col-sm-6">
-
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.tiktok}">
-                <input type="text" [(ngModel)]="dataFormat.tiktok" name="tiktok">
-                <span>Tiktok</span>
-              </label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-sm-6">
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.email}">
-                <input type="text" [(ngModel)]="dataFormat.email" name="email">
-                <span>Email</span>
-              </label>
-            </div>
-            <div class="col-12 col-sm-6">
-              <label class="labeledinput" [ngClass]="{'active': dataFormat.phone}">
-                <input type="text" [(ngModel)]="dataFormat.phone" name="phone">
-                <span>Phone</span>
-              </label>
-            </div>
-          </div>
-          <br>
-          <div class="row">
-            <div class="col-8 m-auto"><button type="button">Send</button></div>
-          </div>
-        </form>
-
+        <guudform-becoach></guudform-becoach>
       </div>
       <div class="col-xl-6 col-md-5 col-sm-8 m-auto">
-        <img src="assets/svg/coach/Guud-Coach@2x.png" alt="" style="width: 36.6vw; position: relative; margin: auto;display: block;; top: -6.1rem;">
+        <img src="assets/svg/coach/Guud-Coach@2x.png" alt="" class="formimage">
       </div>
     </div>
   </div>

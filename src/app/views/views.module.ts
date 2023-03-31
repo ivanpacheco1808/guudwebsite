@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule }   from '@angular/forms';
+
+import { GuudcomponentsModule } from '@guudcomponents/guudcomponents.module';
 
 import { MainviewComponent } from './mainview/mainview.component';
-
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { CaringComponent } from './caring/caring.component';
 import { CoachComponent } from './coach/coach.component';
@@ -35,7 +35,7 @@ import { SustainabilityComponent } from './sustainability/sustainability.compone
   ],
   imports: [
     CommonModule,
-    FormsModule
+    GuudcomponentsModule
   ]
 })
 export class ViewsModule { }

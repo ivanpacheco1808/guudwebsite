@@ -1,4 +1,110 @@
-@media (max-device-width: 430px) and (max-device-height: 950px) {
+.burguermenu,
+.mobdisplay {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  //Menu
+  .menubar {
+    .logo {
+      left: 10% !important;
+    }
+
+    .navigation {
+      display: none;
+    }
+
+    .burguermenu {
+      display: block;
+    }
+  }
 
 }
-//END
+
+
+//Hom Specific
+@media (min-width: 810px) and (max-width: 1777px){
+  .homearea{
+    translate: 0rem 1.6rem;
+  }
+}
+@media (min-width: 810px) {
+  .homearea {
+    height: 52vw;
+  }
+}
+@media (max-width: 810px){
+  guud-imageplacer {
+    .webdisplay {
+      display: none;
+    }
+
+    .mobdisplay {
+      display: block;
+    }
+  }
+  .homearea {
+    height: 180vw;
+  }
+}
+@media (max-width: 450px){
+  .homearea {
+    height: 88vh;
+  }
+}
+@media (max-height: 667px){
+  .homearea {
+    height: 105vh;
+  }
+}
+
+@media (max-width: 909px){
+  //aboutus Specific
+  app-aboutus {
+    .icons.row .col-12.col-md-4 {
+      margin-bottom: 7rem !important;
+    }
+  }
+
+  .footerarea {
+    .sections1 li, .sections2 li {
+      margin-bottom: 3vw !important;
+    }
+  }
+
+  .formimage {
+    width: 100% !important;
+    top: -4rem;
+  }
+
+  //Footer Specific
+  .footerarea{
+    .logo {
+      display: block;
+      margin: auto;
+    }
+    .sections2 li, .sections1 li {
+      padding-left: 6vw;
+      font-size: 1.1rem;
+    }
+    .social {
+      text-align: center;
+      padding-top: 3rem;
+      li:first-child{
+        margin-bottom: 1.7rem !important;
+        font-size: 1.1rem;
+      }
+      li:not(:first-child){
+        margin-right: 6vw !important;
+      }
+    }
+    ul {
+      font-size: 1.2rem !important;
+      li .bubble {
+        width: 2.6rem !important;
+        height: 2.6rem !important;
+        line-height: 2.6rem !important;
+      }
+    }
+  }
+}

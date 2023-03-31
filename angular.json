@@ -32,9 +32,9 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/styles/mobile.scss",
               "src/assets/styles/style.css",
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/assets/styles/mobile.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",

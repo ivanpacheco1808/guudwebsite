@@ -1,15 +1,14 @@
 
 .logo {
-  width: 8.8vw;
+  width: 10rem;
   top: 0.6vw;
   position: relative;
 }
 
 .footerarea {
-  width: 52vw;
-  margin: auto;
   border-bottom: 0.16rem solid #ddd;
-  height: 10rem;
+  padding: 3rem 0rem;
+  font-family: 'Exo';
   ul {
     list-style: none;
     color: #1b4544;
@@ -31,22 +30,16 @@
 }
 
 .sections1 {
-  position: absolute;
-  top: 2vw;
-  left: 35.2vw;
+  position: relative;
   font-size: 0.8vw;
 }
 
 .sections2 {
-  position: absolute;
-  top: 2vw;
-  left: 48vw;
+  position: relative;
 }
 
 .social{
-  position: absolute;
-  top: 2vw;
-  left: 60.7vw;
+  position: relative;
   li{
     margin-bottom: 0.4vw;
     &:not(:first-child) {
@@ -59,9 +52,10 @@
 
 
 .rights {
+  font-family: 'Exo';
   text-align: center;
   height: 6vh;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 2.8rem;
   color: #ddd;
 }

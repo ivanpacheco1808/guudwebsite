@@ -1,47 +1,46 @@
 @font-face {
   font-family: "Exo";
-  src: url('./assets/ExoRegular.ttf') format('truetype');
+  src: url("./assets/ExoRegular.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Verveine";
-  src: url('./assets/VerveineRegular.TTF') format('truetype');
+  src: url("./assets/VerveineRegular.TTF") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
-
 $gray-font: #707070;
 $blue-font: #1b4544;
 
 .menubar .navigation {
   color: $gray-font;
 }
-.bluefont{
+
+.bluefont {
   color: $blue-font;
 }
 
-h1{
+h1 {
   font-family: Verveine;
   color: $gray-font;
-  font-size: 7rem;
+  font-size: 7rem !important;
   text-align: center;
   line-height: 6rem;
 }
 
-
 h2 {
-  font-size: 3.4rem;
+  font-size: 3.4rem !important;
+  font-weight: bold !important;
   font-family: Exo;
   color: $gray-font;
-  font-weight: bold;
   text-align: center;
 }
 
 h3 {
   font-family: Verveine;
   color: $blue-font;
-  font-size: 2.7rem;
+  font-size: 2.7rem !important;
 }
 
 h4 {
@@ -49,7 +48,7 @@ h4 {
   text-align: center;
   margin-top: 1.9rem;
   font: normal normal normal 18px/22px Exo;
-  font-size: 1.77rem;
+  font-size: 1.77rem !important;
 }
 
 h5 {
@@ -57,29 +56,51 @@ h5 {
   text-align: center;
   margin-top: 1.9rem;
   font: normal normal normal 18px/22px Exo;
-  font-size: 1.77rem;
+  font-size: 1.57rem !important;
 }
 
+h6 {
+  font-family: Verveine;
+  font-size: 5rem !important;
+  color: #707070;
+  text-align: center;
+}
 
+@media (max-width: 910px) {
+  h1 {
+    font-size: 13vw !important;
+  }
 
+  h3 {
+    font-size: 9vw !important;
+  }
 
+  h4 {
+    font-size: 5vw !important;
+  }
+
+  h5 {
+    font-size: 6vw !important;
+  }
+
+  h6 {
+    font-size: 14vw !important;
+  }
+}
 /*GRIIIID*/
 $grid-breakpoints: (
-        xs: 0,
-        sm: 576px,
-        md: 910px,
-        lg: 1333px,
-        xl: 1666px,
-        xxl: 1900px
+  xs: 0,
+  sm: 576px,
+  md: 910px,
+  lg: 1333px,
+  xl: 1666px,
+  xxl: 1900px
 );
-
 $container-max-widths: (
-        sm: 540px,
-        md: 850px,
-        lg: 1290px,
-        xl: 1580px,
-        xxl: 1610px
-);
-
-// Import BT sources
+  sm: 540px,
+  md: 850px,
+  lg: 1290px,
+  xl: 1580px,
+  xxl: 1610px
+); // Import BT sources
 @import "../node_modules/bootstrap/scss/bootstrap";

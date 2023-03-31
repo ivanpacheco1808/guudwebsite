@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-sustainability',
+  selector: 'guudview-sustainability',
   templateUrl: './sustainability.component.html',
   styleUrls: ['./sustainability.component.scss']
 })
