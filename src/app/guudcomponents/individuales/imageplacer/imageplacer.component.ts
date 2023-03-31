@@ -34,7 +34,13 @@ export class ImageplacerComponent {
     $(logo1).addClass("nohover");
     $(logo2).addClass("nohover");
     //Anima primer icono
-    var inicial: any = document.querySelector("[id='phrase0']");
+    var inicial: any = document.querySelector("[id='webphrase0']");
+    $(inicial).addClass("fadeToBlue");
+    setTimeout(() => {
+      $(inicial).removeClass("fadeToBlue");
+    }, 3500);
+    //Anima primer icono
+    var inicial: any = document.querySelector("[id='mobphrase0']");
     $(inicial).addClass("fadeToBlue");
     setTimeout(() => {
       $(inicial).removeClass("fadeToBlue");
@@ -44,7 +50,7 @@ export class ImageplacerComponent {
       var randfade = Math.floor(Math.random() * 6) / 2;
       var fadecolors = ["fadeToRed", "fadeToBlue", "fadeToGreen"];
       var nextAnimation = Math.floor(Math.random() * 22);
-      var ref: any = document.querySelector("[id='phrase" + nextAnimation + "']");
+      var ref: any = document.querySelector("[id='webphrase" + nextAnimation + "']");
       //if (!$(ref).hasClass(fadecolors[randfade])) {
         $(ref).addClass(fadecolors[randfade]);
         setTimeout(() => {

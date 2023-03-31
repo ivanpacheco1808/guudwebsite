@@ -7,13 +7,13 @@
 </div-->
 <div class="webdisplay">
   <img src="assets/svg/mainview/{{_data.filename}}"
-       alt="{{_data.alt}}" id="{{_data.alt}}"
+       alt="{{_data.alt}}" id="web{{_data.alt}}"
        class="phrase animation" [style]="_data.webStyle"
        (load)="_checktype($event, _data.filename)" *ngFor="let _data of _centerDisplay;">
 
  <div *ngFor="let key of _mobilekeys; let i = index">
    <div *ngFor="let _data of _imageList[key].files">
-     <img class="phrase animation" id="{{_data.alt}}"
+     <img class="phrase animation" id="web{{_data.alt}}"
           src="assets/svg/mainview/{{_data.filename}}"
           [style]="_data.webStyle"
           onload="SVGInject(this)">
@@ -24,13 +24,13 @@
 
 <div class="mobdisplay">
   <img src="assets/svg/mainview/{{_data.filename}}"
-       alt="{{_data.alt}}" id="{{_data.alt}}"
+       alt="{{_data.alt}}" id="mob{{_data.alt}}"
        class="phrase animation" [style]="_data.mobileStyle"
        (load)="_checktype($event, _data.filename)" *ngFor="let _data of _imageList.grupocentral.files;">
 
   <div *ngFor="let key of _mobilekeys; let i = index">
     <div *ngFor="let _data of _imageList[key].files">
-      <img class="phrase animation" id="{{_data.alt}}"
+      <img class="phrase animation" id="mob{{_data.alt}}"
            src="assets/svg/mainview/{{_data.filename}}"
            [style]="_data.mobileStyle" *ngIf="_data.onDisplay"
            onload="SVGInject(this)">
