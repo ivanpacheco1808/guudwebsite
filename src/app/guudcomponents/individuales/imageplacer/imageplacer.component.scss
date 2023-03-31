@@ -1,0 +1,6 @@
+.mobdisplay .phrasearea .phrase {
+  opacity: 0;
+  &.ondisplay {
+    opacity: 1;
+  }
+}
