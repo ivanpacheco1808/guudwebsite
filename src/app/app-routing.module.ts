@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'sustainability', component: SustainabilityComponent },
 
   //{ path: '', component: HomeComponent, canActivate: [AuthGuard] },
-  { path: '**', component: MainviewComponent },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
