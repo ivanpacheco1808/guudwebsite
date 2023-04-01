@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'sustainability', component: SustainabilityComponent },
 
   //{ path: '', component: HomeComponent, canActivate: [AuthGuard] },
-  //{ path: '**', component: Err404Component },
+  { path: '**', component: MainviewComponent },
 ];
 
 @NgModule({
