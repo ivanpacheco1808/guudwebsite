@@ -46,14 +46,14 @@ export class MainviewComponent {
         //GRUPO B - GRUPO B - GRUPO B - GRUPO B - GRUPO B - GRUPO B - GRUPO B - GRUPO B
         { filename: 'Frase-2.svg', webStyle: { left: '0.6vw', top: '10.1vw', width: '10.9vw' }, mobileStyle: { left: '60vw', top: '22vw', width: '33vw' }, alt: 'phrase2' },
         { filename: 'Frase-17.svg', webStyle: { left: '64.6vw', top: '4.2vw', width: '10.9vw' }, mobileStyle: { left: '58.7vw', top: '36vw', width: '32vw' }, alt: 'phrase17' },
-        { filename: 'Frase-20.svg', webStyle: { left: '49vw', top: '32.2vw', width: '11.4vw' }, mobileStyle: { left: '53.7vw', top: '36.5vw', width: '44vw' }, alt: 'phrase20' },
+        { filename: 'Frase-20.svg', webStyle: { left: '49vw', top: '32.2vw', width: '11.4vw' }, mobileStyle: { left: '53.7vw', top: '36.5vw', width: '38vw' }, alt: 'phrase20' },
       ]
     },
     grupoc:{
       files:[
         //GRUPO C - GRUPO C - GRUPO C - GRUPO C - GRUPO C - GRUPO C - GRUPO C - GRUPO C
         { filename: 'Frase-10.svg', webStyle: { left: '78.1vw', top: '42vw', width: '17.6vw' }, mobileStyle: { left: '5vw', top: '59.7vw', width: '58.6vw' }, alt: 'phrase10' },
-        { filename: 'Frase-11.svg', webStyle: { left: '79.6vw', top: '37.2vw', width: '15.2vw' }, mobileStyle: { left: '13vw', top: '59vw', width: '59vw' }, alt: 'phrase11' },
+        { filename: 'Frase-11.svg', webStyle: { left: '79.6vw', top: '37.2vw', width: '15.2vw' }, mobileStyle: { left: '5vw', top: '59vw', width: '58vw' }, alt: 'phrase11' },
         { filename: 'Frase-18.svg', webStyle: { left: '56.2vw', top: '10.4vw', width: '12.9vw' }, mobileStyle: { left: '7vw', top: '56vw', width: '50vw' }, alt: 'phrase18' },
         { filename: 'Frase-6.svg', webStyle: { left: '1.7vw', top: '25.6vw', width: '10.5vw' }, mobileStyle: { left: '15vw', top: '50vw', width: '29vw' }, alt: 'phrase6' },
       ]
@@ -62,7 +62,7 @@ export class MainviewComponent {
       files:[
         //GRUPO D - GRUPO D - GRUPO D - GRUPO D - GRUPO D - GRUPO D - GRUPO D - GRUPO D
         { filename: 'Frase-4.svg', webStyle: { left: '21.5vw', top: '4.2vw', width: '16.9vw' }, mobileStyle: { left: '9vw', top: '114vw', width: '40vw' }, alt: 'phrase4' },
-        { filename: 'Frase-16.svg', webStyle: { left: '81.8vw', top: '4.1vw', width: '15.5vw' }, mobileStyle: { left: '8vw', top: '118vw', width: '50vw' }, alt: 'phrase16' },
+        { filename: 'Frase-16.svg', webStyle: { left: '81.8vw', top: '4.1vw', width: '15.5vw' }, mobileStyle: { left: '2vw', top: '118vw', width: '50vw' }, alt: 'phrase16' },
         { filename: 'Frase-22.svg', webStyle: { left: '15vw', top: '25.8vw', width: '9.8vw' }, mobileStyle: { left: '7vw', top: '116vw', width: '32vw' }, alt: 'phrase0' },
       ]
     },

@@ -4,6 +4,7 @@
 }
 
 @media (max-width: 1100px) {
+
   //Menu
   .menubar {
     .logo {
@@ -59,6 +60,10 @@
 }
 
 @media (max-width: 909px){
+  input:not([type="checkbox"], [type="radio"]), select, .fileinput{
+    margin-bottom: 1.4rem;
+  }
+
   .footerarea {
     .sections1 li, .sections2 li {
       margin-bottom: 3vw !important;
