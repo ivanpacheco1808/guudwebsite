@@ -4,11 +4,11 @@
        *ngFor="let _data of _imageList.grupocentral.files;">
   <img src="assets/svg/mainview/{{_data.filename}}" class="phrase animation" id="web{{_data.alt}}"
        [style]="_data.webStyle" (load)="_checktype($event, _data.filename)"
-       *ngFor="let _data of _imageList.grupomysc.files;">
+       *ngFor="let _data of _imageList.grupomysc.files;"  i18n-alt i18n-src>
 
   <div *ngFor="let key of _mobilekeys">
     <div *ngFor="let _data of _imageList[key].files">
-      <img class="phrase animation" id="web{{_data.alt}}" src="assets/svg/mainview/{{_data.filename}}" [style]="_data.webStyle" (load)="_checktype($event, _data.filename)">
+      <img class="phrase animation" id="web{{_data.alt}}" src="assets/svg/mainview/{{_data.filename}}" [style]="_data.webStyle" (load)="_checktype($event, _data.filename)"  i18n-alt i18n-src>
     </div>
   </div>
 </div>
@@ -20,7 +20,7 @@
 
   <div *ngFor="let key of _mobilekeys" class="phrasearea">
     <div *ngFor="let _data of _imageList[key].files; let i = index">
-      <img class="phrase animation" id="mob{{_data.alt}}" [ngClass]="{'ondisplay':i==_imageList[key].files.length-1}" src="assets/svg/mainview/{{_data.filename}}" [style]="_data.mobileStyle" (load)="_checktype($event, _data.filename)">
+      <img class="phrase animation" id="mob{{_data.alt}}" [ngClass]="{'ondisplay':i==_imageList[key].files.length-1}" src="assets/svg/mainview/{{_data.filename}}" [style]="_data.mobileStyle" (load)="_checktype($event, _data.filename)"  i18n-alt i18n-src>
     </div>
   </div>
 </div>

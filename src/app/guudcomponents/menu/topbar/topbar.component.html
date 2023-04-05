@@ -1,18 +1,18 @@
 <div class="menubar">
-  <img [routerLink]="'/'" src="assets/logotipo.svg" alt="" class="logo">
+  <img [routerLink]="'/'" src="assets/logotipo.svg" alt="Logo" class="logo" i18n-alt i18n-src>
 
   <ul class="navigation">
-    <li [routerLink]="'/aboutus'" style="background-color:#fff;">About us</li>
-    <li [routerLink]="'/history'" style="background-color:#fff;">History</li>
-    <li style="background-color:#fff;">Caring & giving</li>
+    <li [routerLink]="'/aboutus'" style="background-color:#fff;" i18n>About us</li>
+    <li [routerLink]="'/history'" style="background-color:#fff;" i18n>History</li>
+    <li style="background-color:#fff;" i18n>Caring & giving</li>
     <!--[routerLink]="'/caring'"-->
-    <li style="background-color:#fff;">Sustainability</li>
+    <li style="background-color:#fff;" i18n>Sustainability</li>
     <!--[routerLink]="'/sustainability'"-->
-    <li class="bluefont nocursor">Want to be...</li>
-    <li class="bluefont " [routerLink]="'/supplier'" style="font-weight:bold;">Supplier</li>
-    <li class="bluefont " [routerLink]="'/coach'" style="font-weight:bold;">Coach</li>
+    <li class="bluefont nocursor" i18n>Want to be...</li>
+    <li class="bluefont " [routerLink]="'/supplier'" style="font-weight:bold;" i18n>Supplier</li>
+    <li class="bluefont " [routerLink]="'/coach'" style="font-weight:bold;" i18n>Coach</li>
   </ul>
-  
+
   <guud-burguermenu></guud-burguermenu>
 
 </div>
