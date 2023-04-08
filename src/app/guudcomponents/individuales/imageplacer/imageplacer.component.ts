@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnDestroy } from '@angular/core';
 import { KeyValue } from '@angular/common';
 
 declare function SVGInject(data): any;
@@ -8,7 +8,13 @@ declare function SVGInject(data): any;
   templateUrl: './imageplacer.component.html',
   styleUrls: ['./imageplacer.component.scss']
 })
-export class ImageplacerComponent {
+export class ImageplacerComponent implements OnDestroy {
+  ngOnDestroy() {
+    clearInterval(this._webInterval)
+    clearInterval(this._mobInterval)
+  }
+  _webInterval:any;
+  _mobInterval:any;
   constructor() { }
   _imageList: any;
   _mobilekeys: any;
@@ -51,7 +57,7 @@ export class ImageplacerComponent {
   }
 
   _startWebAnimation() {
-    setInterval(() => {
+    this._webInterval = setInterval(() => {
       var randfade = Math.floor((Math.random() * 6) / 2);
       var rindx = Math.floor(Math.random() * (this._rotation.web.length - 2));
       var ref: any = document.querySelector("[id='web" + this._rotation.web[rindx] + "']");
@@ -98,7 +104,7 @@ export class ImageplacerComponent {
 
   _startMobAnimation() {
     this._switchgroup('grupod');
-    setInterval(()=> {
+    this._mobInterval = setInterval(()=> {
       var selectedcat = this._mobilekeys[Math.floor(Math.random() * (this._mobilekeys.length-2))];
       this._switchgroup(selectedcat);
     }, 3000);

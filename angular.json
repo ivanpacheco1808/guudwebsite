@@ -7,7 +7,8 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "es-MX": "src/assets/locale/messages.es.xlf"
+          "es": "src/assets/locale/aot/messages.es.xlf",
+          "en": "src/assets/locale/aot/messages.xlf"
         }
       },
       "projectType": "application",
@@ -23,6 +24,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "localize": ["en-US"],
             "outputPath": "dist",
             "index": "src/index.html",

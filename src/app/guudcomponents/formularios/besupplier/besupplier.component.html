@@ -1,20 +1,20 @@
 <form class="guudform">
   <div class="row" style="margin-bottom: 2rem;">
     <div class="col-12">
-      <h2>Supplier</h2>
+      <h2 i18n>Supplier</h2>
     </div>
   </div>
   <div class="row">
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.firstName}">
         <input type="text" [(ngModel)]="dataFormat.firstName" name="firstName">
-        <span>First Name</span>
+        <span i18n>First Name</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.lastName}">
         <input type="text" [(ngModel)]="dataFormat.lastName" name="lastName">
-        <span>Last Name</span>
+        <span i18n>Last Name</span>
       </label>
     </div>
   </div>
@@ -22,7 +22,7 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.product}">
         <input type="text" [(ngModel)]="dataFormat.product" name="product">
-        <span>Product</span>
+        <span i18n>Product</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
@@ -31,7 +31,7 @@
         onload="SVGInject(this)">
         <input type="file" (change)="_setfiles($event)">
         <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
-        <span>Product Images</span>
+        <span i18n>Product Images</span>
       </label>
     </div>
   </div>
@@ -39,18 +39,18 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.email}">
         <input type="text" [(ngModel)]="dataFormat.email" name="email">
-        <span>Email</span>
+        <span i18n>Email</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.phone}">
         <input type="text" [(ngModel)]="dataFormat.phone" name="phone">
-        <span>Phone</span>
+        <span i18n>Phone</span>
       </label>
     </div>
   </div>
   <br>
   <div class="row">
-    <div class="col-8 m-auto"><button type="button">Send</button></div>
+    <div class="col-8 m-auto"><button type="button" i18n>Send</button></div>
   </div>
 </form>

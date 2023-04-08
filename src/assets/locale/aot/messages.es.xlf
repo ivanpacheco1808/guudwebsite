@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8530876825895907336" datatype="html">
+        <source>assets/logotipo.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2501489806101473286" datatype="html">
+        <source>About us</source>
+        <target>Sobre nosotros</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="186236568870281953" datatype="html">
+        <source>History</source>
+        <target>Historia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8573264472238970365" datatype="html">
+        <source>Purpose</source>
+        <target>Proposito</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8848409268805415480" datatype="html">
+        <source>Stories</source>
+        <target>Historias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5791854810844500962" datatype="html">
+        <source>Caring &amp; giving</source>
+        <target>Cuidar y Dar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4320350416440937644" datatype="html">
+        <source>Sustainability</source>
+        <target>Sostenibilidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="551692525450936744" datatype="html">
+        <source>Follow us!</source>
+        <target>Siguenos!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5033376682160766085" datatype="html">
+        <source>All rights reserved</source>
+        <target>Todos los derechos reservados</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1480214864546334131" datatype="html">
+        <source>Coach</source>
+        <target>Entrenador</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6028371114637047813" datatype="html">
+        <source>First Name</source>
+        <target>Nombre(s)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4407559560004943843" datatype="html">
+        <source>Last Name</source>
+        <target>Apellido(s)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3285315590661482349" datatype="html">
+        <source>Tips</source>
+        <target>Consejos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5815398842801469550" datatype="html">
+        <source>Exercises</source>
+        <target>Ejercicios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3552571322480872994" datatype="html">
+        <source>Speciality</source>
+        <target>Especialidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3080109816219994129" datatype="html">
+        <source>Instagram</source>
+        <target>Instagram</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7539372158573018213" datatype="html">
+        <source>Tiktok</source>
+        <target>Tiktok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4768749765465246664" datatype="html">
+        <source>Email</source>
+        <target>Correo Electronico</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3262236020277300799" datatype="html">
+        <source>Phone</source>
+        <target>Telefono</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6490688569532630280" datatype="html">
+        <source>Send</source>
+        <target>Enviar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4348920359154187664" datatype="html">
+        <source>Supplier</source>
+        <target>Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7616770651914901276" datatype="html">
+        <source>Product</source>
+        <target>Producto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4995289447958793992" datatype="html">
+        <source>Product Images</source>
+        <target>Imagenes del Producto</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8192611234651859307" datatype="html">
+        <source>assets/svg/mainview/<x id="INTERPOLATION" equiv-text="{{_data.filename}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4550958265168690830" datatype="html">
+        <source>Logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1520197119784631371" datatype="html">
+        <source>Want to be...</source>
+        <target>Quiero ser...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7367250938421424000" datatype="html">
+        <source>We are good people, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> who wants the best of you!</source>
+        <target>Somos buenas personas, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> que quieren lo mejor de ti!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7691425909543839808" datatype="html">
+        <source>Our purpose is create wellness and happiness around the world!</source>
+        <target>Nuestro propósito es crear bienestar y felicidad en todo el mundo!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2971316998418073123" datatype="html">
+        <source>Mission:</source>
+        <target>Misión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5728585961541593303" datatype="html">
+        <source>Hack brains and shape bodies</source>
+        <target>Hackear cerebros y moldear cuerpos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1998701498721230464" datatype="html">
+        <source>Vision:</source>
+        <target>Vision</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1666713188313269496" datatype="html">
+        <source>Find the Guud in YOU. Let&apos;s Go!</source>
+        <target>Encuentra lo "GUUD" en TI. Vamos!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8528601159696486061" datatype="html">
+        <source>Core values:</source>
+        <target>Valores fundamentales</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1612280893791414883" datatype="html">
+        <source>Passion, Innovation &amp; Fun</source>
+        <target>Pasión, Innovación y Diversión</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3921250092965777142" datatype="html">
+        <source> P.S Be Good! </source>
+        <target> P.S Be Good! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
