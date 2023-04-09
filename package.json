@@ -4,8 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "build.azure": "npm run build.loc && npm run build.main",
+    "build": "npm run build.loc && npm run build.main",
     "build.loc": "ng build --localize",
     "build.main": "ng build",
     "watch": "ng build --watch --configuration development",
