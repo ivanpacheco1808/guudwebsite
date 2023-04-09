@@ -5,18 +5,12 @@ import { RouteReuseStrategy } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { AsyncPipe, HashLocationStrategy, LocationStrategy } from '@angular/common';
 
-import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
-import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { GuudcomponentsModule } from '@guudcomponents/guudcomponents.module';
 import { ViewsModule } from '@views/views.module';
-
-export function createTranslateLoader(http: HttpClient) {
-    return new TranslateHttpLoader(http, './assets/locale/runtime/', '.json');
-}
 
 @NgModule({
   declarations: [
@@ -29,13 +23,6 @@ export function createTranslateLoader(http: HttpClient) {
     AppRoutingModule,
     GuudcomponentsModule,
     ViewsModule,
-    TranslateModule.forRoot({
-      loader: {
-        provide: TranslateLoader,
-        useFactory: (createTranslateLoader),
-        deps: [HttpClient]
-      }
-    }),
   ],
   providers: [],
   bootstrap: [AppComponent]

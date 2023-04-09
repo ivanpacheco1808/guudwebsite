@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ImageplacerComponent } from './individuales/imageplacer/imageplacer.component';
 import { BeCoachComponent } from './formularios/becoach/becoach.component';
 import { BeSupplierComponent } from './formularios/besupplier/besupplier.component';
+import { LangmenuComponent } from './menu/langmenu/langmenu.component';
 
 
 @NgModule({
@@ -23,6 +24,7 @@ import { BeSupplierComponent } from './formularios/besupplier/besupplier.compone
     ImageplacerComponent,
     BeCoachComponent,
     BeSupplierComponent,
+    LangmenuComponent,
   ],
   exports: [
     TopbarComponent,
@@ -33,6 +35,7 @@ import { BeSupplierComponent } from './formularios/besupplier/besupplier.compone
     ImageplacerComponent,
     BeCoachComponent,
     BeSupplierComponent,
+    LangmenuComponent,
   ],
   imports: [
     CommonModule,
