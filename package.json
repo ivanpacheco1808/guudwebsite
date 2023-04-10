@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build && ng build --localize",
+    "build": "ng build --localize && ng build",
 
     "build.custom": "ng build --localize && npm run build.reloacate && npm run build.clean",
     "build.reloacate": "xcopy /e /h \"dist/en\" \"dist\"",
