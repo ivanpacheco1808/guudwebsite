@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="8530876825895907336" datatype="html">
         <source>assets/logotipo.svg</source>
@@ -21,6 +21,10 @@
           <context context-type="linenumber">8</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">5</context>
         </context-group>
@@ -31,6 +35,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
           <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">12</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
@@ -61,6 +69,10 @@
           <context context-type="linenumber">14</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
@@ -71,6 +83,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
           <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">14</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
@@ -99,6 +115,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
           <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
@@ -213,6 +233,10 @@
           <context context-type="linenumber">4</context>
         </context-group>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">12</context>
         </context-group>
@@ -248,19 +272,47 @@
           <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4550958265168690830" datatype="html">
-        <source>Logo</source>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Inicio</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">2</context>
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1520197119784631371" datatype="html">
         <source>Want to be...</source>
         <target>Quiero ser...</target>
         <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5190825892106392539" datatype="html">
+        <source>Spanish</source>
+        <target>Español</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/langmenu/langmenu.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5866254605255506989" datatype="html">
+        <source>English</source>
+        <target>Ingles</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/langmenu/langmenu.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4550958265168690830" datatype="html">
+        <source>Logo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7367250938421424000" datatype="html">

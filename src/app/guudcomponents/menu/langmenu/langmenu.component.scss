@@ -25,9 +25,10 @@
     border-radius: 0.5rem;
     box-shadow: 0 3px 6px -2px #737373;
     li {
-      padding-left: 2.5rem;
+      //padding-left: 2.5rem;
       height: 2.2rem;
       line-height: 2.2rem;
+      text-align: center;
       &:hover{
         cursor: pointer;
         background-color: #f0f0f0;
