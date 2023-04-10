@@ -27,7 +27,7 @@
               "en"
             ],
             "outputPath": "dist",
-            "deleteOutputPath": true,
+            "deleteOutputPath": false,
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
