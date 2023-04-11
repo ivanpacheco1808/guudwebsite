@@ -4,14 +4,16 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --localize && ng build",
+    "build": "npm run build.loc && npm run build.main",
+    "build.loc": "ng build --localize",
+    "build.main": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
 
     "build.custom": "ng build --localize && npm run build.reloacate && npm run build.clean",
     "build.reloacate": "xcopy /e /h \"dist/en\" \"dist\"",
     "build.clean": "rmdir /s /q \"dist/en/\"",
 
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
   },
   "private": true,
   "dependencies": {
