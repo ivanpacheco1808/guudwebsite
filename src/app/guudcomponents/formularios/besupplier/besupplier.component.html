@@ -29,7 +29,7 @@
       <label class="labeledinput" [ngClass]="{'active': dataFormat.filename}">
         <img class="inputdeco" src="assets/svg/supplier/Clip.svg"
         onload="SVGInject(this)">
-        <input type="file" (change)="_setfiles($event)">
+        <input type="file" (change)="_setfiles($event)" accept="image/*">
         <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
         <span i18n>Product Images</span>
       </label>
