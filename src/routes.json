@@ -4,6 +4,10 @@
     "serve": "/es/index.html",
     "statusCode": 200
   },{
+    "route": "/en/*",
+    "serve": "/en/index.html",
+    "statusCode": 200
+  },{
     "route": "/*",
     "serve": "/index.html",
     "statusCode": 200
