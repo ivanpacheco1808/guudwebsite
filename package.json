@@ -12,7 +12,7 @@
 
     "build.custom": "ng build --localize && npm run build.reloacate && npm run build.clean",
     "build.reloacate": "xcopy /e /h \"dist/en\" \"dist\"",
-    "build.clean": "rmdir /s /q \"dist/en/\"",
+    "build.clean": "rmdir /s /q \"dist/en/\""
 
   },
   "private": true,
