@@ -9,11 +9,9 @@
     "build.main": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-
     "build.custom": "ng build --localize && npm run build.reloacate && npm run build.clean",
     "build.reloacate": "xcopy /e /h \"dist/en\" \"dist\"",
     "build.clean": "rmdir /s /q \"dist/en/\""
-
   },
   "private": true,
   "dependencies": {
@@ -25,9 +23,11 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@sendgrid/mail": "^7.7.0",
     "bootstrap": "^5.2.3",
     "jquery": "^3.6.2",
     "jsonpack": "^1.1.5",
+    "path-browserify": "^1.0.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -46,5 +46,10 @@
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.7.2"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
   }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GuudapiService } from '@services/guudapi.service';
 
 @Component({
   selector: 'guudform-becoach',
@@ -8,18 +9,30 @@ import { Component, OnInit } from '@angular/core';
 export class BeCoachComponent implements OnInit {
 
   dataFormat:any = {
-    firstName: null,
-    lastName: null,
-    special: null,
-    instagram: null,
-    tiktok: null,
-    email: null,
-    phone: null
+    firstName: '',
+    lastName: '',
+    special: '',
+    instagram: '',
+    tiktok: '',
+    email: '',
+    phone: ''
   };
 
-  constructor() { }
+  constructor(public _guudapi: GuudapiService) { }
 
   ngOnInit(): void {
+  }
+
+  _checkvalid(){
+
+    var isinvalid = false;
+    isinvalid = this.dataFormat.firstName == '' ? true : isinvalid;
+    isinvalid = this.dataFormat.lastName == '' ? true : isinvalid;
+    isinvalid = this.dataFormat.phone == '' ? true : isinvalid;
+
+    isinvalid = this.dataFormat.instagram == '' && this.dataFormat.tiktok == '' ? true : isinvalid;
+
+    return isinvalid;
   }
 
 }

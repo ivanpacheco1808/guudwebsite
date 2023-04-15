@@ -1,4 +1,4 @@
-<form class="guudform">
+<form class="guudform" #formData="ngForm">
   <div class="row" style="margin-bottom: 2rem;">
     <div class="col-12">
       <h2 i18n>Coach</h2>
@@ -8,13 +8,13 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.firstName}">
         <input type="text" [(ngModel)]="dataFormat.firstName" name="firstName">
-        <span i18n>First Name</span>
+        <span i18n>First Name*</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.lastName}">
         <input type="text" [(ngModel)]="dataFormat.lastName" name="lastName">
-        <span i18n>Last Name</span>
+        <span i18n>Last Name*</span>
       </label>
     </div>
   </div>
@@ -32,7 +32,7 @@
       </label>
     </div>
   </div>
-  <div class="row">
+  <div class="row" style="position:relative;">
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.instagram}">
         <input type="text" [(ngModel)]="dataFormat.instagram" name="instagram">
@@ -46,6 +46,7 @@
         <span i18n>Tiktok</span>
       </label>
     </div>
+    <span id="socialacc" i18n>Specify one social network...</span>
   </div>
   <div class="row">
     <div class="col-12 col-sm-6">
@@ -57,12 +58,12 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.phone}">
         <input type="text" [(ngModel)]="dataFormat.phone" name="phone">
-        <span i18n>Phone</span>
+        <span i18n>Phone*</span>
       </label>
     </div>
   </div>
   <br>
   <div class="row">
-    <div class="col-8 m-auto"><button type="button" i18n>Send</button></div>
+    <div class="col-8 m-auto"><button type="button" (click)="_guudapi.SendEmail(formData.form.value, 'New Lead Coach')" [disabled]="_checkvalid()" i18n>Send</button></div>
   </div>
 </form>

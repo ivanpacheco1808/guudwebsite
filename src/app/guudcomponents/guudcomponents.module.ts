@@ -12,6 +12,7 @@ import { ImageplacerComponent } from './individuales/imageplacer/imageplacer.com
 import { BeCoachComponent } from './formularios/becoach/becoach.component';
 import { BeSupplierComponent } from './formularios/besupplier/besupplier.component';
 import { LangmenuComponent } from './menu/langmenu/langmenu.component';
+import { ModalesComponent } from './modales/modales.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { LangmenuComponent } from './menu/langmenu/langmenu.component';
     BurguermenuComponent,
 
     FooterComponent,
+    ModalesComponent,
 
     ImageplacerComponent,
     BeCoachComponent,
@@ -31,6 +33,7 @@ import { LangmenuComponent } from './menu/langmenu/langmenu.component';
     BurguermenuComponent,
 
     FooterComponent,
+    ModalesComponent,
 
     ImageplacerComponent,
     BeCoachComponent,

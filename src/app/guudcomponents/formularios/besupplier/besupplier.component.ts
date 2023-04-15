@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GuudapiService } from '@services/guudapi.service';
 
 @Component({
   selector: 'guudform-besupplier',
@@ -7,23 +8,32 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BeSupplierComponent implements OnInit {
 
-  constructor() { }
+  constructor(public _guudapi: GuudapiService) { }
 
   ngOnInit(): void {
   }
 
   dataFormat:any = {
-    firstName: null,
-    lastName: null,
-    product: null,
-    productImage: null,
-    email: null,
-    phone: null,
-    filename:null
+    firstName: '',
+    lastName: '',
+    product: '',
+    productImage: '',
+    email: '',
+    phone: '',
+    filename:''
   };
 
   _setfiles(e:any){
     this.dataFormat.filename = e.target.files[0].name;
+  }
+
+  _checkvalid(){
+    var isinvalid = false;
+    isinvalid = this.dataFormat.firstName == '' ? true : isinvalid;
+    isinvalid = this.dataFormat.product == '' ? true : isinvalid;
+    isinvalid = this.dataFormat.phone == '' ? true : isinvalid;
+
+    return isinvalid;
   }
 
 }

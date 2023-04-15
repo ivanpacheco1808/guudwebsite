@@ -125,9 +125,9 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6028371114637047813" datatype="html">
-        <source>First Name</source>
-        <target>Nombre(s)</target>
+      <trans-unit id="5809699106939694832" datatype="html">
+        <source>First Name*</source>
+        <target>Nombre(s)*</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
           <context context-type="linenumber">11</context>
@@ -137,15 +137,11 @@
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4407559560004943843" datatype="html">
-        <source>Last Name</source>
-        <target>Apellido(s)</target>
+      <trans-unit id="763304494186424543" datatype="html">
+        <source>Last Name*</source>
+        <target>Apellido(s)*</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">17</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
@@ -189,24 +185,32 @@
           <context context-type="linenumber">46</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="1754295593782962402" datatype="html">
+        <source>Specify one social network...</source>
+        <target>Especifica una red social...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4768749765465246664" datatype="html">
         <source>Email</source>
         <target>Correo Electrónico</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">54</context>
+          <context context-type="linenumber">55</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3262236020277300799" datatype="html">
-        <source>Phone</source>
-        <target>Teléfono</target>
+      <trans-unit id="8693864475091607798" datatype="html">
+        <source>Phone*</source>
+        <target>Teléfono*</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">60</context>
+          <context context-type="linenumber">61</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
@@ -218,7 +222,7 @@
         <target>Enviar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
@@ -241,9 +245,17 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7616770651914901276" datatype="html">
-        <source>Product</source>
-        <target>Producto</target>
+      <trans-unit id="4407559560004943843" datatype="html">
+        <source>Last Name</source>
+        <target>Apellido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="511174221381964180" datatype="html">
+        <source>Product*</source>
+        <target>Producto*</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">25</context>
@@ -313,6 +325,38 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3248457667058624201" datatype="html">
+        <source>Your information have been delivered</source>
+        <target>Tu información ha sido entregada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6416447062305688516" datatype="html">
+        <source>soon one of our team members will get in contact with you</source>
+        <target>pronto un miembro de nuestro equipo se pondra en contacto contigo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2960246622843217026" datatype="html">
+        <source>Go Back</source>
+        <target>Regresar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3909579662242056069" datatype="html">
+        <source>THANK YOU!</source>
+        <target>¡GRACIAS!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7367250938421424000" datatype="html">

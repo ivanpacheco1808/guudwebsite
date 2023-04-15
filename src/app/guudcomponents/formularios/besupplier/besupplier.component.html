@@ -1,4 +1,4 @@
-<form class="guudform">
+<form class="guudform" #formData="ngForm">
   <div class="row" style="margin-bottom: 2rem;">
     <div class="col-12">
       <h2 i18n>Supplier</h2>
@@ -8,7 +8,7 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.firstName}">
         <input type="text" [(ngModel)]="dataFormat.firstName" name="firstName">
-        <span i18n>First Name</span>
+        <span i18n>First Name*</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
@@ -22,14 +22,14 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.product}">
         <input type="text" [(ngModel)]="dataFormat.product" name="product">
-        <span i18n>Product</span>
+        <span i18n>Product*</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.filename}">
         <img class="inputdeco" src="assets/svg/supplier/Clip.svg"
         onload="SVGInject(this)">
-        <input type="file" (change)="_setfiles($event)" accept="image/*">
+        <input type="file" (change)="_setfiles($event)" ngModel name="filename" accept="image/*">
         <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
         <span i18n>Product Images</span>
       </label>
@@ -45,12 +45,12 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.phone}">
         <input type="text" [(ngModel)]="dataFormat.phone" name="phone">
-        <span i18n>Phone</span>
+        <span i18n>Phone*</span>
       </label>
     </div>
   </div>
   <br>
   <div class="row">
-    <div class="col-8 m-auto"><button type="button" i18n>Send</button></div>
+    <div class="col-8 m-auto"><button type="button" (click)="_guudapi.SendEmail(formData.form.value, 'New Lead Supplier')" [disabled]="_checkvalid()" i18n>Send</button></div>
   </div>
 </form>
