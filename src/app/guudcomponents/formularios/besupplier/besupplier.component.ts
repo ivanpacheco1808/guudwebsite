@@ -8,11 +8,12 @@ import { GuudapiService } from '@services/guudapi.service';
 })
 export class BeSupplierComponent implements OnInit {
 
-  constructor(public _guudapi: GuudapiService) { }
+  constructor(private _guudapi: GuudapiService) { }
 
   ngOnInit(): void {
   }
 
+  mailSubject= $localize`New Lead Supplier`;
   dataFormat:any = {
     firstName: '',
     lastName: '',
@@ -34,6 +35,10 @@ export class BeSupplierComponent implements OnInit {
     isinvalid = this.dataFormat.phone == '' ? true : isinvalid;
 
     return isinvalid;
+  }
+
+  _submit(form:any){
+    this._guudapi.SendEmail(form, this.mailSubject);
   }
 
 }

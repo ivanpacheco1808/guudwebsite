@@ -229,6 +229,14 @@
           <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="3710102540025495957" datatype="html">
+        <source>New Lead Coach</source>
+        <target>Nuevo Prospecto Coach</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4348920359154187664" datatype="html">
         <source>Supplier</source>
         <target>Proveedor</target>
@@ -267,6 +275,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3164142382358915915" datatype="html">
+        <source>New Lead Supplier</source>
+        <target>Nuevo Prospecto Proveedor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.ts</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8192611234651859307" datatype="html">
@@ -357,6 +373,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
           <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2747957744712599303" datatype="html">
+        <source>Registered Data</source>
+        <target>información Registrada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/services/guudapi.service.ts</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7367250938421424000" datatype="html">

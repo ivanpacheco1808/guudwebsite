@@ -7,7 +7,7 @@ import { GuudapiService } from '@services/guudapi.service';
   styleUrls: ['./becoach.component.scss']
 })
 export class BeCoachComponent implements OnInit {
-
+  mailSubject= $localize`New Lead Coach`;
   dataFormat:any = {
     firstName: '',
     lastName: '',
@@ -18,7 +18,7 @@ export class BeCoachComponent implements OnInit {
     phone: ''
   };
 
-  constructor(public _guudapi: GuudapiService) { }
+  constructor(private _guudapi: GuudapiService) { }
 
   ngOnInit(): void {
   }
@@ -33,6 +33,10 @@ export class BeCoachComponent implements OnInit {
     isinvalid = this.dataFormat.instagram == '' && this.dataFormat.tiktok == '' ? true : isinvalid;
 
     return isinvalid;
+  }
+
+  _submit(form:any){
+    this._guudapi.SendEmail(form, this.mailSubject);
   }
 
 }

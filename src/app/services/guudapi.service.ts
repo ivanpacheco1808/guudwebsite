@@ -24,13 +24,13 @@ export class GuudapiService {
   constructor(private http: HttpClient, private router: Router) { }
 
   SendEmail(maildata:any, subject:string){
-    const sgMail = require('@sendgrid/mail');
-    sgMail.setApiKey(environment._mailkey);
+
+    var mailTitle = $localize`Registered Data`;
     var mailForm = {
-      to: 'ivan.pacheco@garsalabs.com',
+      to: 'duran.narum@gmail.com',
       from: 'hola@guud.life',
       subject: subject,
-      html: '<strong>Registered Data:</strong><br>'
+      html: '<strong>'+mailTitle+':</strong><br>'
     };
     mailForm.html += '<ul>';
     for(let key of Object.keys(maildata)){
@@ -39,11 +39,11 @@ export class GuudapiService {
     mailForm.html += '</ul>';
 
 
-    sgMail.send(mailForm).then(() => {
+    /*sgMail.send(mailForm).then(() => {
       this.modalcontroller(false, {type: 'formsubmit', data: mailForm.html});
     }).catch((error)=> {
       console.log(error);
-    });
+    });*/
 
   }
 
