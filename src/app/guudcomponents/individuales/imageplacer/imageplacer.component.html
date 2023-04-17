@@ -1,26 +1,73 @@
 <div class="webdisplay">
-  <img src="assets/svg/mainview/{{_data.filename}}" class="phrase animation nohover"
-       [style]="_data.webStyle" (load)="_checktype($event, _data.filename)"
-       *ngFor="let _data of _imageList.grupocentral.files;">
-  <img src="assets/svg/mainview/{{_data.filename}}" class="phrase animation" id="web{{_data.alt}}"
-       [style]="_data.webStyle" (load)="_checktype($event, _data.filename)"
-       *ngFor="let _data of _imageList.grupomysc.files;"  i18n-alt i18n-src>
+  <img src="assets/svg/mainview/logo-Guud.png" class="phrase animation nohover" alt="GUUD" [style]="{left:'32vw', top:'20.2vw', width:'34.5vw'}">
+  <img src="assets/svg/mainview/Frase-23.svg" class="phrase animation nohover" alt="slogan" [style]="{left:'38.9vw', top:'28vw', width:'20.4vw'}">
 
-  <div *ngFor="let key of _mobilekeys">
-    <div *ngFor="let _data of _imageList[key].files">
-      <img class="phrase animation" id="web{{_data.alt}}" src="assets/svg/mainview/{{_data.filename}}" [style]="_data.webStyle" (load)="_checktype($event, _data.filename)"  i18n-alt i18n-src>
-    </div>
-  </div>
+  <img src="assets/svg/mainview/Frase-9.svg" alt="GUUD Wishes" id="webphrase9" class="phrase animation" [style]="{left:'64.3vw', top:'31.4vw', width:'12.0vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-13.svg" alt="GUUD Wishes" id="webphrase13" class="phrase animation" [style]="{left:'76.2vw', top:'18.4vw', width:'11.7vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/flechas/Flecha-1.svg" alt="GUUD Wishes" id="webarrow1" class="phrase animation" [style]="{left:'1.6vw', top:'34.3vw', width:'8.9vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/flechas/Flecha-2.svg" alt="GUUD Wishes" id="webarrow2" class="phrase animation" [style]="{left:'26.2vw', top:'42.9vw', width:'8.6vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/flechas/Flecha-3.svg" alt="GUUD Wishes" id="webarrow3" class="phrase animation" [style]="{left:'66.2vw', top:'43.2vw', width:'8.0vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/flechas/Flecha-4.svg" alt="GUUD Wishes" id="webarrow4" class="phrase animation" [style]="{left:'94.2vw', top:'22.5vw', width:'3.4vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/flechas/Flecha-5.svg" alt="GUUD Wishes" id="webarrow5" class="phrase animation" [style]="{left:'69.7vw', top:'10.4vw', width:'9.2vw'}" i18n-alt i18n-src>
+
+
+  <img src="assets/svg/mainview/Frase-1.svg" alt="GUUD Wishes" id="webphrase1" class="phrase animation" [style]="{left:'6.0vw', top:'4.3vw', width:'17.7vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-15.svg" alt="GUUD Wishes" id="webphrase15" class="phrase animation" [style]="{left:'74.9vw', top:'12.1vw', width:'9.0vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-8.svg" alt="GUUD Wishes" id="webphrase8" class="phrase animation" [style]="{left:'46.2vw', top:'40.6vw', width:'14.8vw'}" i18n-alt i18n-src>
+
+  <img src="assets/svg/mainview/Frase-2.svg" alt="GUUD Wishes" id="webphrase2" class="phrase animation" [style]="{left:'0.6vw', top:'10.1vw', width:'10.9vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-17.svg" alt="GUUD Wishes" id="webphrase17" class="phrase animation" [style]="{left:'64.6vw', top:'4.2vw', width:'10.9vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-20.svg" alt="GUUD Wishes" id="webphrase20" class="phrase animation" [style]="{left:'49.0vw', top:'32.2vw', width:'11.4vw'}" i18n-alt i18n-src>
+
+  <img src="assets/svg/mainview/Frase-10.svg" alt="GUUD Wishes" id="webphrase10" class="phrase animation" [style]="{left:'78.1vw', top:'42.0vw', width:'17.6vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-11.svg" alt="GUUD Wishes" id="webphrase11" class="phrase animation" [style]="{left:'79.6vw', top:'37.2vw', width:'15.2vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-18.svg" alt="GUUD Wishes" id="webphrase18" class="phrase animation" [style]="{left:'56.2vw', top:'10.4vw', width:'12.9vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-6.svg" alt="GUUD Wishes" id="webphrase6" class="phrase animation" [style]="{left:'1.7vw', top:'25.6vw', width:'10.5vw'}" i18n-alt i18n-src>
+
+  <img src="assets/svg/mainview/Frase-4.svg" alt="GUUD Wishes" id="webphrase4" class="phrase animation" [style]="{left:'21.5vw', top:'4.2vw', width:'16.9vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-16.svg" alt="GUUD Wishes" id="webphrase16" class="phrase animation" [style]="{left:'81.8vw', top:'4.1vw', width:'15.5vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-22.svg" alt="GUUD Wishes" id="webphrase0" class="phrase animation" [style]="{left:'15.0vw', top:'25.8vw', width:'9.8vw'}" i18n-alt i18n-src>
+
+  <img src="assets/svg/mainview/Frase-5.svg" alt="GUUD Wishes" id="webphrase5" class="phrase animation" [style]="{left:'35.2vw', top:'4.6vw',width:'20.6vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-12.svg" alt="GUUD Wishes" id="webphrase12" class="phrase animation" [style]="{left:'79.9vw', top:'28.3vw',width:'17.2vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-14.svg" alt="GUUD Wishes" id="webphrase14" class="phrase animation" [style]="{left:'88.7vw', top:'12.4vw',width:'9.5vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-7.svg" alt="GUUD Wishes" id="webphrase7" class="phrase animation" [style]="{left:'0.1vw', top:'36.4vw',width:'26.6vw'}" i18n-alt i18n-src>
+
+  <img src="assets/svg/mainview/Frase-19.svg" alt="GUUD Wishes" id="webphrase19" class="phrase animation" [style]="{left:'56.2vw', top:'4.2vw', width:'5.4vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-21.svg" alt="GUUD Wishes" id="webphrase21" class="phrase animation" [style]="{left:'30.7vw', top:'34.7vw', width:'13.3vw'}" i18n-alt i18n-src>
+  <img src="assets/svg/mainview/Frase-3.svg" alt="GUUD Wishes" id="webphrase3" class="phrase animation" [style]="{left:'11.6vw', top:'14.1vw', width:'10.9vw'}" i18n-alt i18n-src>
 </div>
 
 <div class="mobdisplay">
-  <img src="assets/svg/mainview/{{_data.filename}}" class="phrase animation nohover"
-       [style]="_data.mobileStyle" (load)="_checktype($event, _data.filename)"
-       *ngFor="let _data of _imageList.grupocentral.files;">
+    <img src="assets/svg/mainview/logo-Guud.png" class="phrase animation nohover" alt="GUUD" [style]="{left:'5vw', top:'82.4vw', width:'91vw'}">
+    <img src="assets/svg/mainview/Frase-23.svg" class="phrase animation nohover" alt="slogan" [style]="{left:'8vw', top:'102.0vw', width:'84vw'}">
 
-  <div *ngFor="let key of _mobilekeys" class="phrasearea">
-    <div *ngFor="let _data of _imageList[key].files; let i = index">
-      <img class="phrase animation" id="mob{{_data.alt}}" [ngClass]="{'ondisplay':i==_imageList[key].files.length-1}" src="assets/svg/mainview/{{_data.filename}}" [style]="_data.mobileStyle" (load)="_checktype($event, _data.filename)"  i18n-alt i18n-src>
-    </div>
+
+  <div class="phrasearea">
+    <img src="assets/svg/mainview/Frase-1.svg" alt="GUUD Wishes" id="mobphrase1" class="phrase animation" [style]="{left:'8.0vw', top:'20.6vw', width:'52.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-15.svg" alt="GUUD Wishes" id="mobphrase15" class="phrase animation" [style]="{left:'9.0vw', top:'20.0vw', width:'48.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-8.svg" alt="GUUD Wishes" id="mobphrase8" class="phrase animation ondisplay" [style]="{left:'5.0vw', top:'25.0vw', width:'55.0vw'}" i18n-alt i18n-src>
+
+    <img src="assets/svg/mainview/Frase-2.svg" alt="GUUD Wishes" id="mobphrase2" class="phrase animation" [style]="{left:'60.0vw', top:'22.0vw', width:'33.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-17.svg" alt="GUUD Wishes" id="mobphrase17" class="phrase animation" [style]="{left:'58.7vw', top:'36.0vw', width:'32.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-20.svg" alt="GUUD Wishes" id="mobphrase20" class="phrase animation ondisplay" [style]="{left:'53.7vw', top:'36.5vw', width:'38.0vw'}" i18n-alt i18n-src>
+
+    <img src="assets/svg/mainview/Frase-10.svg" alt="GUUD Wishes" id="mobphrase10" class="phrase animation" [style]="{left:'5.0vw', top:'59.7vw', width:'58.6vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-11.svg" alt="GUUD Wishes" id="mobphrase11" class="phrase animation" [style]="{left:'5.0vw', top:'59.0vw', width:'58.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-18.svg" alt="GUUD Wishes" id="mobphrase18" class="phrase animation" [style]="{left:'7.0vw', top:'56.0vw', width:'50.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-6.svg" alt="GUUD Wishes" id="mobphrase6" class="phrase animation ondisplay" [style]="{left:'15.0vw', top:'50.0vw', width:'29.0vw'}" i18n-alt i18n-src>
+
+    <img src="assets/svg/mainview/Frase-4.svg" alt="GUUD Wishes" id="mobphrase4" class="phrase animation" [style]="{left:'9vw', top:'114vw', width:'40vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-16.svg" alt="GUUD Wishes" id="mobphrase16" class="phrase animation" [style]="{left:'2vw', top:'118vw', width:'50vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-22.svg" alt="GUUD Wishes" id="mobphrase0" class="phrase animation ondisplay" [style]="{left:'7vw', top:'116vw', width:'32vw'}" i18n-alt i18n-src>
+
+    <img src="assets/svg/mainview/Frase-5.svg" alt="GUUD Wishes" id="mobphrase5" class="phrase animation" [style]="{left:'17vw', top:'149vw', width:'67vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-12.svg" alt="GUUD Wishes" id="mobphrase12" class="phrase animation" [style]="{left:'16vw', top:'144vw', width:'68vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-14.svg" alt="GUUD Wishes" id="mobphrase14" class="phrase animation" [style]="{left:'34vw', top:'145vw', width:'32vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-7.svg" alt="GUUD Wishes" id="mobphrase7" class="phrase animation ondisplay" [style]="{left:'10vw', top:'143vw', width:'84vw'}" i18n-alt i18n-src>
+
+    <img src="assets/svg/mainview/Frase-19.svg" alt="GUUD Wishes" id="mobphrase19" class="phrase animation" [style]="{left:'60.6vw', top:'119.4vw', width:'20.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-21.svg" alt="GUUD Wishes" id="mobphrase21" class="phrase animation" [style]="{left:'49.0vw', top:'116.0vw', width:'41.0vw'}" i18n-alt i18n-src>
+    <img src="assets/svg/mainview/Frase-3.svg" alt="GUUD Wishes" id="mobphrase3" class="phrase animation ondisplay" [style]="{left:'53.0vw', top:'114.0vw', width:'36.0vw'}" i18n-alt i18n-src>
   </div>
 </div>

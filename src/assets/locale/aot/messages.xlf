@@ -13,6 +13,13 @@
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5583476985851790177" datatype="html">
+        <source>GUUD</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2501489806101473286" datatype="html">
         <source>About us</source>
         <context-group purpose="location">
@@ -259,11 +266,38 @@
           <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8192611234651859307" datatype="html">
-        <source>assets/svg/mainview/<x id="INTERPOLATION" equiv-text="{{_data.filename}}"/></source>
+      <trans-unit id="7241261315972860596" datatype="html">
+        <source>assets/svg/mainview/Frase-9.svg</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1671264801510117064" datatype="html">
+        <source>GUUD Wishes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">10</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
@@ -271,7 +305,425 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4844391095411854251" datatype="html">
+        <source>assets/svg/mainview/Frase-13.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="942169203109589952" datatype="html">
+        <source>assets/svg/mainview/flechas/Flecha-1.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6218537397764696511" datatype="html">
+        <source>assets/svg/mainview/flechas/Flecha-2.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3958066500631742510" datatype="html">
+        <source>assets/svg/mainview/flechas/Flecha-3.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4950278363747867337" datatype="html">
+        <source>assets/svg/mainview/flechas/Flecha-4.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7718142430433648614" datatype="html">
+        <source>assets/svg/mainview/flechas/Flecha-5.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6779210433548209480" datatype="html">
+        <source>assets/svg/mainview/Frase-1.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5439678229303311947" datatype="html">
+        <source>assets/svg/mainview/Frase-15.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7131690239112536399" datatype="html">
+        <source>assets/svg/mainview/Frase-8.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2435350069290886515" datatype="html">
+        <source>assets/svg/mainview/Frase-2.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4961182429194848098" datatype="html">
+        <source>assets/svg/mainview/Frase-17.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63692986974712274" datatype="html">
+        <source>assets/svg/mainview/Frase-20.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="455644397800023995" datatype="html">
+        <source>assets/svg/mainview/Frase-10.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8723544511505681781" datatype="html">
+        <source>assets/svg/mainview/Frase-11.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6517516038481710574" datatype="html">
+        <source>assets/svg/mainview/Frase-18.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5845843387809298254" datatype="html">
+        <source>assets/svg/mainview/Frase-6.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5838087156659482123" datatype="html">
+        <source>assets/svg/mainview/Frase-4.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6851295351481712101" datatype="html">
+        <source>assets/svg/mainview/Frase-16.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7901839056033828411" datatype="html">
+        <source>assets/svg/mainview/Frase-22.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7437183420894169882" datatype="html">
+        <source>assets/svg/mainview/Frase-5.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7268833916285345573" datatype="html">
+        <source>assets/svg/mainview/Frase-12.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8694644566779039977" datatype="html">
+        <source>assets/svg/mainview/Frase-14.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1799990949438169630" datatype="html">
+        <source>assets/svg/mainview/Frase-7.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6735168752798904224" datatype="html">
+        <source>assets/svg/mainview/Frase-19.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3075613910645078692" datatype="html">
+        <source>assets/svg/mainview/Frase-21.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4246273349313024474" datatype="html">
+        <source>assets/svg/mainview/Frase-3.svg</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
@@ -345,7 +797,7 @@
         <source>Registered Data</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/services/guudapi.service.ts</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7367250938421424000" datatype="html">

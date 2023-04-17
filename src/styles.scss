@@ -280,17 +280,20 @@ button {
   }
 
   &.fadeToBlue {
+    filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);
     .st0{filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);}
     .st1 {filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);animation: shake 2s infinite linear;}
   }
 
   &.fadeToGreen {
+    filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);
     .st0{filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);}
     .st1 {filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);animation: shake 2s infinite linear;}
   }
 
   &.fadeToRed {
-    .st0{filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%)}
+    filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);
+    .st0{filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);}
     .st1 {filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);animation: shake 2s infinite linear;}
   }
 }
