@@ -38,9 +38,9 @@ export class GuudapiService {
     }
     mailForm.html += '</ul>';
 
+    this.modalcontroller(false, {type: 'formsubmit', data: mailForm.html});
 
     /*sgMail.send(mailForm).then(() => {
-      this.modalcontroller(false, {type: 'formsubmit', data: mailForm.html});
     }).catch((error)=> {
       console.log(error);
     });*/

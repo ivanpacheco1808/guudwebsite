@@ -1,6 +1,5 @@
-import { Component, OnInit, OnDestroy, Injectable } from '@angular/core';
+import { Component, OnInit, Injectable } from '@angular/core';
 import { Observable, Subject  } from 'rxjs';
-import { takeUntil } from "rxjs/operators";
 import { GuudapiService } from '@services/guudapi.service';
 import { environment } from '@environments/environment';
 
@@ -9,16 +8,9 @@ import { environment } from '@environments/environment';
   templateUrl: './modales.component.html',
   styleUrls: ['./modales.component.scss']
 })
-export class ModalesComponent implements OnInit, OnDestroy {
+export class ModalesComponent {
   _controller=environment.modalmodel;
   modalstatus='modalactive';
-
-  componentDestroyed$: Subject<boolean> = new Subject();
-  ngOnInit(): void {}
-  ngOnDestroy() {
-    this.componentDestroyed$.next(true);
-    this.componentDestroyed$.complete();
-  }
   constructor(private _guudapi: GuudapiService) {
     _guudapi.modalcontroller(true)?.subscribe(controll=>{
       controll.type as any ?this.modalstatus='modalactive':this.modalstatus='closed';

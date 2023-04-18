@@ -3,12 +3,14 @@
   src: url("./assets/ExoRegular.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "Verveine";
   src: url("./assets/VerveineRegular.TTF") format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 $gray-font: #707070;
 $blue-font: #1b4544;
