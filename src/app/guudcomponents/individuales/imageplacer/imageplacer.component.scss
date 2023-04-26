@@ -187,7 +187,7 @@ img {
   img {
     height: unset;
     &:not(.ondisplay,[alt="GUUD"],[alt="slogan"]){
-      opacity: 0;
+      //opacity: 0;
     }
 
     &[alt="GUUD"] {
@@ -232,7 +232,7 @@ img {
 
     &[id="webphrase8"] {
       left: 8vw;
-      top: 122vw;
+      top: 119vw;
       width: 30vw;
     }
 
@@ -268,7 +268,7 @@ img {
 
     &[id="webphrase18"] {
       left: 5vw;
-      top: 125vw;
+      top: 122vw;
       width: 46vw;
     }
 
@@ -280,13 +280,13 @@ img {
 
     &[id="webphrase4"] {
       left: 10vw;
-      top: 119vw;
+      top: 116vw;
       width: 38vw;
     }
 
     &[id="webphrase16"] {
       left: 35vw;
-      top: 151vw;
+      top: 144vw;
       width: 30vw;
     }
 
@@ -298,7 +298,7 @@ img {
 
     &[id="webphrase5"] {
       left: 18vw;
-      top: 155vw;
+      top: 151vw;
       width: 64vw;
     }
 
@@ -309,14 +309,14 @@ img {
     }
 
     &[id="webphrase14"] {
-      left: 17vw;
-      top: 149vw;
+      left: 21vw;
+      top: 143vw;
       width: 66vw;
     }
 
     &[id="webphrase7"] {
       left: 10vw;
-      top: 148vw;
+      top: 142vw;
       width: 83vw;
     }
 
