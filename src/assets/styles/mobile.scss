@@ -2,9 +2,7 @@
 .mobdisplay {
   display: none;
 }
-
 @media (max-width: 1244px) {
-
   //Menu
   .menubar {
     .logo {
@@ -19,14 +17,11 @@
       display: block;
     }
   }
-
 }
-
-
 //Hom Specific
-@media (min-width: 810px) and (max-width: 1777px){
-  .homearea{
-    translate: 0rem 1.6rem;
+@media (min-width: 810px) and (max-width: 1777px) {
+  .homearea {
+    translate: 0 1.6rem;
   }
 }
 @media (min-width: 810px) {
@@ -34,29 +29,35 @@
     height: 52vw;
   }
 }
-@media (max-width: 810px){
+@media (max-width: 810px) {
   .homearea {
-    height: 180vw;
+    height: 190vw;
   }
 }
-@media (max-width: 420px){
+@media (max-width: 420px) {
   .homearea {
-    height: 88vh;
-  }
-}
-@media (max-height: 667px){
-  .homearea {
-    height: 105vh;
-  }
-}
+    height: 102vh;
 
-@media (max-width: 909px){
-  input:not([type="checkbox"], [type="radio"]), select, .fileinput{
+    guud-imageplacer img {
+      transform: translateY(11vw);
+    }
+  }
+}
+@media (max-height: 667px) {
+  .homearea {
+    height: 110vh;
+  }
+}
+@media (max-width: 909px) {
+  input:not([type="checkbox"], [type="radio"]),
+  select,
+  .fileinput {
     margin-bottom: 1.4rem;
   }
 
   .footerarea {
-    .sections1 li, .sections2 li {
+    .sections1 li,
+    .sections2 li {
       margin-bottom: 3vw !important;
     }
   }
@@ -66,30 +67,36 @@
     top: -4rem;
     height: unset;
   }
-
   //Footer Specific
-  .footerarea{
+  .footerarea {
     .logo {
       display: block;
       margin: auto;
     }
-    .sections2 li, .sections1 li {
+
+    .sections1 li,
+    .sections2 li {
       padding-left: 6vw;
       font-size: 1.1rem;
     }
+
     .social {
       text-align: center;
       padding-top: 3rem;
-      li:first-child{
+
+      li:first-child {
         margin-bottom: 1.7rem !important;
         font-size: 1.1rem;
       }
-      li:not(:first-child){
+
+      li:not(:first-child) {
         margin-right: 6vw !important;
       }
     }
+
     ul {
       font-size: 1.2rem !important;
+
       li .bubble {
         width: 2.6rem !important;
         height: 2.6rem !important;
