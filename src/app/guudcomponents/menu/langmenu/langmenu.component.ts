@@ -15,15 +15,8 @@ export class LangmenuComponent implements OnInit {
 
   changeLang(lang:string){
     var route:any = window.location.pathname;
-    if(route.indexOf("/en/")>=0){
-      route.replaceAll("/en/", "");
-      route = '/'+route;
-    }
-
-    if(route.indexOf("/es/")>=0){
-      route.replaceAll("/es/", "");
-      route = '/'+route;
-    }
+    route.replaceAll("/en/", "/");
+    route.replaceAll("/es/", "/");
 
     window.location.pathname = "/"+lang+route;
   }

@@ -20,8 +20,7 @@ export class BeCoachComponent implements OnInit {
 
   constructor(private _guudapi: GuudapiService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   _checkvalid(){
 
@@ -36,7 +35,13 @@ export class BeCoachComponent implements OnInit {
   }
 
   _submit(form:any){
-    this._guudapi.SendEmail(form, this.mailSubject);
+    //this._guudapi.SendEmail(form, this.mailSubject);
+    this._guudapi.MakeRequest('coach', form).subscribe(res =>{
+      this._guudapi.modalcontroller(false, {type: 'formsubmit', data: res});
+    }, err => {
+      if(err.error.statusCode == 400)
+        this._guudapi.modalcontroller(false, {type: 'messageDisplay', data: err.error.messages});
+    });
   }
 
 }

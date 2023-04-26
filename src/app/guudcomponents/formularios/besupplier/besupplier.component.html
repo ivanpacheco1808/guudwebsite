@@ -27,7 +27,7 @@
     </div>
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.filename}">
-        <img class="inputdeco" src="assets/svg/supplier/Clip.webp" alt="clip">
+        <img class="inputdeco" src="assets/svg/supplier/Clip.webp" alt="clip" width="36" height="36">
         <input type="file" (change)="_setfiles($event)" ngModel name="filename" accept="image/*">
         <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
         <span i18n>Product Images</span>

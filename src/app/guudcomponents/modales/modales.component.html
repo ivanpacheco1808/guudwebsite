@@ -1,6 +1,6 @@
 <div class="modalframe {{modalstatus}}">
   <div class="area" [ngSwitch]="_controller.type">
-    <div>
+    <div *ngSwitchCase="'formsubmit'">
       <!--div class="msg" [innerHtml]="data.msg"></div-->
       <h2 i18n>Your information have been delivered</h2>
       <h3 i18n>soon one of our team members will get in contact with you</h3>
@@ -10,6 +10,17 @@
       <button type="button" (click)="_close()" style="width: 50%;" i18n>Go Back</button>
       <br><br>
       <h4 i18n>THANK YOU!</h4>
+      <span style="font-size: 0.77rem;" i18n>your serial number: {{_controller.data}}</span>
+    </div>
+
+    <div *ngSwitchCase="'messageDisplay'">
+      <span *ngFor="let msg of _controller.data">
+        {{msg}}
+      </span>
+      <br>
+      <br>
+      <br>
+      <button type="button" (click)="_close()" style="width: 50%;" i18n>Try Again</button>
     </div>
     <!--modal-nuevatarjeta [_data]="this._controller.data" *ngSwitchCase="'nuevatarjeta'" (_close)="_close()"></modal-nuevatarjeta-->
   </div>

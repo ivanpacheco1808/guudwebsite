@@ -9,7 +9,7 @@ import { environment } from '@environments/environment';
   styleUrls: ['./modales.component.scss']
 })
 export class ModalesComponent {
-  _controller=environment.modalmodel;
+  _controller:any=environment.modalmodel;
   modalstatus='modalactive';
   constructor(private _guudapi: GuudapiService) {
     _guudapi.modalcontroller(true)?.subscribe(controll=>{
@@ -30,6 +30,9 @@ export class ModalesComponent {
         setTimeout(() => {
           location.reload();
         }, 113);
+        break;
+      default:
+        this._guudapi.modalcontroller(false, false);
         break;
     }
   }

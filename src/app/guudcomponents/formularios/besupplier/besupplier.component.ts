@@ -8,27 +8,26 @@ import { GuudapiService } from '@services/guudapi.service';
 })
 export class BeSupplierComponent implements OnInit {
 
-  constructor(private _guudapi: GuudapiService) { }
+  constructor(private _guudapi: GuudapiService) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 
-  mailSubject= $localize`New Lead Supplier`;
-  dataFormat:any = {
+  mailSubject = $localize`New Lead Supplier`;
+  dataFormat: any = {
     firstName: '',
     lastName: '',
     product: '',
     productImage: '',
     email: '',
     phone: '',
-    filename:''
+    filename: ''
   };
 
-  _setfiles(e:any){
+  _setfiles(e: any) {
     this.dataFormat.filename = e.target.files[0].name;
   }
 
-  _checkvalid(){
+  _checkvalid() {
     var isinvalid = false;
     isinvalid = this.dataFormat.firstName == '' ? true : isinvalid;
     isinvalid = this.dataFormat.product == '' ? true : isinvalid;
@@ -37,8 +36,14 @@ export class BeSupplierComponent implements OnInit {
     return isinvalid;
   }
 
-  _submit(form:any){
-    this._guudapi.SendEmail(form, this.mailSubject);
+  _submit(form: any) {
+    //this._guudapi.SendEmail(form, this.mailSubject);
+    this._guudapi.MakeRequest('supplier', form).subscribe(res => {
+      this._guudapi.modalcontroller(false, { type: 'formsubmit', data: res });
+    }, err => {
+      if (err.error.statusCode == 400)
+        this._guudapi.modalcontroller(false, { type: 'messageDisplay', data: err.error.messages });
+    });
   }
 
 }

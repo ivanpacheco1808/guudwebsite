@@ -13,42 +13,20 @@ import { environment } from '@environments/environment';
 export class GuudapiService {
 
   // Http Headers
-  httpOptions = {
+  httpDefaultTenant = {
     headers: new HttpHeaders({
       "Content-Type": "application/json",
       "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Methods": "POST, GET"
+      "Access-Control-Allow-Methods": "POST, GET",
+      "tenant": "root"
     })
   };
 
   constructor(private http: HttpClient, private router: Router) { }
-
-  SendEmail(maildata:any, subject:string){
-
-    var mailTitle = $localize`Registered Data`;
-    var mailForm = {
-      to: 'duran.narum@gmail.com',
-      from: 'hola@guud.life',
-      subject: subject,
-      html: '<strong>'+mailTitle+':</strong><br>'
-    };
-    mailForm.html += '<ul>';
-    for(let key of Object.keys(maildata)){
-      mailForm.html += '<li>'+key+': '+maildata[key]+'</li>';
-    }
-    mailForm.html += '</ul>';
-
-    this.modalcontroller(false, {type: 'formsubmit', data: mailForm.html});
-
-    /*sgMail.send(mailForm).then(() => {
-    }).catch((error)=> {
-      console.log(error);
-    });*/
-
+  //LLAMADOS DE API/HTTP - LLAMADOS DE API/HTTP - LLAMADOS DE API/HTTP - LLAMADOS DE API/HTTP
+  MakeRequest(path: string, data: any, params?:string): any {
+    return this.http.post<any>(environment.apiUrl + path + "?" + params, data, this.httpDefaultTenant);
   }
-
-
-
 
   _modalcontroller: any = environment.modalmodel;
   private _gmodalcontroller: BehaviorSubject<any> = new BehaviorSubject(this._modalcontroller);
