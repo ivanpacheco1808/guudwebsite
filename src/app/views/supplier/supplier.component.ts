@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'guudview-supplier',
@@ -7,6 +7,4 @@ import { Component, Input } from '@angular/core';
 })
 export class SupplierComponent {
   constructor() { }
-  _apply:boolean=true;
-  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

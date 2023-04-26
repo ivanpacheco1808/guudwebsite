@@ -1,6 +1,341 @@
-.mobdisplay .phrasearea .phrase {
-  opacity: 0;
-  &.ondisplay {
-    opacity: 1;
+.phrase.ondisplay {
+  opacity: 1;
+}
+
+
+img {
+  height: unset;
+
+  &[alt="GUUD"] {
+    left: 32.8vw;
+    top: 20.1vw;
+    width: 34.5vw;
+  }
+
+  &[alt="slogan"] {
+    left: 39.7vw;
+    top: 27.8vw;
+    width: 20.4vw;
+  }
+
+  &[id="webphrase9"] {
+    left: 50vw;
+    top: 31.9vw;
+    width: 11vw;
+  }
+
+  &[id="webphrase13"] {
+    left: 80.6vw;
+    top: 36.8vw;
+    width: 14.7vw;
+  }
+
+  &[id="webarrow1"] {
+    left: 2.4vw;
+    top: 33.6vw;
+    width: 8.9vw;
+  }
+
+  &[id="webarrow2"] {
+    left: 27vw;
+    top: 42vw;
+    width: 8.6vw;
+  }
+
+  &[id="webarrow3"] {
+    left: 66.6vw;
+    top: 42.4vw;
+    width: 8vw;
+  }
+
+  &[id="webarrow4"] {
+    left: 94.9vw;
+    top: 22.3vw;
+    width: 3.4vw;
+  }
+
+  &[id="webarrow5"] {
+    left: 70.4vw;
+    top: 10.8vw;
+    width: 9.2vw;
+  }
+
+  &[id="webphrase1"] {
+    left: 7vw;
+    top: 5vw;
+    width: 17.2vw;
+  }
+
+  &[id="webphrase15"] {
+    left: 77.5vw;
+    top: 18.8vw;
+    width: 10.6vw;
+  }
+
+  &[id="webphrase8"] {
+    left: 16.2vw;
+    top: 26.2vw;
+    width: 9vw;
+  }
+
+  &[id="webphrase2"] {
+    left: 1.6vw;
+    top: 10.6vw;
+    width: 10.3vw;
+  }
+
+  &[id="webphrase17"] {
+    left: 76vw;
+    top: 12.6vw;
+    width: 8.5vw;
+  }
+
+  &[id="webphrase20"] {
+    left: 57.6vw;
+    top: 11.2vw;
+    width: 11.8vw;
+  }
+
+  &[id="webphrase10"] {
+    left: 47.4vw;
+    top: 40vw;
+    width: 14vw;
+  }
+
+  &[id="webphrase11"] {
+    left: 65.4vw;
+    top: 31.2vw;
+    width: 11.6vw;
+  }
+
+  &[id="webphrase18"] {
+    left: 83.2vw;
+    top: 5.2vw;
+    width: 14.4vw;
+  }
+
+  &[id="webphrase6"] {
+    left: 2.8vw;
+    top: 25.7vw;
+    width: 9.7vw;
+  }
+
+  &[id="webphrase4"] {
+    left: 22.6vw;
+    top: 5vw;
+    width: 16vw;
+  }
+
+  &[id="webphrase16"] {
+    left: 89.8vw;
+    top: 13vw;
+    width: 9vw;
+  }
+
+  &[id="webphrase0"] {
+    left: 31.8vw;
+    top: 34.4vw;
+    width: 12.4vw;
+  }
+
+  &[id="webphrase5"] {
+    left: 36.4vw;
+    top: 5.4vw;
+    width: 19.6vw;
+  }
+
+  &[id="webphrase12"] {
+    left: 79.4vw;
+    top: 41.6vw;
+    width: 17.2vw;
+  }
+
+  &[id="webphrase14"] {
+    left: 81vw;
+    top: 28.1vw;
+    width: 16.6vw;
+  }
+
+  &[id="webphrase7"] {
+    left: 0.9vw;
+    top: 35.9vw;
+    width: 26.8vw;
+  }
+
+  &[id="webphrase19"] {
+    left: 66vw;
+    top: 5.2vw;
+    width: 9.8vw;
+  }
+
+  &[id="webphrase21"] {
+    left: 57.5vw;
+    top: 4.9vw;
+    width: 4.4vw;
+  }
+
+  &[id="webphrase3"] {
+    left: 12.9vw;
+    top: 14.8vw;
+    width: 10vw;
+  }
+}
+
+
+@media (max-width: 810px) {
+
+  img {
+    height: unset;
+    &:not(.ondisplay,[alt="GUUD"],[alt="slogan"]){
+      opacity: 0;
+    }
+
+    &[alt="GUUD"] {
+      left: 4.8vw;
+      top: 86.6vw;
+      width: 91vw;
+    }
+
+    &[alt="slogan"] {
+      left: 8vw;
+      top: 107vw;
+      width: 84vw;
+    }
+
+    &[id="webarrow1"],&[id="webarrow2"],&[id="webarrow3"],&[id="webarrow4"],&[id="webarrow5"]{
+      opacity: 0;
+    }
+
+    &[id="webphrase9"] {
+      left: 55vw;
+      top: 42vw;
+      width: 41vw;
+    }
+
+    &[id="webphrase13"] {
+      left: 9vw;
+      top: 66vw;
+      width: 55vw;
+    }
+
+    &[id="webphrase1"] {
+      left: 8vw;
+      top: 25vw;
+      width: 52vw;
+    }
+
+    &[id="webphrase15"] {
+      left: 57vw;
+      top: 117vw;
+      width: 32vw;
+    }
+
+    &[id="webphrase8"] {
+      left: 8vw;
+      top: 122vw;
+      width: 30vw;
+    }
+
+    &[id="webphrase2"] {
+      left: 63vw;
+      top: 26vw;
+      width: 31vw;
+    }
+
+    &[id="webphrase17"] {
+      left: 11.5vw;
+      top: 26vw;
+      width: 44vw;
+    }
+
+    &[id="webphrase20"] {
+      left: 10vw;
+      top: 63vw;
+      width: 45vw;
+    }
+
+    &[id="webphrase10"] {
+      left: 7vw;
+      top: 26vw;
+      width: 52vw;
+    }
+
+    &[id="webphrase11"] {
+      left: 60vw;
+      top: 33vw;
+      width: 35vw;
+    }
+
+    &[id="webphrase18"] {
+      left: 5vw;
+      top: 125vw;
+      width: 46vw;
+    }
+
+    &[id="webphrase6"] {
+      left: 16.5vw;
+      top: 55vw;
+      width: 27vw;
+    }
+
+    &[id="webphrase4"] {
+      left: 10vw;
+      top: 119vw;
+      width: 38vw;
+    }
+
+    &[id="webphrase16"] {
+      left: 35vw;
+      top: 151vw;
+      width: 30vw;
+    }
+
+    &[id="webphrase0"] {
+      left: 54vw;
+      top: 121vw;
+      width: 38vw;
+    }
+
+    &[id="webphrase5"] {
+      left: 18vw;
+      top: 155vw;
+      width: 64vw;
+    }
+
+    &[id="webphrase12"] {
+      left: 10vw;
+      top: 67vw;
+      width: 49vw;
+    }
+
+    &[id="webphrase14"] {
+      left: 17vw;
+      top: 149vw;
+      width: 66vw;
+    }
+
+    &[id="webphrase7"] {
+      left: 10vw;
+      top: 148vw;
+      width: 83vw;
+    }
+
+    &[id="webphrase19"] {
+      left: 59.5vw;
+      top: 41vw;
+      width: 30vw;
+    }
+
+    &[id="webphrase21"] {
+      left: 62vw;
+      top: 124vw;
+      width: 17vw;
+    }
+
+    &[id="webphrase3"] {
+      left: 54vw;
+      top: 119.5vw;
+      width: 34vw;
+    }
   }
 }

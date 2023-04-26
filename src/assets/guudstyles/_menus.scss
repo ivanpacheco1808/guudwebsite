@@ -1,0 +1,88 @@
+
+.menubar {
+  .mobileNavigation {
+    z-index: 3;
+    position: relative;
+    display: block;
+  }
+
+  .burgertoggler {
+    width: 2rem;
+    position: absolute;
+    right: 4rem;
+    top: 1.25rem;
+    &#closeburguer {
+      width: 1.5rem;
+    }
+  }
+
+  #burgerdisplay {
+    background-color: #f8f8f8;
+    height: 100vh;
+    font-family: Exo;
+    color: #707070;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    position: relative;
+    display: none;
+
+    ul {
+      list-style: none;
+      padding: 0.6rem 0;
+      position: relative;
+
+      &.top {
+        background-color: #FFF;
+      }
+
+      &.bottom {
+        li {
+          color: $blue-font;
+          font-weight: bold;
+          &:hover {
+            background-color: #fff;
+          }
+          &:first-child {
+            font-weight: normal;
+            height: 3rem;
+          }
+        }
+      }
+
+      li {
+        height: 4rem;
+        line-height: 4rem;
+        &:hover {
+          background-color: #f8f8f8;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  #burgerdisplay,
+  #closeburguer {
+    z-index: -1;
+    opacity: 0;
+  }
+
+  #burgerstatus:checked ~ .mobileNavigation {
+    #openburger {
+      z-index: -1;
+      opacity: 0;
+    }
+
+    #closeburguer {
+      z-index: 2;
+      opacity: 1;
+    }
+  }
+
+  #burgerstatus:checked ~ #burgerdisplay {
+    z-index: 2;
+    opacity: 1;
+    display: block;
+    overflow: scroll;
+  }
+}

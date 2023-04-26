@@ -1,4 +1,4 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, Injectable } from '@angular/core';
 import { Observable, Subject  } from 'rxjs';
 import { GuudapiService } from '@services/guudapi.service';
 import { environment } from '@environments/environment';
@@ -21,7 +21,6 @@ export class ModalesComponent {
 
     this._controller.type = 'formsubmit' as any;
   }
-
 
   _close(){
     switch (this._controller.type as any) {

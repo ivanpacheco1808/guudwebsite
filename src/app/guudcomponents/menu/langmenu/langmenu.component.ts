@@ -1,17 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'guud-langmenu',
   templateUrl: './langmenu.component.html',
   styleUrls: ['./langmenu.component.scss']
 })
-export class LangmenuComponent implements OnInit {
+export class LangmenuComponent {
   _langmenuOpened:boolean=false;
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
 
   changeLang(lang:string){
     var route:any = window.location.pathname.toString();

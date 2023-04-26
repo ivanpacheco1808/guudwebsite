@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'guudview-coach',
@@ -7,6 +7,4 @@ import { Component, Input } from '@angular/core';
 })
 export class CoachComponent {
   constructor() { }
-  _apply:boolean=true;
-  @Input() set _applyshadow(apply:boolean){this._apply=apply;}
 }

@@ -7,7 +7,7 @@
       "i18n": {
         "sourceLocale": "en",
         "locales": {
-          "es": "src/assets/locale/aot/messages.es.xlf"
+          "es": "src/assets/locale/messages.es.xlf"
         }
       },
       "projectType": "application",
@@ -33,9 +33,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/routes.json",
-              "src/assets/ExoRegular.ttf",
-              "src/assets/VerveineRegular.ttf"
+              "src/routes.json"
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -46,8 +44,7 @@
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/jsonpack/main.js",
-              "src/assets/external/svg-inject.min.js"
+              "./node_modules/jsonpack/main.js"
             ]
           },
           "configurations": {

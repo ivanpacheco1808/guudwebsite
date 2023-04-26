@@ -35,15 +35,6 @@
   }
 }
 @media (max-width: 810px){
-  guud-imageplacer {
-    .webdisplay {
-      display: none;
-    }
-
-    .mobdisplay {
-      display: block;
-    }
-  }
   .homearea {
     height: 180vw;
   }
@@ -73,6 +64,7 @@
   .formimage {
     width: 100% !important;
     top: -4rem;
+    height: unset;
   }
 
   //Footer Specific

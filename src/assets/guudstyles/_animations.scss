@@ -1,0 +1,79 @@
+* {
+  transition: all $animationtime ease-out;
+  -webkit-transition: all $animationtime ease-out;
+  -moz-transition: all $animationtime ease-out;
+  -ms-transition: all $animationtime ease-out;
+  -o-transition: all $animationtime ease-out;
+}
+
+.animation {
+  transition: all $animationtimeslow ease-out;
+  -webkit-transition: all $animationtimeslow ease-out;
+  -moz-transition: all $animationtimeslow ease-out;
+  -ms-transition: all $animationtimeslow ease-out;
+  -o-transition: all $animationtimeslow ease-out;
+}
+
+.labeledinput *,
+.menubar *,
+.modalframe {
+  transition: all $inputtransition ease-out;
+  -webkit-transition: all $inputtransition ease-out;
+  -moz-transition: all $inputtransition ease-out;
+  -ms-transition: all $inputtransition ease-out;
+  -o-transition: all $inputtransition ease-out;
+}
+@keyframes shake {
+  25% {
+    transform: rotate(.66deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-.66deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.phrase {
+  position: absolute;
+  &:not(.nohover){
+    filter: unset;
+    [class*="st"]{
+      fill: $gray-font;
+    }
+  }
+
+  &:hover:not(.nohover) {
+    filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);
+    transition: filter $animationtime ease-out;
+    -webkit-transition: filter $animationtime ease-out;
+    -moz-transition: filter $animationtime ease-out;
+    -ms-transition: filter $animationtime ease-out;
+    -o-transition: filter $animationtime ease-out;
+  }
+
+  &.fadeToBlue {
+    filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);
+    .st0{filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);}
+    .st1 {filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);animation: shake 2s infinite linear;}
+  }
+
+  &.fadeToGreen {
+    filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);
+    .st0{filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);}
+    .st1 {filter: invert(62%) sepia(98%) saturate(1120%) hue-rotate(141deg) brightness(93%) contrast(107%);animation: shake 2s infinite linear;}
+  }
+
+  &.fadeToRed {
+    filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);
+    .st0{filter: invert(54%) sepia(39%) saturate(6714%) hue-rotate(243deg) brightness(103%) contrast(98%);}
+    .st1 {filter: invert(64%) sepia(10%) saturate(2787%) hue-rotate(61deg) brightness(116%) contrast(90%);animation: shake 2s infinite linear;}
+  }
+}

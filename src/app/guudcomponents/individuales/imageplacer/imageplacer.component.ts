@@ -11,7 +11,7 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
     if (window.innerWidth >= 810) {
       this._startWebAnimation();
     } else {
-      //this._startMobAnimation();
+      this._startMobAnimation();
     }
   }
   ngOnDestroy() {
@@ -32,7 +32,7 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
       }
     } else {
       if (!this._mobStarted) {
-        //this._startMobAnimation();
+        this._startMobAnimation();
       }
       if (this._webStarted) {
         this._webStarted = false;
@@ -46,7 +46,7 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
   _startWebAnimation() {
     this._webStarted = true;
     var rindx = Math.floor((Math.random() * 6) / 2);
-    var inicialweb: any = document.querySelector("[id='webphrase0']");
+    var inicialweb: any = document.querySelector("[id='webphrase8']");
     $(inicialweb).addClass(this._fadecolors[rindx]);
     setTimeout(() => {
       $(inicialweb).removeClass(this._fadecolors[rindx]);
@@ -81,9 +81,9 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
   _switchgroup(group: string) {
     var rindx = Math.floor(Math.random() * (this._imageList[group].length - 2));
     var lastalt = this._imageList[group][this._imageList[group].length - 1];
-    var lastref: any = document.querySelector("[id='mob" + lastalt + "']");
+    var lastref: any = document.querySelector("[id='web" + lastalt + "']");
     var nextalt = this._imageList[group][rindx];
-    var nextref: any = document.querySelector("[id='mob" + nextalt + "']");
+    var nextref: any = document.querySelector("[id='web" + nextalt + "']");
 
     var randfade = Math.floor((Math.random() * 6) / 2);
     $(lastref).addClass(this._fadecolors[randfade]);
@@ -117,13 +117,13 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
   _fadecolors = ["fadeToRed", "fadeToBlue", "fadeToGreen"];
   _mobilekeys = ['grupoa', 'grupob', 'grupoc', 'grupod', 'grupoe', 'grupof'];
   _imageList = {
-    grupomysc: ['phrase9', 'phrase13', 'arrow1', 'arrow2', 'arrow3', 'arrow4', 'arrow5'],
-    grupoa: ['phrase1', 'phrase15', 'phrase8'],
-    grupob: ['phrase2', 'phrase17', 'phrase20'],
-    grupoc: ['phrase10', 'phrase11', 'phrase18', 'phrase6'],
-    grupod: ['phrase4', 'phrase16', 'phrase0'],
-    grupoe: ['phrase5', 'phrase12', 'phrase14', 'phrase7'],
-    grupof: ['phrase19', 'phrase21', 'phrase3']
+    grupomysc: ['arrow1', 'arrow2', 'arrow3', 'arrow4', 'arrow5'],
+    grupoa: ['phrase1', 'phrase17', 'phrase10'],
+    grupob: ['phrase2', 'phrase19', 'phrase11', 'phrase9'],
+    grupoc: ['phrase20', 'phrase12', 'phrase13', 'phrase6'],
+    grupod: ['phrase4', 'phrase18', 'phrase8'],
+    grupoe: ['phrase5', 'phrase16', 'phrase14', 'phrase7'],
+    grupof: ['phrase0', 'phrase21', 'phrase15', 'phrase3'],
   };
 
 }
