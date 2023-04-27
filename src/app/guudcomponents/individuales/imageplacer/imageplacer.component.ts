@@ -8,13 +8,11 @@ import * as $ from 'jquery';
 })
 export class ImageplacerComponent implements OnDestroy, OnInit {
   ngOnInit(){
-    setTimeout(() => {
-      if (window.innerWidth >= 810) {
-        this._startWebAnimation();
-      } else {
-        this._startMobAnimation();
-      }
-    }, 777);
+    if (window.innerWidth >= 810) {
+      this._startWebAnimation();
+    } else {
+      this._startMobAnimation();
+    }
   }
   ngOnDestroy() {
     clearInterval(this._webInterval)
