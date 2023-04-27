@@ -1,4 +1,12 @@
 
+.menubar .navigation {
+  color: $gray-font;
+}
+
+.bluefont {
+  color: $blue-font;
+}
+
 .menubar {
   .mobileNavigation {
     z-index: 3;
@@ -17,10 +25,10 @@
   }
 
   #burgerdisplay {
-    background-color: #f8f8f8;
+    background-color: $greybackground;
     height: 100vh;
-    font-family: Exo;
-    color: #707070;
+    font-family: $mainfont;
+    color: $gray-font;
     text-align: center;
     font-size: 1.5rem;
     padding-top: 4rem;
@@ -33,7 +41,7 @@
       position: relative;
 
       &.top {
-        background-color: #FFF;
+        background-color: $mainbackground;
       }
 
       &.bottom {
@@ -41,7 +49,7 @@
           color: $blue-font;
           font-weight: bold;
           &:hover {
-            background-color: #fff;
+            background-color: $mainbackground;
           }
           &:first-child {
             font-weight: normal;
@@ -54,7 +62,7 @@
         height: 4rem;
         line-height: 4rem;
         &:hover {
-          background-color: #f8f8f8;
+          background-color: $greybackground;
           cursor: pointer;
         }
       }

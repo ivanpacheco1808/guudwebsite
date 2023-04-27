@@ -1,4 +1,4 @@
-<nav class="burguermenu">
+<div class="burguermenu">
   <input type="checkbox" id="burgerstatus" style="display: none;" [(ngModel)]="_menuOpened">
   <label class="mobileNavigation" for="burgerstatus">
     <img alt="menu" class="burgertoggler" id="openburger" src="assets/logos_icons/menu.webp" width="30" height="20">
@@ -19,4 +19,4 @@
       <li [routerLink]="'/supplier'" (click)="_menuOpened=false;" i18n>Supplier</li>
     </ul>
   </div>
-</nav>
+</div>

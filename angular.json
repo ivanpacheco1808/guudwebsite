@@ -36,15 +36,12 @@
               "src/routes.json"
             ],
             "styles": [
+              "src/assets/guudstyles/icomoon.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/styles/style.css",
               "src/styles.scss",
-              "src/assets/styles/mobile.scss"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/jsonpack/main.js"
+              "./node_modules/jquery/dist/jquery.min.js"
             ]
           },
           "configurations": {

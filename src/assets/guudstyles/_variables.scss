@@ -1,10 +1,31 @@
 $mainfont: Exo;
+$secondaryfont: Verveine;
 $gray-font: #707070;
 $blue-font: #1b4544;
-
+$shadowcolor: #d4d4d4;
 $mainbackground: #fff;
+$greybackground: #f8f8f8;
 $contrastbackground: #68e242;
 
 $animationtime: .77s;
 $animationtimeslow: 1.77s;
 $inputtransition: 0.13s;
+
+
+/*GRIIIID*/
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 910px,
+  lg: 1333px,
+  xl: 1666px,
+  xxl: 1900px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 850px,
+  lg: 1290px,
+  xl: 1580px,
+  xxl: 1610px
+);
+@import "../../../node_modules/bootstrap/scss/bootstrap";
