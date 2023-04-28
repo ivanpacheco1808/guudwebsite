@@ -1,17 +1,19 @@
-* {
+/*
+*/
+/*.webdisplay * {
   transition: all $animationtime ease-out;
   -webkit-transition: all $animationtime ease-out;
   -moz-transition: all $animationtime ease-out;
   -ms-transition: all $animationtime ease-out;
   -o-transition: all $animationtime ease-out;
-}
+}*/
 
 .animation {
-  transition: all $animationtimeslow ease-out;
-  -webkit-transition: all $animationtimeslow ease-out;
-  -moz-transition: all $animationtimeslow ease-out;
-  -ms-transition: all $animationtimeslow ease-out;
-  -o-transition: all $animationtimeslow ease-out;
+  transition: all $animationtime ease-out;
+  -webkit-transition: all $animationtime ease-out;
+  -moz-transition: all $animationtime ease-out;
+  -ms-transition: all $animationtime ease-out;
+  -o-transition: all $animationtime ease-out;
 }
 
 .labeledinput *,
