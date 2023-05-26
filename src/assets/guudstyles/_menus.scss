@@ -26,13 +26,12 @@
 
   #burgerdisplay {
     background-color: $greybackground;
-    height: 100vh;
     font-family: $mainfont;
     color: $gray-font;
     text-align: center;
     font-size: 1.5rem;
     padding-top: 4rem;
-    position: relative;
+    position: absolute;
     display: none;
 
     ul {
@@ -91,6 +90,8 @@
     z-index: 2;
     opacity: 1;
     display: block;
-    overflow: scroll;
+    overflow: auto;
+    width: 77vw;
+    right: 0;
   }
 }

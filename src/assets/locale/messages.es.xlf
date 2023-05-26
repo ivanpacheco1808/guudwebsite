@@ -2,118 +2,12 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
-      <trans-unit id="8530876825895907336" datatype="html">
-        <source>assets/logotipo.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5583476985851790177" datatype="html">
-        <source>GUUD</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2501489806101473286" datatype="html">
-        <source>About us</source>
-        <target>Sobre nosotros</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">8</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
-          <context context-type="linenumber">11</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">5</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="186236568870281953" datatype="html">
-        <source>History</source>
-        <target>Historia</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">6</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8573264472238970365" datatype="html">
-        <source>Purpose</source>
-        <target>Propósito</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8848409268805415480" datatype="html">
-        <source>Stories</source>
-        <target>Historias</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5791854810844500962" datatype="html">
-        <source>Caring &amp; giving</source>
-        <target>Cuidar y Dar</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4320350416440937644" datatype="html">
-        <source>Sustainability</source>
-        <target>Sostenibilidad</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">15</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">9</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="551692525450936744" datatype="html">
-        <source>Follow us!</source>
-        <target>¡Síguenos!</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="5033376682160766085" datatype="html">
         <source>All rights reserved</source>
         <target>Todos los derechos reservados</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/footer/footer.component.html</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1480214864546334131" datatype="html">
@@ -127,10 +21,6 @@
           <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
       </trans-unit>
       <trans-unit id="5809699106939694832" datatype="html">
         <source>First Name*</source>
@@ -141,7 +31,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
-          <context context-type="linenumber">11</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="763304494186424543" datatype="html">
@@ -157,7 +51,7 @@
         <target>Consejos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5815398842801469550" datatype="html">
@@ -165,7 +59,7 @@
         <target>Ejercicios</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3552571322480872994" datatype="html">
@@ -173,7 +67,7 @@
         <target>Especialidad</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3080109816219994129" datatype="html">
@@ -181,7 +75,7 @@
         <target>Instagram</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">39</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7539372158573018213" datatype="html">
@@ -189,7 +83,7 @@
         <target>Tiktok</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">45</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1754295593782962402" datatype="html">
@@ -197,7 +91,7 @@
         <target>Especifica una red social...</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4768749765465246664" datatype="html">
@@ -205,11 +99,15 @@
         <target>Correo Electrónico</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">54</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">42</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8693864475091607798" datatype="html">
@@ -217,11 +115,15 @@
         <target>Teléfono*</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">60</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6490688569532630280" datatype="html">
@@ -229,11 +131,15 @@
         <target>Enviar</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/becoach/becoach.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">66</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
           <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3710102540025495957" datatype="html">
@@ -255,9 +161,13 @@
           <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
           <context context-type="linenumber">19</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="8792577222497694108" datatype="html">
+        <source>We offer the best in the world! Tell us in less than a minute why your product is the best.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(You can send all the videos you want)</source>
+        <target>¡Ofrecemos lo mejor del mundo! Cuéntanos en menos de un minuto por qué tu producto es el mejor.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(Puedes enviar todos los videos que quieras)</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
+          <context context-type="linenumber">5</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4407559560004943843" datatype="html">
@@ -265,7 +175,11 @@
         <target>Apellido</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
-          <context context-type="linenumber">17</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="511174221381964180" datatype="html">
@@ -273,7 +187,7 @@
         <target>Producto*</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4995289447958793992" datatype="html">
@@ -289,11 +203,43 @@
         <target>Nuevo Prospecto Proveedor</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/formularios/besupplier/besupplier.component.ts</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.ts</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7241261315972860596" datatype="html">
-        <source>assets/svg/mainview/Frase-9.svg</source>
+      <trans-unit id="1733032782702468487" datatype="html">
+        <source>Ideas</source>
+        <target>Ideas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2864657217813208351" datatype="html">
+        <source>Tell us the idea you have in a video less than a minute<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(You can send all the videos you want)</source>
+        <target>Cuéntanos la idea que tienes en un vídeo de menos de un minuto<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>(Puedes enviar todos los videos que quieras)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9042083077478531894" datatype="html">
+        <source>Video*</source>
+        <target>Video*</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/formularios/guudidea/guudidea.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5289357626768082743" datatype="html">
+        <source>assets/phrases/flechas/Flecha-1.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">5</context>
@@ -324,15 +270,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">13</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
@@ -344,15 +290,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">20</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">21</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
@@ -364,11 +314,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">25</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
@@ -376,11 +326,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">29</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">29</context>
+          <context context-type="linenumber">30</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
@@ -392,11 +342,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">35</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
@@ -406,351 +356,187 @@
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">37</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">47</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">49</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">53</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">55</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">58</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">61</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">62</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">64</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="4844391095411854251" datatype="html">
-        <source>assets/svg/mainview/Frase-13.svg</source>
+      <trans-unit id="3461717869327573144" datatype="html">
+        <source>assets/phrases/flechas/Flecha-2.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="942169203109589952" datatype="html">
-        <source>assets/svg/mainview/flechas/Flecha-1.svg</source>
+      <trans-unit id="4187053830914503224" datatype="html">
+        <source>assets/phrases/flechas/Flecha-3.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6218537397764696511" datatype="html">
-        <source>assets/svg/mainview/flechas/Flecha-2.svg</source>
+      <trans-unit id="5082170882334285540" datatype="html">
+        <source>assets/phrases/flechas/Flecha-4.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">8</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3958066500631742510" datatype="html">
-        <source>assets/svg/mainview/flechas/Flecha-3.svg</source>
+      <trans-unit id="8689889190278811342" datatype="html">
+        <source>assets/phrases/flechas/Flecha-5.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4950278363747867337" datatype="html">
-        <source>assets/svg/mainview/flechas/Flecha-4.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">10</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7718142430433648614" datatype="html">
-        <source>assets/svg/mainview/flechas/Flecha-5.svg</source>
+      <trans-unit id="1665301500191211568" datatype="html">
+        <source>assets/phrases/Frase-1.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6779210433548209480" datatype="html">
-        <source>assets/svg/mainview/Frase-1.svg</source>
+      <trans-unit id="2936321707782144441" datatype="html">
+        <source>assets/phrases/Frase-10.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5439678229303311947" datatype="html">
-        <source>assets/svg/mainview/Frase-15.svg</source>
+      <trans-unit id="3176116276173350520" datatype="html">
+        <source>assets/phrases/Frase-17.webp</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5692292029491881635" datatype="html">
+        <source>assets/phrases/Frase-2.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">15</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="7131690239112536399" datatype="html">
-        <source>assets/svg/mainview/Frase-8.svg</source>
+      <trans-unit id="6607719713153110051" datatype="html">
+        <source>assets/phrases/Frase-9.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">16</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="4766055410338876879" datatype="html">
+        <source>assets/phrases/Frase-11.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2435350069290886515" datatype="html">
-        <source>assets/svg/mainview/Frase-2.svg</source>
+      <trans-unit id="8989481301660906693" datatype="html">
+        <source>assets/phrases/Frase-19.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">18</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">51</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="4961182429194848098" datatype="html">
-        <source>assets/svg/mainview/Frase-17.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="63692986974712274" datatype="html">
-        <source>assets/svg/mainview/Frase-20.svg</source>
+      <trans-unit id="1152874281696420564" datatype="html">
+        <source>assets/phrases/Frase-6.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">20</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="179037067222076956" datatype="html">
+        <source>assets/phrases/Frase-12.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="455644397800023995" datatype="html">
-        <source>assets/svg/mainview/Frase-10.svg</source>
+      <trans-unit id="8103282962252027638" datatype="html">
+        <source>assets/phrases/Frase-13.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">22</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">55</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="8723544511505681781" datatype="html">
-        <source>assets/svg/mainview/Frase-11.svg</source>
+      <trans-unit id="1980210741987582789" datatype="html">
+        <source>assets/phrases/Frase-20.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">23</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="6517516038481710574" datatype="html">
-        <source>assets/svg/mainview/Frase-18.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5845843387809298254" datatype="html">
-        <source>assets/svg/mainview/Frase-6.svg</source>
+      <trans-unit id="7867054092283829245" datatype="html">
+        <source>assets/phrases/Frase-4.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">25</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="5581761235858516817" datatype="html">
+        <source>assets/phrases/Frase-8.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5838087156659482123" datatype="html">
-        <source>assets/svg/mainview/Frase-4.svg</source>
+      <trans-unit id="7668385646909812159" datatype="html">
+        <source>assets/phrases/Frase-18.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">27</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="6851295351481712101" datatype="html">
-        <source>assets/svg/mainview/Frase-16.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">28</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">61</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7901839056033828411" datatype="html">
-        <source>assets/svg/mainview/Frase-22.svg</source>
+      <trans-unit id="7018656123385233334" datatype="html">
+        <source>assets/phrases/Frase-5.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">29</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="7815262213324644855" datatype="html">
+        <source>assets/phrases/Frase-7.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">62</context>
+          <context context-type="linenumber">30</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7437183420894169882" datatype="html">
-        <source>assets/svg/mainview/Frase-5.svg</source>
+      <trans-unit id="1167236226746184427" datatype="html">
+        <source>assets/phrases/Frase-14.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">64</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="7268833916285345573" datatype="html">
-        <source>assets/svg/mainview/Frase-12.svg</source>
+      <trans-unit id="4768831016019941036" datatype="html">
+        <source>assets/phrases/Frase-16.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">32</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">65</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="8694644566779039977" datatype="html">
-        <source>assets/svg/mainview/Frase-14.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">33</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1799990949438169630" datatype="html">
-        <source>assets/svg/mainview/Frase-7.svg</source>
+      <trans-unit id="6676256092590432390" datatype="html">
+        <source>assets/phrases/Frase-22.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="3916874654330616962" datatype="html">
+        <source>assets/phrases/Frase-3.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6735168752798904224" datatype="html">
-        <source>assets/svg/mainview/Frase-19.svg</source>
+      <trans-unit id="1439693408670898987" datatype="html">
+        <source>assets/phrases/Frase-15.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">69</context>
-        </context-group>
       </trans-unit>
-      <trans-unit id="3075613910645078692" datatype="html">
-        <source>assets/svg/mainview/Frase-21.svg</source>
+      <trans-unit id="3846130453444255309" datatype="html">
+        <source>assets/phrases/Frase-21.webp</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
           <context context-type="linenumber">37</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4246273349313024474" datatype="html">
-        <source>assets/svg/mainview/Frase-3.svg</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">38</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/individuales/imageplacer/imageplacer.component.html</context>
-          <context context-type="linenumber">71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
@@ -761,16 +547,28 @@
           <context context-type="linenumber">10</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1520197119784631371" datatype="html">
-        <source>Want to be...</source>
-        <target>Quiero ser...</target>
+      <trans-unit id="2501489806101473286" datatype="html">
+        <source>About us</source>
+        <target>Sobre nosotros</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
-          <context context-type="linenumber">17</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="186236568870281953" datatype="html">
+        <source>History</source>
+        <target>Historia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5791854810844500962" datatype="html">
+        <source>Caring &amp; giving</source>
+        <target>Cuidar y Dar</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5190825892106392539" datatype="html">
@@ -789,12 +587,75 @@
           <context context-type="linenumber">9</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="8143411353022445233" datatype="html">
+        <source>assets/logos_icons/logo-Guud.webp</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="4550958265168690830" datatype="html">
         <source>Logo</source>
         <target>Logo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
           <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2873410947125282304" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>About us<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Sobre nosotros<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5178713063512120892" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>History<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Historia<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4661121284484066753" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Caring &amp; giving<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Cuidar y dar<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1302364633697082930" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Ideas<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Ideas<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7516884373294564287" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Supplier<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Proveedor<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1849625587275212640" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Coach<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+        <target><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Coach<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="551692525450936744" datatype="html">
+        <source>Follow us!</source>
+        <target>¡Siguenos!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/guudcomponents/menu/topbar/topbar.component.html</context>
+          <context context-type="linenumber">15</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3248457667058624201" datatype="html">
@@ -829,68 +690,92 @@
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2747957744712599303" datatype="html">
-        <source>Registered Data</source>
-        <target>Información Registrada</target>
+      <trans-unit id="2094648057392432444" datatype="html">
+        <source>your serial number: <x id="INTERPOLATION" equiv-text="{{_controller.data}}"/></source>
+        <target>tu numero de serie: <x id="INTERPOLATION" equiv-text="{{_controller.data}}"/></target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/services/guudapi.service.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
+          <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7367250938421424000" datatype="html">
-        <source>We are good people, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> who wants the best of you!</source>
-        <target>Somos buenas personas, <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> que quieren lo mejor de ti!</target>
+      <trans-unit id="8679806927601731663" datatype="html">
+        <source>Try Again</source>
+        <target>Intentar de Nuevo</target>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">5</context>
+          <context context-type="sourcefile">src/app/guudcomponents/modales/modales.component.html</context>
+          <context context-type="linenumber">23</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7691425909543839808" datatype="html">
-        <source>Our purpose is create wellness and happiness around the world!</source>
-        <target>Nuestro propósito es crear bienestar y felicidad en todo el mundo!</target>
+      <trans-unit id="4431294439713861303" datatype="html">
+        <source>We are GUUD people,</source>
+        <target>Somos personas GUUD,</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
           <context context-type="linenumber">6</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5057249091908843500" datatype="html">
+        <source>gathering the best knowledge for human well-being.</source>
+        <target>reuniendo el mejor conocimiento para el bienestar humano.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1694980915489800387" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;inputdeco&quot; src=&quot;assets/logos_icons/Arrow.webp&quot; alt=&quot;clip&quot; width=&quot;60&quot; height=&quot;60&quot;&gt;"/> The secrets of your future are hidden in your daily habits.</source>
+        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img class=&quot;inputdeco&quot; src=&quot;assets/logos_icons/Arrow.webp&quot; alt=&quot;clip&quot; width=&quot;60&quot; height=&quot;60&quot;&gt;"/> Los secretos de tu futuro se esconden en tus hábitos diarios.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1004247096240868490" datatype="html">
+        <source>0ur purpose: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> is create wellness and happiness around the world!</source>
+        <target>nuestro propósito: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> es crear bienestar y felicidad en todo el mundo!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="2971316998418073123" datatype="html">
         <source>Mission:</source>
-        <target>Misión</target>
+        <target>Misión:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">16</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5728585961541593303" datatype="html">
-        <source>Hack brains and shape bodies</source>
-        <target>Hackear cerebros y moldear cuerpos</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1998701498721230464" datatype="html">
-        <source>Vision:</source>
-        <target>Visión</target>
+      <trans-unit id="149091631516662651" datatype="html">
+        <source>Hack your brain + shape your body</source>
+        <target>Hackea tu cerebro + moldea tu cuerpo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
           <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1666713188313269496" datatype="html">
-        <source>Find the Guud in YOU. Let&apos;s Go!</source>
-        <target>Encuentra lo "GUUD" en TI. ¡Vamos!</target>
+      <trans-unit id="1998701498721230464" datatype="html">
+        <source>Vision:</source>
+        <target>Visión:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">18</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4594349059300410433" datatype="html">
+        <source>Let&apos;s find the Guud in YOU. Let&apos;s Go!</source>
+        <target>Encontremos el GUUD en TI. ¡Vamos!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
+          <context context-type="linenumber">22</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8528601159696486061" datatype="html">
         <source>Core values:</source>
-        <target>Valores fundamentales</target>
+        <target>Valores fundamentales:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">22</context>
+          <context context-type="linenumber">26</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1612280893791414883" datatype="html">
@@ -898,15 +783,63 @@
         <target>Pasión, Innovación y Diversión</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">23</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3921250092965777142" datatype="html">
-        <source> P.S Be Good! </source>
-        <target> P.S Be Good! </target>
+      <trans-unit id="5308924136828984494" datatype="html">
+        <source> Ps: be GUUD! </source>
+        <target> Pd: se GUUD! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
-          <context context-type="linenumber">28,30</context>
+          <context context-type="linenumber">32,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9137226989803793085" datatype="html">
+        <source>We believe that in-order to create a GUUD world,</source>
+        <target>Creemos que para crear un mundo GUUD,</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/caring/caring.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4311636369597077059" datatype="html">
+        <source>the first step is helping educate and form GUUD human beings</source>
+        <target>el primer paso es ayudar a educar y formar seres humanos GUUD</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/caring/caring.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5306352130757521250" datatype="html">
+        <source>Our main focus is to help an organization that is devoted in the well-being of people.</source>
+        <target>Nuestro enfoque principal es ayudar a una organización que se dedica al bienestar de las personas.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/caring/caring.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4867551992419556951" datatype="html">
+        <source>GUUD <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Sustainability</source>
+        <target>GUUD <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/>Sostenibilidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/sustainability/sustainability.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7691425909543839808" datatype="html">
+        <source>0ur purpose is create wellness and happiness around the world!</source>
+        <target>¡Nuestro propósito es crear bienestar y felicidad en todo el mundo!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/sustainability/sustainability.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7024944753833518226" datatype="html">
+        <source> P.S Be GUUD! </source>
+        <target> P.D Se GUUD! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/sustainability/sustainability.component.html</context>
+          <context context-type="linenumber">19,21</context>
         </context-group>
       </trans-unit>
     </body>

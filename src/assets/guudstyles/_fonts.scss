@@ -1,9 +1,9 @@
 h1 {
   font-family: $secondaryfont;
   color: $gray-font;
-  font-size: 7rem;
+  font-size: 5rem;
   text-align: center;
-  line-height: 6rem;
+  line-height: 5rem;
 }
 
 h2 {
@@ -24,8 +24,8 @@ h4 {
   color: $gray-font;
   text-align: center;
   margin-top: 1.9rem;
-  font: normal normal normal 18px/22px $mainfont;
-  font-size: 1.77rem;
+  font: normal normal normal 18px/22px $secondaryfont;
+  font-size: 2.57rem;
 }
 
 h5 {
@@ -34,6 +34,7 @@ h5 {
   margin-top: 1.9rem;
   font: normal normal normal 18px/22px $mainfont;
   font-size: 1.57rem;
+  line-height: 2.6rem;
 }
 
 h6 {
@@ -43,6 +44,14 @@ h6 {
   text-align: center;
 }
 
+.h7 {
+  color: $blue-font;
+}
+
+.caringdisplay {
+  color: #ddd;
+  font: normal normal normal 18px/22px $secondaryfont;
+}
 @media (max-width: 910px) {
   h1 {
     font-size: 13vw;
@@ -53,7 +62,7 @@ h6 {
   }
 
   h4 {
-    font-size: 5vw;
+    font-size: 8vw;
   }
 
   h5 {

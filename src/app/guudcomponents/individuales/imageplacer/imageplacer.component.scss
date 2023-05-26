@@ -2,187 +2,200 @@
   opacity: 1;
 }
 
+$sizeMultiplier: .94;
+
+.webdisplay{
+  [id*="webphrase"],[id*="webarrow"],[alt="GUUD"],[alt="slogan"] {
+    transform: translate(3vw, 0);
+  }
+}
+
 
 img {
   height: unset;
 
   &[alt="GUUD"] {
-    left: 32.8vw;
-    top: 20.1vw;
-    width: 34.5vw;
+    left: calc(32.8vw * $sizeMultiplier);
+    top: calc(20.1vw * $sizeMultiplier);
+    width: calc(34.5vw * $sizeMultiplier);
   }
 
   &[alt="slogan"] {
-    left: 39.7vw;
-    top: 27.8vw;
-    width: 20.4vw;
+    left: calc(39.7vw * $sizeMultiplier);
+    top: calc(27.8vw * $sizeMultiplier);
+    width: calc(20.4vw * $sizeMultiplier);
   }
 
   &[id="webphrase9"] {
-    left: 50vw;
-    top: 31.9vw;
-    width: 11vw;
+    left: calc(50vw * $sizeMultiplier);
+    top: calc(31.9vw * $sizeMultiplier);
+    width: calc(11vw * $sizeMultiplier);
   }
 
   &[id="webphrase13"] {
-    left: 80.6vw;
-    top: 36.8vw;
-    width: 14.7vw;
+    left: calc(80.6vw * $sizeMultiplier);
+    top: calc(36.8vw * $sizeMultiplier);
+    width: calc(14.7vw * $sizeMultiplier);
   }
 
   &[id="webarrow1"] {
-    left: 2.4vw;
-    top: 33.6vw;
-    width: 8.9vw;
+    left: calc(2.4vw * $sizeMultiplier);
+    top: calc(33.6vw * $sizeMultiplier);
+    width: calc(8.9vw * $sizeMultiplier);
   }
 
   &[id="webarrow2"] {
-    left: 27vw;
-    top: 42vw;
-    width: 8.6vw;
+    left: calc(27vw * $sizeMultiplier);
+    top: calc(42vw * $sizeMultiplier);
+    width: calc(8.6vw * $sizeMultiplier);
   }
 
   &[id="webarrow3"] {
-    left: 66.6vw;
-    top: 42.4vw;
-    width: 8vw;
+    left: calc(66.6vw * $sizeMultiplier);
+    top: calc(42.4vw * $sizeMultiplier);
+    width: calc(8vw * $sizeMultiplier);
   }
 
   &[id="webarrow4"] {
-    left: 94.9vw;
-    top: 22.3vw;
-    width: 3.4vw;
+    left: calc(94.9vw * $sizeMultiplier);
+    top: calc(22.3vw * $sizeMultiplier);
+    width: calc(3.4vw * $sizeMultiplier);
   }
 
   &[id="webarrow5"] {
-    left: 70.4vw;
-    top: 10.8vw;
-    width: 9.2vw;
+    left: calc(70.4vw * $sizeMultiplier);
+    top: calc(10.8vw * $sizeMultiplier);
+    width: calc(9.2vw * $sizeMultiplier);
   }
 
   &[id="webphrase1"] {
-    left: 7vw;
-    top: 5vw;
-    width: 17.2vw;
+    left: calc(7vw * $sizeMultiplier);
+    top: calc(5vw * $sizeMultiplier);
+    width: calc(17.2vw * $sizeMultiplier);
   }
 
   &[id="webphrase15"] {
-    left: 77.5vw;
-    top: 18.8vw;
-    width: 10.6vw;
+    left: calc(77.5vw * $sizeMultiplier);
+    top: calc(18.8vw * $sizeMultiplier);
+    width: calc(10.6vw * $sizeMultiplier);
   }
 
   &[id="webphrase8"] {
-    left: 16.2vw;
-    top: 26.2vw;
-    width: 9vw;
+    left: calc(16.2vw * $sizeMultiplier);
+    top: calc(26.2vw * $sizeMultiplier);
+    width: calc(9vw * $sizeMultiplier);
   }
 
   &[id="webphrase2"] {
-    left: 1.6vw;
-    top: 10.6vw;
-    width: 10.3vw;
+    left: calc(1.6vw * $sizeMultiplier);
+    top: calc(10.6vw * $sizeMultiplier);
+    width: calc(10.3vw * $sizeMultiplier);
   }
 
   &[id="webphrase17"] {
-    left: 76vw;
-    top: 12.6vw;
-    width: 8.5vw;
+    left: calc(76vw * $sizeMultiplier);
+    top: calc(12.6vw * $sizeMultiplier);
+    width: calc(8.5vw * $sizeMultiplier);
   }
 
   &[id="webphrase20"] {
-    left: 57.6vw;
-    top: 11.2vw;
-    width: 11.8vw;
+    left: calc(57.6vw * $sizeMultiplier);
+    top: calc(11.2vw * $sizeMultiplier);
+    width: calc(11.8vw * $sizeMultiplier);
   }
 
   &[id="webphrase10"] {
-    left: 47.4vw;
-    top: 40vw;
-    width: 14vw;
+    left: calc(47.4vw * $sizeMultiplier);
+    top: calc(40vw * $sizeMultiplier);
+    width: calc(14vw * $sizeMultiplier);
   }
 
   &[id="webphrase11"] {
-    left: 65.4vw;
-    top: 31.2vw;
-    width: 11.6vw;
+    left: calc(65.4vw * $sizeMultiplier);
+    top: calc(31.2vw * $sizeMultiplier);
+    width: calc(11.6vw * $sizeMultiplier);
   }
 
   &[id="webphrase18"] {
-    left: 83.2vw;
-    top: 5.2vw;
-    width: 14.4vw;
+    left: calc(83.2vw * $sizeMultiplier);
+    top: calc(5.2vw * $sizeMultiplier);
+    width: calc(14.4vw * $sizeMultiplier);
   }
 
   &[id="webphrase6"] {
-    left: 2.8vw;
-    top: 25.7vw;
-    width: 9.7vw;
+    left: calc(2.8vw * $sizeMultiplier);
+    top: calc(25.7vw * $sizeMultiplier);
+    width: calc(9.7vw * $sizeMultiplier);
   }
 
   &[id="webphrase4"] {
-    left: 22.6vw;
-    top: 5vw;
-    width: 16vw;
+    left: calc(22.6vw * $sizeMultiplier);
+    top: calc(5vw * $sizeMultiplier);
+    width: calc(16vw * $sizeMultiplier);
   }
 
   &[id="webphrase16"] {
-    left: 89.8vw;
-    top: 13vw;
-    width: 9vw;
+    left: calc(89.8vw * $sizeMultiplier);
+    top: calc(13vw * $sizeMultiplier);
+    width: calc(9vw * $sizeMultiplier);
   }
 
   &[id="webphrase0"] {
-    left: 31.8vw;
-    top: 34.4vw;
-    width: 12.4vw;
+    left: calc(31.8vw * $sizeMultiplier);
+    top: calc(34.4vw * $sizeMultiplier);
+    width: calc(12.4vw * $sizeMultiplier);
   }
 
   &[id="webphrase5"] {
-    left: 36.4vw;
-    top: 5.4vw;
-    width: 19.6vw;
+    left: calc(36.4vw * $sizeMultiplier);
+    top: calc(5.4vw * $sizeMultiplier);
+    width: calc(19.6vw * $sizeMultiplier);
   }
 
   &[id="webphrase12"] {
-    left: 79.4vw;
-    top: 41.6vw;
-    width: 17.2vw;
+    left: calc(79.4vw * $sizeMultiplier);
+    top: calc(41.6vw * $sizeMultiplier);
+    width: calc(17.2vw * $sizeMultiplier);
   }
 
   &[id="webphrase14"] {
-    left: 81vw;
-    top: 28.1vw;
-    width: 16.6vw;
+    left: calc(81vw * $sizeMultiplier);
+    top: calc(28.1vw * $sizeMultiplier);
+    width: calc(16.6vw * $sizeMultiplier);
   }
 
   &[id="webphrase7"] {
-    left: 0.9vw;
-    top: 35.9vw;
-    width: 26.8vw;
+    left: calc(0.9vw * $sizeMultiplier);
+    top: calc(35.9vw * $sizeMultiplier);
+    width: calc(26.8vw * $sizeMultiplier);
   }
 
   &[id="webphrase19"] {
-    left: 66vw;
-    top: 5.2vw;
-    width: 9.8vw;
+    left: calc(66vw * $sizeMultiplier);
+    top: calc(5.2vw * $sizeMultiplier);
+    width: calc(9.8vw * $sizeMultiplier);
   }
 
   &[id="webphrase21"] {
-    left: 57.5vw;
-    top: 4.9vw;
-    width: 4.4vw;
+    left: calc(57.5vw * $sizeMultiplier);
+    top: calc(4.9vw * $sizeMultiplier);
+    width: calc(4.4vw * $sizeMultiplier);
   }
 
   &[id="webphrase3"] {
-    left: 12.9vw;
-    top: 14.8vw;
-    width: 10vw;
+    left: calc(12.9vw * $sizeMultiplier);
+    top: calc(14.8vw * $sizeMultiplier);
+    width: calc(10vw * $sizeMultiplier);
   }
 }
 
 
 @media (max-width: 810px) {
+  .webdisplay{
+    [id*="webphrase"],[id*="webarrow"],[alt="GUUD"],[alt="slogan"] {
+      transform: translate(3vw, 5vh);
+    }
+  }
 
   img {
     height: unset;
@@ -191,15 +204,15 @@ img {
     }
 
     &[alt="GUUD"] {
-      left: 4.8vw;
-      top: 86.6vw;
-      width: 91vw;
+      left: calc(4.8vw * $sizeMultiplier);
+      top: calc(86.6vw * $sizeMultiplier);
+      width: calc(91vw * $sizeMultiplier);
     }
 
     &[alt="slogan"] {
-      left: 8vw;
-      top: 107vw;
-      width: 84vw;
+      left: calc(8vw * $sizeMultiplier);
+      top: calc(107vw * $sizeMultiplier);
+      width: calc(84vw * $sizeMultiplier);
     }
 
     &[id="webarrow1"],&[id="webarrow2"],&[id="webarrow3"],&[id="webarrow4"],&[id="webarrow5"]{
@@ -207,135 +220,135 @@ img {
     }
 
     &[id="webphrase9"] {
-      left: 55vw;
-      top: 42vw;
-      width: 41vw;
+      left: calc(55vw * $sizeMultiplier);
+      top: calc(42vw * $sizeMultiplier);
+      width: calc(41vw * $sizeMultiplier);
     }
 
     &[id="webphrase13"] {
-      left: 9vw;
-      top: 66vw;
-      width: 55vw;
+      left: calc(9vw * $sizeMultiplier);
+      top: calc(66vw * $sizeMultiplier);
+      width: calc(55vw * $sizeMultiplier);
     }
 
     &[id="webphrase1"] {
-      left: 8vw;
-      top: 25vw;
-      width: 52vw;
+      left: calc(8vw * $sizeMultiplier);
+      top: calc(25vw * $sizeMultiplier);
+      width: calc(52vw * $sizeMultiplier);
     }
 
     &[id="webphrase15"] {
-      left: 57vw;
-      top: 117vw;
-      width: 32vw;
+      left: calc(57vw * $sizeMultiplier);
+      top: calc(117vw * $sizeMultiplier);
+      width: calc(32vw * $sizeMultiplier);
     }
 
     &[id="webphrase8"] {
-      left: 8vw;
-      top: 122vw;
-      width: 30vw;
+      left: calc(8vw * $sizeMultiplier);
+      top: calc(122vw * $sizeMultiplier);
+      width: calc(30vw * $sizeMultiplier);
     }
 
     &[id="webphrase2"] {
-      left: 63vw;
-      top: 26vw;
-      width: 31vw;
+      left: calc(63vw * $sizeMultiplier);
+      top: calc(26vw * $sizeMultiplier);
+      width: calc(31vw * $sizeMultiplier);
     }
 
     &[id="webphrase17"] {
-      left: 11.5vw;
-      top: 26vw;
-      width: 44vw;
+      left: calc(11.5vw * $sizeMultiplier);
+      top: calc(26vw * $sizeMultiplier);
+      width: calc(44vw * $sizeMultiplier);
     }
 
     &[id="webphrase20"] {
-      left: 10vw;
-      top: 63vw;
-      width: 45vw;
+      left: calc(10vw * $sizeMultiplier);
+      top: calc(63vw * $sizeMultiplier);
+      width: calc(45vw * $sizeMultiplier);
     }
 
     &[id="webphrase10"] {
-      left: 7vw;
-      top: 26vw;
-      width: 52vw;
+      left: calc(7vw * $sizeMultiplier);
+      top: calc(26vw * $sizeMultiplier);
+      width: calc(52vw * $sizeMultiplier);
     }
 
     &[id="webphrase11"] {
-      left: 60vw;
-      top: 33vw;
-      width: 35vw;
+      left: calc(60vw * $sizeMultiplier);
+      top: calc(33vw * $sizeMultiplier);
+      width: calc(35vw * $sizeMultiplier);
     }
 
     &[id="webphrase18"] {
-      left: 5vw;
-      top: 125vw;
-      width: 46vw;
+      left: calc(5vw * $sizeMultiplier);
+      top: calc(125vw * $sizeMultiplier);
+      width: calc(46vw * $sizeMultiplier);
     }
 
     &[id="webphrase6"] {
-      left: 16.5vw;
-      top: 55vw;
-      width: 27vw;
+      left: calc(16.5vw * $sizeMultiplier);
+      top: calc(55vw * $sizeMultiplier);
+      width: calc(27vw * $sizeMultiplier);
     }
 
     &[id="webphrase4"] {
-      left: 10vw;
-      top: 119vw;
-      width: 38vw;
+      left: calc(10vw * $sizeMultiplier);
+      top: calc(119vw * $sizeMultiplier);
+      width: calc(38vw * $sizeMultiplier);
     }
 
     &[id="webphrase16"] {
-      left: 35vw;
-      top: 151vw;
-      width: 30vw;
+      left: calc(35vw * $sizeMultiplier);
+      top: calc(151vw * $sizeMultiplier);
+      width: calc(30vw * $sizeMultiplier);
     }
 
     &[id="webphrase0"] {
-      left: 54vw;
-      top: 121vw;
-      width: 38vw;
+      left: calc(54vw * $sizeMultiplier);
+      top: calc(121vw * $sizeMultiplier);
+      width: calc(38vw * $sizeMultiplier);
     }
 
     &[id="webphrase5"] {
-      left: 18vw;
-      top: 155vw;
-      width: 64vw;
+      left: calc(18vw * $sizeMultiplier);
+      top: calc(155vw * $sizeMultiplier);
+      width: calc(64vw * $sizeMultiplier);
     }
 
     &[id="webphrase12"] {
-      left: 10vw;
-      top: 67vw;
-      width: 49vw;
+      left: calc(10vw * $sizeMultiplier);
+      top: calc(67vw * $sizeMultiplier);
+      width: calc(49vw * $sizeMultiplier);
     }
 
     &[id="webphrase14"] {
-      left: 17vw;
-      top: 149vw;
-      width: 66vw;
+      left: calc(17vw * $sizeMultiplier);
+      top: calc(149vw * $sizeMultiplier);
+      width: calc(66vw * $sizeMultiplier);
     }
 
     &[id="webphrase7"] {
-      left: 10vw;
-      top: 148vw;
-      width: 83vw;
+      left: calc(10vw * $sizeMultiplier);
+      top: calc(148vw * $sizeMultiplier);
+      width: calc(83vw * $sizeMultiplier);
     }
 
     &[id="webphrase19"] {
-      left: 59.5vw;
-      top: 41vw;
-      width: 30vw;
+      left: calc(59.5vw * $sizeMultiplier);
+      top: calc(41vw * $sizeMultiplier);
+      width: calc(30vw * $sizeMultiplier);
     }
 
     &[id="webphrase21"] {
-      left: 62vw;
-      top: 124vw;
-      width: 17vw;
+      left: calc(62vw * $sizeMultiplier);
+      top: calc(124vw * $sizeMultiplier);
+      width: calc(17vw * $sizeMultiplier);
     }
 
     &[id="webphrase3"] {
-      left: 54vw;
-      top: 119.5vw;
-      width: 34vw;
+      left: calc(54vw * $sizeMultiplier);
+      top: calc(119.5vw * $sizeMultiplier);
+      width: calc(34vw * $sizeMultiplier);
     }
   }
 }

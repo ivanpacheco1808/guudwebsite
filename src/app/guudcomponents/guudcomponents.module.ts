@@ -5,14 +5,16 @@ import { FormsModule }   from '@angular/forms';
 
 import { TopbarComponent } from './menu/topbar/topbar.component';
 import { BurguermenuComponent } from './menu/burguermenu/burguermenu.component';
+import { LangmenuComponent } from './menu/langmenu/langmenu.component';
 
+import { ModalesComponent } from './modales/modales.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { ImageplacerComponent } from './individuales/imageplacer/imageplacer.component';
+
 import { BeCoachComponent } from './formularios/becoach/becoach.component';
 import { BeSupplierComponent } from './formularios/besupplier/besupplier.component';
-import { LangmenuComponent } from './menu/langmenu/langmenu.component';
-import { ModalesComponent } from './modales/modales.component';
+import { GuudideaComponent } from './formularios/guudidea/guudidea.component';
 
 
 @NgModule({
@@ -27,6 +29,7 @@ import { ModalesComponent } from './modales/modales.component';
     BeCoachComponent,
     BeSupplierComponent,
     LangmenuComponent,
+    GuudideaComponent,
   ],
   exports: [
     TopbarComponent,
@@ -39,6 +42,7 @@ import { ModalesComponent } from './modales/modales.component';
     BeCoachComponent,
     BeSupplierComponent,
     LangmenuComponent,
+    GuudideaComponent,
   ],
   imports: [
     CommonModule,

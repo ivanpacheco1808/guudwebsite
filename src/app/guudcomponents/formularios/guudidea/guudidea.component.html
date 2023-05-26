@@ -1,8 +1,8 @@
 <form class="guudform" #formData="ngForm">
   <div class="row" style="margin-bottom: 2rem;">
-    <div class="col-12">
-      <h2 i18n>Supplier</h2>
-      <div class="h7" style="text-align:center;" i18n>We offer the best in the world! Tell us in less than a minute why your product is the best.<br>(You can send all the videos you want)</div>
+    <div class="col-12 m-auto">
+      <h2 i18n>Ideas</h2>
+      <div class="h7" style="text-align:center;" i18n>Tell us the idea you have in a video less than a minute<br>(You can send all the videos you want)</div>
     </div>
   </div>
   <div class="row">
@@ -21,22 +21,6 @@
   </div>
   <div class="row">
     <div class="col-12 col-sm-6">
-      <label class="labeledinput" [ngClass]="{'active': dataFormat.product}">
-        <input type="text" [(ngModel)]="dataFormat.product" name="product">
-        <span i18n>Product*</span>
-      </label>
-    </div>
-    <div class="col-12 col-sm-6">
-      <label class="labeledinput" [ngClass]="{'active': dataFormat.filename}">
-        <img class="inputdeco" src="assets/logos_icons/Clip.webp" alt="clip" width="36" height="36">
-        <input type="file" (change)="_setfiles($event)" ngModel name="filename" accept="image/*">
-        <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
-        <span i18n>Product Images</span>
-      </label>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.email}">
         <input type="text" [(ngModel)]="dataFormat.email" name="email">
         <span i18n>Email</span>
@@ -49,6 +33,17 @@
       </label>
     </div>
   </div>
+  <div class="row">
+    <div class="col-12">
+      <label class="labeledinput" [ngClass]="{'active': dataFormat.filename}">
+        <img class="inputdeco" src="assets/logos_icons/Clip.webp" alt="clip" width="36" height="36">
+        <input type="file" (change)="_setfiles($event)" ngModel name="filename" accept="video/mp4,video/x-m4v,video/*">
+        <div class="fileinput"><p>{{dataFormat.filename}}</p></div>
+        <span i18n>Video*</span>
+      </label>
+    </div>
+  </div>
+
   <br>
   <div class="row">
     <div class="col-8 m-auto"><button type="button" (click)="_submit(formData.form.value)" [disabled]="_checkvalid()" i18n>Send</button></div>

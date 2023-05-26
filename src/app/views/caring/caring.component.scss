@@ -1,4 +1,70 @@
-
 .display {
-  height: 70vh;
+  //height: 70vh;
+}
+
+.caringdisplay {
+  height: 22rem;
+  margin: 5vh 0;
+
+  [class*="-display"] {
+    display: inline-block;
+
+    img {
+      width: 100%;
+      border: 0.5rem solid #fff;
+      border-radius: 0.3rem;
+    }
+
+    &:hover {
+      span {
+        background-color: #d7d7d799;
+        border-radius: 1rem;
+        color: #707070;
+        box-shadow: 0 0 0.5rem 0.4rem #d7d7d799;
+      }
+    }
+
+    &.left-display {
+      position: relative;
+      left: 2rem;
+      top: 1rem;
+      z-index: 0;
+      transform: rotate(-10deg);
+
+      &:hover {
+        left: 8rem;
+        top: 2rem;
+        z-index: 4;
+        transform: rotate(0deg) scale(1.4);
+      }
+    }
+
+    &.middle-display {
+      position: relative;
+      left: 0;
+      top: 0;
+      z-index: 1;
+
+      &:hover {
+        top: 2rem;
+        z-index: 4;
+        transform: rotate(0deg) scale(1.4);
+      }
+    }
+
+    &.right-display {
+      position: relative;
+      right: 2rem;
+      top: 1rem;
+      z-index: 2;
+      transform: rotate(10deg);
+
+      &:hover {
+        right: 8rem;
+        top: 2rem;
+        z-index: 4;
+        transform: rotate(0deg) scale(1.4);
+      }
+    }
+  }
 }

@@ -18,7 +18,8 @@
 
 .labeledinput *,
 .menubar *,
-.modalframe {
+.modalframe,
+.caringdisplay * {
   transition: all $inputtransition ease-out;
   -webkit-transition: all $inputtransition ease-out;
   -moz-transition: all $inputtransition ease-out;

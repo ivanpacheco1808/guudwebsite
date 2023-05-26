@@ -1,7 +1,9 @@
 .logo {
   position: absolute;
-  top: -0.6rem;
-  left: 23.4%;
+  top: 0rem;
+  left: 18%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .menubar {
@@ -14,19 +16,40 @@
   box-shadow: 0 3px 6px -2px #737373;
 }
 
+
+.socialbar {
+  text-align: center;
+  .bubble {
+   display: inline-block;
+   vertical-align: middle;
+   background-color: #68E242;
+   border-radius: 100%;
+   padding: 0.4rem;
+   margin-right: 0.6rem;
+   color: #fff;
+ }
+}
+
 .navigation {
   list-style: none;
   background-color: #f8f8f8;
   padding: 0;
-  width: 57.2vw;
+  width: 63vw;
   right: 0;
   position: absolute;
+  .activeElement {
+    color: #68E242;
+    font-weight: bold;
+    span {
+      border-bottom: 3px solid #68E242;
+    }
+  }
 }
 
 .navigation li {
   display: inline-block;
   height: 3.5rem;
-  padding: 0.8vw 0.67vw;
+  padding: 1rem 0.8vw;
   font-size: 1rem;
 
   &:hover {

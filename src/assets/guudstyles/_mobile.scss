@@ -15,6 +15,11 @@
     .burguermenu {
       display: block;
     }
+
+  }
+  .displayshadow {
+    height: unset;
+    min-height: 90vh;
   }
 }
 //Hom Specific
@@ -25,7 +30,7 @@
 }
 @media (min-width: 810px) {
   .homearea {
-    height: 52vw;
+    //height: 52vw;
   }
 }
 @media (max-width: 810px) {
@@ -35,7 +40,8 @@
 }
 @media (max-width: 420px) {
   .homearea {
-    height: 113vh;
+    height: unset;
+    min-height: 93vh;
 
     guud-imageplacer img {
       transform: translateY(11vw);
@@ -48,6 +54,34 @@
   }
 }
 @media (max-width: 909px) {
+  .caringdisplay {
+    height: unset !important;
+    [class*="-display"] {
+      margin-bottom: 3rem !important;
+      &.left-display {
+        position: relative;
+        left: 0rem !important;
+        top: 2rem !important;
+        z-index: 0 !important;
+        transform: rotate(0deg) scale(1) !important;
+      }
+      &.middle-display {
+        position: relative;
+        left: 0rem !important;
+        top: 2rem !important;
+        z-index: 0 !important;
+        transform: rotate(0deg) scale(1) !important;
+      }
+      &.right-display {
+        position: relative;
+        right: 0rem !important;
+        top: 2rem !important;
+        z-index: 0 !important;
+        transform: rotate(0deg) scale(1) !important;
+      }
+    }
+  }
+
   input:not([type="checkbox"], [type="radio"]),
   select,
   .fileinput {

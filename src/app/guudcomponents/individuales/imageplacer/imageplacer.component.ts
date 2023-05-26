@@ -89,13 +89,13 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
     $(lastref).addClass(this._fadecolors[randfade]);
     setTimeout(() => {
       $(lastref).removeClass(this._fadecolors[randfade]);
-    }, 3500);
+    }, 1000);
     setTimeout(() => {
       $(lastref).removeClass('ondisplay');
       setTimeout(() => {
         $(nextref).addClass('ondisplay');
       }, 500);
-    }, 4000);
+    }, 1500);
 
     /*
       demo.push(demo[3]);

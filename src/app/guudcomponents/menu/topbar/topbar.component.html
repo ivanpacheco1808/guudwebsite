@@ -1,16 +1,24 @@
 <nav class="menubar">
-  <img [routerLink]="'/'" src="assets/logos_icons/logotipo.webp" width="160" height="80" alt="Logo" class="logo" i18n-alt i18n-src>
+  <img [routerLink]="'/'" src="assets/logos_icons/logo-Guud.webp" width="160" height="80" alt="Logo" class="logo" i18n-alt i18n-src>
 
   <ul class="navigation">
-    <li [routerLink]="'/aboutus'" style="background-color:#fff;" i18n>About us</li>
-    <li [routerLink]="'/history'" style="background-color:#fff;" i18n>History</li>
-    <li style="background-color:#fff;" [routerLink]="'/caring'" i18n>Caring & giving</li>
+    <li  routerLinkActive="activeElement" routerLink="/aboutus" style="background-color:#fff;" i18n><span>About us</span></li>
+    <li  routerLinkActive="activeElement" routerLink="/history" style="background-color:#fff;" i18n><span>History</span></li>
+    <li style="background-color:#fff;"  routerLinkActive="activeElement" routerLink="/caring" i18n><span>Caring & giving</span></li>
     <!--[routerLink]="'/caring'"-->
-    <li style="background-color:#fff;" [routerLink]="'/sustainability'" i18n>Sustainability</li>
+    <li style="background-color:#fff;"  routerLinkActive="activeElement" routerLink="/guudideas" i18n><span>Ideas</span></li>
     <!--[routerLink]="'/sustainability'"-->
-    <li class="bluefont nocursor" i18n>Want to be...</li>
-    <li class="bluefont " [routerLink]="'/supplier'" style="font-weight:bold;" i18n>Supplier</li>
-    <li class="bluefont " [routerLink]="'/coach'" style="font-weight:bold;" i18n>Coach</li>
+    <!--li class="bluefont nocursor" i18n>Want to be...</li-->
+    <li class="bluefont" routerLinkActive="activeElement" routerLink="/supplier" style="font-weight:bold;" i18n><span>Supplier</span></li>
+    <li class="bluefont" routerLinkActive="activeElement" routerLink="/coach" style="font-weight:bold;" i18n><span>Coach</span></li>
+
+    <li style="background-color:#fff;" class="bluefont"><span style="font-size: 0.7rem;font-weight: bold;position: relative;top: -0.1rem;" i18n>Follow us!</span></li>
+    <li style="background-color:#fff;" class="socialbar">
+      <span class="icon-facebook bubble"></span>
+      <span class="icon-instagram bubble"></span>
+      <span class="icon-twitter bubble"></span>
+      <span class="icon-linkedin2 bubble"></span>
+    </li>
   </ul>
 
   <guud-burguermenu></guud-burguermenu>

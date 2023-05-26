@@ -9,6 +9,7 @@ import { CoachComponent } from '@views/coach/coach.component';
 import { HistoryComponent } from '@views/history/history.component';
 import { SupplierComponent } from '@views/supplier/supplier.component';
 import { SustainabilityComponent } from '@views/sustainability/sustainability.component';
+import { GuudideasComponent } from '@views/guudideas/guudideas.component';
 
 const routes: Routes = [
   { path: '', component: MainviewComponent },
@@ -18,7 +19,7 @@ const routes: Routes = [
   { path: 'coach', component: CoachComponent },
   { path: 'history', component: HistoryComponent },
   { path: 'supplier', component: SupplierComponent },
-  { path: 'sustainability', component: SustainabilityComponent },
+  { path: 'guudideas', component: GuudideasComponent },
 
   //{ path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: '**', redirectTo: '' },

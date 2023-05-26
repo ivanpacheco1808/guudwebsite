@@ -10,6 +10,7 @@ import { CoachComponent } from './coach/coach.component';
 import { HistoryComponent } from './history/history.component';
 import { SupplierComponent } from './supplier/supplier.component';
 import { SustainabilityComponent } from './sustainability/sustainability.component';
+import { GuudideasComponent } from './guudideas/guudideas.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { SustainabilityComponent } from './sustainability/sustainability.compone
     HistoryComponent,
     SupplierComponent,
     SustainabilityComponent,
+    GuudideasComponent,
   ],
   exports: [
     MainviewComponent,
@@ -32,6 +34,7 @@ import { SustainabilityComponent } from './sustainability/sustainability.compone
     HistoryComponent,
     SupplierComponent,
     SustainabilityComponent,
+    GuudideasComponent,
   ],
   imports: [
     CommonModule,

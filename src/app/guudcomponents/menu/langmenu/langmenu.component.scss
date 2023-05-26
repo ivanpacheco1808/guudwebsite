@@ -11,6 +11,9 @@
     height: 100%;
     text-align: center;
     opacity: .7;
+    &:hover {
+      cursor: pointer;
+    }
   }
   .langlist {
     display: none;
