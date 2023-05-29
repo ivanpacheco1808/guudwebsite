@@ -21,6 +21,7 @@
     height: unset;
     min-height: 90vh;
   }
+
 }
 //Hom Specific
 @media (min-width: 810px) and (max-width: 1777px) {
@@ -53,7 +54,20 @@
     height: 110vh;
   }
 }
+@media (max-width: 1010px) {
+  guud-footer *{
+    font-size: .8rem !important;
+  }
+  .applist{
+    position: unset !important; 
+  }
+}
 @media (max-width: 909px) {
+
+  guud-footer{
+    text-align: center;
+  }
+
   .caringdisplay {
     height: unset !important;
     [class*="-display"] {
