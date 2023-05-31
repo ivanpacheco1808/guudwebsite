@@ -1,7 +1,11 @@
 .burguermenu {
   display: none;
 }
-
+.navigation{
+  .mobdisplay {
+    display: none;
+  }
+}
 @media (max-width: 830px) {
   .bannermessage{
     font-size: 6.4vw !important;
@@ -19,8 +23,13 @@
       left: 10%;
     }
 
-    .navigation {
-      display: none;
+    .navigation{
+      .mobdisplay {
+        display: block;
+      }
+      .webdisplay {
+        display: none;
+      }
     }
 
     .burguermenu {

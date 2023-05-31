@@ -1,7 +1,7 @@
 .logo {
   position: absolute;
   top: 0rem;
-  left: 2%;
+  left: 2.2rem;
   height: 100%;
   object-fit: contain;
 }
@@ -19,6 +19,7 @@
 
 .socialbar {
   text-align: center;
+  white-space: nowrap;
   .bubble {
    display: inline-block;
    vertical-align: middle;
@@ -33,16 +34,23 @@
 .navigation {
   list-style: none;
   background-color: #f8f8f8;
-  padding: 0;
-  width: 63vw;
-  right: 0;
-  position: absolute;
+  position: relative;
+  text-align: center;
+  height: 6vh;
   .activeElement {
     color: #68E242;
     //font-weight: bold;
     span {
       border-bottom: 3px solid #68E242;
     }
+  }
+  span {
+    position: relative;
+    top: .8rem;
+    white-space: nowrap;
+  }
+  [class*="col-"] {
+    height: 100%;
   }
 }
 
