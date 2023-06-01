@@ -36,11 +36,11 @@
   <div class="row">
     <div class="col-12">
 
-      <div class="dropzone">
+      <div class="dropzone" style="height: 4rem;">
         <img class="inputdeco" src="assets/logos_icons/Clip.webp" alt="clip" width="36" height="36">
         <span *ngIf="dataFormat.filename == ''" i18n>Video Drop Zone*</span>
         <span *ngIf="dataFormat.filename != ''">{{dataFormat.filename}}</span>
-        <input type="file" class="dropzone" (change)="_setfiles($event)" ngModel name="filename" accept="video/mp4,video/x-m4v">
+        <input type="file" class="dropzone" (change)="_setfiles($event)" ngModel name="filename" accept="video/mp4,video/x-m4v" style="height: 4rem;">
       </div>
 
     </div>
