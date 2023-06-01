@@ -1,6 +1,21 @@
 .burguermenu {
   display: none;
 }
+.navigation{
+  .mobdisplay {
+    display: none;
+  }
+}
+@media (max-width: 830px) {
+  .bannermessage{
+    font-size: 6.4vw !important;
+    width: 100% !important;
+    right: 0 !important;
+    #join {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
 @media (max-width: 1244px) {
   //Menu
   .menubar {
@@ -8,8 +23,13 @@
       left: 10%;
     }
 
-    .navigation {
-      display: none;
+    .navigation{
+      .mobdisplay {
+        display: block;
+      }
+      .webdisplay {
+        display: none;
+      }
     }
 
     .burguermenu {
@@ -21,6 +41,16 @@
     height: unset;
     min-height: 90vh;
   }
+  .coachbanner{
+    bottom: 6vh !important;
+    #app{
+      opacity: 0;
+    }
+    .bannermessage{
+      //font-size: 4.4vw !important;
+    }
+  }
+
 }
 //Hom Specific
 @media (min-width: 810px) and (max-width: 1777px) {
@@ -28,15 +58,11 @@
     translate: 0 1.6rem;
   }
 }
-@media (min-width: 810px) {
-  .homearea {
-    //height: 52vw;
-  }
-}
 @media (max-width: 810px) {
   .homearea {
     height: 190vw;
   }
+
 }
 @media (max-width: 420px) {
   .homearea {
@@ -53,7 +79,20 @@
     height: 110vh;
   }
 }
+@media (max-width: 1010px) {
+  guud-footer *{
+    font-size: .8rem !important;
+  }
+  .applist{
+    position: unset !important;
+  }
+}
 @media (max-width: 909px) {
+
+  guud-footer{
+    text-align: center;
+  }
+
   .caringdisplay {
     height: unset !important;
     [class*="-display"] {

@@ -1,0 +1,40 @@
+
+.coachbanner {
+  position: relative;
+  bottom: 20rem;
+  width: 90%;
+  height: 20vh;
+  background-color: #000000;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  overflow: hidden;
+
+  #model {
+    height: 35vh;
+    position: absolute;
+    left: 4vw;
+    top: 1vw;
+  }
+  #app {
+    height: 21vh;
+    position: absolute;
+    left: 18vw;
+    top: 0.2vw;
+  }
+  .bannermessage {
+    position: absolute;
+    right: 4vw;
+    width: 34rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 5vh;
+    img {
+      height: 3rem;
+    }
+  }
+}
+
+.playbutton {
+  top: -6rem;
+  position: relative;
+}
