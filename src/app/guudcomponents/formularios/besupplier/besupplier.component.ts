@@ -26,7 +26,7 @@ export class BeSupplierComponent implements OnInit {
   _setfiles(e: any) {
     var filename = e.target.files[0].name;
     var imageReg = /[\/.](gif|jpg|jpeg|tiff|png)$/i;
-    if(!imageReg.test(filename)){
+    if(imageReg.test(filename)){
       return;
     }
     this.dataFormat.filename = e.target.files[0].name;
@@ -37,6 +37,7 @@ export class BeSupplierComponent implements OnInit {
     isinvalid = this.dataFormat.firstName == '' ? true : isinvalid;
     isinvalid = this.dataFormat.product == '' ? true : isinvalid;
     isinvalid = this.dataFormat.phone == '' ? true : isinvalid;
+    isinvalid = this.dataFormat.email == '' ? true : isinvalid;
     isinvalid = this.dataFormat.filename == '' ? true : isinvalid;
 
     return isinvalid;

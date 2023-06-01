@@ -29,9 +29,9 @@
     <div class="col-12 col-sm-6">
       <div class="dropzone" style="height: 3rem;margin-top: 1rem;">
         <img class="inputdeco" src="assets/logos_icons/Clip.webp" style="top:.5rem;" alt="clip" width="36" height="36">
-        <span *ngIf="dataFormat.filename == ''" style="top:.8rem;" i18n>Images Drop Zone*</span>
+        <span *ngIf="dataFormat.filename == ''" style="top:.8rem;color: #707070;" i18n>Video Drop Zone*</span>
         <span *ngIf="dataFormat.filename != ''" style="top:.8rem;">{{dataFormat.filename}}</span>
-        <input type="file" class="dropzone" (change)="_setfiles($event)" ngModel name="filename" accept="image/*" style="height: 3rem;">
+        <input type="file" class="dropzone" (change)="_setfiles($event)" ngModel name="filename" accept="video/mp4,video/x-m4v" style="height: 3rem;">
       </div>
     </div>
   </div>
@@ -39,7 +39,7 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.email}">
         <input type="text" [(ngModel)]="dataFormat.email" name="email">
-        <span i18n>Email</span>
+        <span i18n>Email*</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">

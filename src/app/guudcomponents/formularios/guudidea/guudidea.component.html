@@ -23,7 +23,7 @@
     <div class="col-12 col-sm-6">
       <label class="labeledinput" [ngClass]="{'active': dataFormat.email}">
         <input type="text" [(ngModel)]="dataFormat.email" name="email">
-        <span i18n>Email</span>
+        <span i18n>Email*</span>
       </label>
     </div>
     <div class="col-12 col-sm-6">
@@ -38,7 +38,7 @@
 
       <div class="dropzone" style="height: 4rem;">
         <img class="inputdeco" src="assets/logos_icons/Clip.webp" alt="clip" width="36" height="36">
-        <span *ngIf="dataFormat.filename == ''" i18n>Video Drop Zone*</span>
+        <span *ngIf="dataFormat.filename == ''" style="color: #707070;" i18n>Video Drop Zone*</span>
         <span *ngIf="dataFormat.filename != ''">{{dataFormat.filename}}</span>
         <input type="file" class="dropzone" (change)="_setfiles($event)" ngModel name="filename" accept="video/mp4,video/x-m4v" style="height: 4rem;">
       </div>
