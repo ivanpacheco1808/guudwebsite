@@ -35,6 +35,7 @@ export class GuudideaComponent implements OnInit {
     isinvalid = this.dataFormat.firstName == '' ? true : isinvalid;
     isinvalid = this.dataFormat.phone == '' ? true : isinvalid;
     isinvalid = this.dataFormat.filename == '' ? true : isinvalid;
+    isinvalid = this.dataFormat.email == '' ? true : isinvalid;
 
     return isinvalid;
   }
