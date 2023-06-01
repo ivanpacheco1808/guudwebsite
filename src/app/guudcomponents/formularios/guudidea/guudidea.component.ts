@@ -22,7 +22,12 @@ export class GuudideaComponent implements OnInit {
   };
 
   _setfiles(e: any) {
-    this.dataFormat.filename = e.target.files[0].name;
+    var filename = e.target.files[0].name;
+    var imageReg = /[\/.](gif|jpg|jpeg|tiff|png)$/i;
+    if(imageReg.test(filename)){
+      return;
+    }
+    this.dataFormat.filename = filename;
   }
 
   _checkvalid() {
