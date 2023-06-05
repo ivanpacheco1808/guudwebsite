@@ -11,6 +11,7 @@ import { ModalesComponent } from './modales/modales.component';
 import { FooterComponent } from './footer/footer.component';
 
 import { ImageplacerComponent } from './individuales/imageplacer/imageplacer.component';
+import { VideoplayerComponent } from './individuales/videoplayer/videoplayer.component';
 
 import { BeCoachComponent } from './formularios/becoach/becoach.component';
 import { BeSupplierComponent } from './formularios/besupplier/besupplier.component';
@@ -26,6 +27,7 @@ import { GuudideaComponent } from './formularios/guudidea/guudidea.component';
     ModalesComponent,
 
     ImageplacerComponent,
+    VideoplayerComponent,
     BeCoachComponent,
     BeSupplierComponent,
     LangmenuComponent,
@@ -39,6 +41,7 @@ import { GuudideaComponent } from './formularios/guudidea/guudidea.component';
     ModalesComponent,
 
     ImageplacerComponent,
+    VideoplayerComponent,
     BeCoachComponent,
     BeSupplierComponent,
     LangmenuComponent,

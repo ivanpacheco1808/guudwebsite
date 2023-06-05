@@ -1,3 +1,8 @@
 <div [ngClass]="{'displayshadow':_apply}" style="background-color: #70707094;">
-  <img alt="play button" src="assets/logos_icons/playbtn.webp" alt="" class="playbutton" width="100" height="900">
+  <!--img alt="play button" src="assets/logos_icons/playbtn.webp" alt="" class="playbutton" width="100" height="900"-->
+  <!--guud-videoplayer [_data]="'assets/videos/HistoriaGUUD.mp4'"></guud-videoplayer-->
+  <video controls="controls" autoplay="auto" loop="loop" id="videoplayerhistory" style="display: block; width: 100%;height: 95%;margin-top: 4vh;">
+    <source id="VideoReload" src="assets/videos/HistoriaGUUD.mp4" type="video/mp4" />
+  </video>
+
 </div>
