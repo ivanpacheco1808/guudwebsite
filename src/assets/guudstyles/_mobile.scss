@@ -16,6 +16,41 @@
     }
   }
 }
+
+
+
+/*
+.menubar .logo {
+  left: 10%;
+}
+.menubar .navigation .mobdisplay {
+  display: block;
+}
+.menubar .navigation .webdisplay {
+  display: block;
+}
+
+.menubar {
+  .logo {
+    left: 10%;
+  }
+
+  .navigation{
+    .mobdisplay {
+      display: block;
+    }
+    .webdisplay {
+      display: none;
+    }
+  }
+
+  .burguermenu {
+    display: block;
+  }
+
+}
+*/
+
 @media (max-width: 1244px) {
   //Menu
   .menubar {
@@ -42,7 +77,7 @@
     min-height: 90vh;
   }
   .coachbanner{
-    bottom: 6vh !important;
+    bottom: 2vh !important;
     #app{
       opacity: 0;
     }
