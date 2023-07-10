@@ -11,6 +11,7 @@ import { HistoryComponent } from './history/history.component';
 import { SupplierComponent } from './supplier/supplier.component';
 import { SustainabilityComponent } from './sustainability/sustainability.component';
 import { GuudideasComponent } from './guudideas/guudideas.component';
+import { TerminosComponent } from './terminos/terminos.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { GuudideasComponent } from './guudideas/guudideas.component';
     SupplierComponent,
     SustainabilityComponent,
     GuudideasComponent,
+    TerminosComponent,
   ],
   exports: [
     MainviewComponent,
