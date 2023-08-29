@@ -17,13 +17,13 @@ export class AppComponent {
   // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   firebaseConfig = {
-    apiKey: "AIzaSyAyULh1nMD8IT4ThefHws0GfzotiHdu8qk",
-    authDomain: "guudlanding.firebaseapp.com",
-    projectId: "guudlanding",
-    storageBucket: "guudlanding.appspot.com",
-    messagingSenderId: "103877281107",
-    appId: "1:103877281107:web:fcd65e3527c17ad6498da6",
-    measurementId: "G-LFCQPTB2L0"
+    apiKey: "AIzaSyDRfjHCjxIetIyiKDpUpUgG4M7inZkZY0w",
+    authDomain: "guud-cbea8.firebaseapp.com",
+    projectId: "guud-cbea8",
+    storageBucket: "guud-cbea8.appspot.com",
+    messagingSenderId: "211510105763",
+    appId: "1:211510105763:web:ec2ceb9d70d6f1b5121116",
+    measurementId: "G-JB1XP5Q8CX"
   };
 
   // Initialize Firebase
