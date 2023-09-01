@@ -18,14 +18,14 @@
     width: 2rem;
     position: absolute;
     right: 4rem;
-    top: 1.25rem;
+    top: 1.1rem;
     &#closeburguer {
       width: 1.5rem;
     }
   }
 
   #burgerdisplay {
-    background-color: $greybackground;
+    background-color: #fff;
     font-family: $mainfont;
     color: $gray-font;
     text-align: center;
@@ -44,6 +44,9 @@
       }
 
       &.bottom {
+        border-top: 0.1rem solid;
+        width: 76%;
+        margin: auto;
         li {
           color: $blue-font;
           font-weight: bold;
