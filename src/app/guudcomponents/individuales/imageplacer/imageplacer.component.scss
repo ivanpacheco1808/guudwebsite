@@ -200,7 +200,7 @@ img {
   img {
     height: unset;
     &:not(.ondisplay,[alt="GUUD"],[alt="slogan"]){
-      //opacity: 0;
+      opacity: 0;
     }
 
     &[alt="GUUD"] {
