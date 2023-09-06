@@ -71,6 +71,18 @@
       display: block;
     }
 
+    .logo{
+      left: 33% !important;
+      width: 34% !important;
+    }
+    .langmenu{
+      left: 1.8rem;
+      right: unset !important;
+      .langlist {
+        right: 0rem !important;
+      }
+    }
+
   }
   .displayshadow {
     height: unset;

@@ -17,7 +17,7 @@
   .burgertoggler {
     width: 2rem;
     position: absolute;
-    right: 4rem;
+    right: 1.1rem;
     top: 1.1rem;
     &#closeburguer {
       width: 1.5rem;
@@ -30,7 +30,7 @@
     color: $gray-font;
     text-align: center;
     font-size: 1.5rem;
-    padding-top: 4rem;
+    padding: 4rem 0;
     position: absolute;
     display: none;
 
@@ -41,6 +41,8 @@
 
       &.top {
         background-color: $mainbackground;
+        width: 76%;
+        margin: auto;
       }
 
       &.bottom {
@@ -51,11 +53,12 @@
           color: $blue-font;
           font-weight: bold;
           &:hover {
-            background-color: $mainbackground;
+            background-color: $greybackground;
+            cursor: pointer;
           }
           &:first-child {
             font-weight: normal;
-            height: 3rem;
+            height: 4rem;
           }
         }
       }
