@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -29,4 +31,24 @@ export class AppComponent {
   // Initialize Firebase
   app = initializeApp(this.firebaseConfig);
   analytics = getAnalytics(this.app);
+
+
+
+  routerEvents: any;
+  currentRoute:string;
+  constructor(private router: Router) {
+    this.routerEvents = this.router.events.subscribe(
+      (event:any)=>{
+        if(event instanceof NavigationEnd){
+          this.currentRoute=event.url;
+        }
+      }
+    )
+  }
+  ngOnInit(): void {
+  }
+  ngOnDestroy(): void {
+    this.routerEvents.unsubscribe();
+    // Unsubscribe to avoid memory leak
+  }
 }

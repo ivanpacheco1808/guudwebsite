@@ -200,18 +200,18 @@ img {
   img {
     height: unset;
     &:not(.ondisplay,[alt="GUUD"],[alt="slogan"]){
-      //opacity: 0;
+      opacity: 0;
     }
 
     &[alt="GUUD"] {
       left: calc(4.8vw * $sizeMultiplier);
-      top: calc(86.6vw * $sizeMultiplier);
+      top: calc(76vw * $sizeMultiplier);
       width: calc(91vw * $sizeMultiplier);
     }
 
     &[alt="slogan"] {
       left: calc(8vw * $sizeMultiplier);
-      top: calc(107vw * $sizeMultiplier);
+      top: calc(96vw * $sizeMultiplier);
       width: calc(84vw * $sizeMultiplier);
     }
 
@@ -220,19 +220,19 @@ img {
     }
 
     &[id="webphrase9"] {
-      left: calc(55vw * $sizeMultiplier);
+      left: calc(60vw * $sizeMultiplier);
       top: calc(38vw * $sizeMultiplier);
       width: calc(41vw * $sizeMultiplier);
     }
 
     &[id="webphrase13"] {
-      left: calc(9vw * $sizeMultiplier);
-      top: calc(63vw * $sizeMultiplier);
+      left: calc(2vw * $sizeMultiplier);
+      top: calc(45vw * $sizeMultiplier);
       width: calc(55vw * $sizeMultiplier);
     }
 
     &[id="webphrase1"] {
-      left: calc(8vw * $sizeMultiplier);
+      left: calc(3vw * $sizeMultiplier);
       top: calc(15vw * $sizeMultiplier);
       width: calc(52vw * $sizeMultiplier);
     }
@@ -256,19 +256,19 @@ img {
     }
 
     &[id="webphrase17"] {
-      left: calc(11.5vw * $sizeMultiplier);
+      left: calc(5vw * $sizeMultiplier);
       top: calc(15vw * $sizeMultiplier);
       width: calc(44vw * $sizeMultiplier);
     }
 
     &[id="webphrase20"] {
-      left: calc(10vw * $sizeMultiplier);
-      top: calc(60vw * $sizeMultiplier);
+      left: calc(3vw * $sizeMultiplier);
+      top: calc(45vw * $sizeMultiplier);
       width: calc(45vw * $sizeMultiplier);
     }
 
     &[id="webphrase10"] {
-      left: calc(7vw * $sizeMultiplier);
+      left: calc(3vw * $sizeMultiplier);
       top: calc(15vw * $sizeMultiplier);
       width: calc(52vw * $sizeMultiplier);
     }
@@ -286,8 +286,8 @@ img {
     }
 
     &[id="webphrase6"] {
-      left: calc(16.5vw * $sizeMultiplier);
-      top: calc(52vw * $sizeMultiplier);
+      left: calc(3vw * $sizeMultiplier);
+      top: calc(44vw * $sizeMultiplier);
       width: calc(27vw * $sizeMultiplier);
     }
 
@@ -316,8 +316,8 @@ img {
     }
 
     &[id="webphrase12"] {
-      left: calc(10vw * $sizeMultiplier);
-      top: calc(67vw * $sizeMultiplier);
+      left: calc(3vw * $sizeMultiplier);
+      top: calc(47vw * $sizeMultiplier);
       width: calc(49vw * $sizeMultiplier);
     }
 
