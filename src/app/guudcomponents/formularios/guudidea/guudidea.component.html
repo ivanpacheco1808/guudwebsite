@@ -1,7 +1,12 @@
 <form class="guudform" #formData="ngForm">
-  <div class="row" style="margin-bottom: 2rem;">
+  <div class="row" style="margin-bottom: 1rem;">
     <div class="col-12 m-auto">
-      <h2 i18n>Ideas</h2>
+      <div style="position:relative;">
+        <img alt="GUUD Coach" class="headericon" src="assets/images/Ideas-Guud-Icon.webp" alt="" width="700" height="870">
+        <h2 i18n>
+          Ideas
+        </h2>
+      </div>
       <div class="h7" style="text-align:center;" i18n>Tell us the idea you have in a video less than a minute<br>(You can send all the videos you want)</div>
     </div>
   </div>
@@ -36,7 +41,7 @@
   <div class="row">
     <div class="col-12">
 
-      <div class="dropzone" style="height: 4rem;">
+      <div class="dropzone" style="height: 4rem; margin:1rem 0;">
         <img class="inputdeco" src="assets/logos_icons/Clip.webp" alt="clip" width="36" height="36">
         <span *ngIf="dataFormat.filename == ''" style="color: #707070;" i18n>Video Drop Zone*</span>
         <span *ngIf="dataFormat.filename != ''">{{dataFormat.filename}}</span>
