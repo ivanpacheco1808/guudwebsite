@@ -29,6 +29,7 @@ export class HistoryComponent implements OnInit, OnDestroy {
       type: "application/vnd.apple.mpegurl",
       //src: "https://guudvideo2-usea.streaming.media.azure.net/88ba8898-f0c7-48eb-b138-bdf267589411/HistoriaGUUD.ism/manifest(format=m3u8-cmaf)"
       src: "https://guudvideo2-usea.streaming.media.azure.net/d49f3aa9-9a42-45e8-9112-a3da0a7dae0c/tmpB54A.ism/manifest(format=m3u8-aapl)"
+      //src: "https://epcsguudprod-guudvideo2-usea.streaming.media.azure.net/4c8f2efc-874b-49dc-bffc-eb3a0609e4cc/tmp2300.ism/manifest(format=m3u8-aapl)"
     });
 
   }

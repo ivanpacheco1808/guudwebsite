@@ -16,6 +16,14 @@
     }
   }
 }
+@media (max-width: 666px) {
+  guudform-guudidea .headericon{
+    left: 1rem;
+  }
+  guudview-supplier .headericon{
+    left: -1rem;
+  }
+}
 
 
 
@@ -50,7 +58,11 @@
 
 }
 */
-
+@media (min-width: 1244px) {
+  h3{
+    font-size: 3.5rem !important;
+  }
+}
 @media (max-width: 1244px) {
   //Menu
   .menubar {
@@ -86,10 +98,10 @@
   }
   .displayshadow {
     height: unset;
-    min-height: 90vh;
+    min-height: 97vh;
   }
   .coachbanner{
-    bottom: 2vh !important;
+    bottom: 13vh !important;
     #app{
       opacity: 0;
     }
@@ -114,7 +126,7 @@
 @media (max-width: 420px) {
   .homearea {
     height: unset;
-    min-height: 93vh;
+    min-height: 90vh;
 
     guud-imageplacer img {
       transform: translateY(11vw);
@@ -171,7 +183,7 @@
   input:not([type="checkbox"], [type="radio"]),
   select,
   .fileinput {
-    margin-bottom: 1.4rem;
+    margin-bottom: 0rem;
   }
 
   .footerarea {
