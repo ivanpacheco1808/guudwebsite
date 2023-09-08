@@ -67,4 +67,13 @@
   }
 }
 
+.vjs-big-play-button {
+  margin: auto;
+  position: relative !important;
+  top: 36vh !important;
+  left: unset !important;
+  z-index: 0 !important;
+  opacity: 0 !important;
+}
+
 @import '_mobile.scss';
