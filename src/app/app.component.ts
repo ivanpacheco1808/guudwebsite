@@ -36,7 +36,9 @@ export class AppComponent {
 
   routerEvents: any;
   currentRoute:string;
+  isMobile:boolean = false;
   constructor(private router: Router) {
+    this.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     this.routerEvents = this.router.events.subscribe(
       (event:any)=>{
         if(event instanceof NavigationEnd){
