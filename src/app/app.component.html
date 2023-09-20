@@ -1,4 +1,4 @@
 <guud-topbar [currentRoute]="currentRoute"></guud-topbar>
 <router-outlet></router-outlet>
-<guud-footer></guud-footer>
+<guud-footer *ngIf="currentRoute!='/guudideas' && currentRoute!='/supplier'"></guud-footer>
 <guudapp-modales></guudapp-modales>
