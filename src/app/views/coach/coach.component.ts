@@ -16,7 +16,7 @@ export class CoachComponent implements OnInit, OnDestroy {
     this.innerHeight = window.innerHeight;
     this.setVideoByScreenSize();
   }
-  public videoShown = 'webview';
+  public videoShown = '';
   public myPlayer;
   ngOnDestroy(){
     this.myPlayer.dispose();
@@ -28,7 +28,7 @@ export class CoachComponent implements OnInit, OnDestroy {
     });
     this.setVideoByScreenSize();
   }
-  setVideoByScreenSize(){    
+  setVideoByScreenSize(){
     if(window.innerWidth <= 710 && this.videoShown != 'mobview'){
       this.videoShown = 'mobview';
       this.myPlayer.src({
