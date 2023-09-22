@@ -16,7 +16,7 @@ export class CoachComponent implements OnInit, OnDestroy {
     this.innerHeight = window.innerHeight;
     this.setVideoByScreenSize();
   }
-  public videoShown = 'webview';
+  public videoShown = '';
   public myPlayer;
   ngOnDestroy(){
     this.myPlayer.dispose();
@@ -26,13 +26,7 @@ export class CoachComponent implements OnInit, OnDestroy {
       autoplay: true,
       controls: true
     });
-    this.myPlayer.src({
-      type: "application/vnd.apple.mpegurl",
-      src: "https://epcsguudprod-guudvideo2-usea.streaming.media.azure.net/4c8f2efc-874b-49dc-bffc-eb3a0609e4cc/tmp2300.ism/manifest(format=m3u8-aapl)"
-    });
-    setTimeout(() => {
-      this.setVideoByScreenSize();
-    }, 222);
+    this.setVideoByScreenSize();
   }
   setVideoByScreenSize(){
     if(window.innerWidth <= 710 && this.videoShown != 'mobview'){
