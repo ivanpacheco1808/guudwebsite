@@ -26,9 +26,15 @@ export class CoachComponent implements OnInit, OnDestroy {
       autoplay: true,
       controls: true
     });
-    this.setVideoByScreenSize();
+    this.myPlayer.src({
+      type: "application/vnd.apple.mpegurl",
+      src: "https://epcsguudprod-guudvideo2-usea.streaming.media.azure.net/4c8f2efc-874b-49dc-bffc-eb3a0609e4cc/tmp2300.ism/manifest(format=m3u8-aapl)"
+    });
+    setTimeout(() => {
+      this.setVideoByScreenSize();
+    }, 222);
   }
-  setVideoByScreenSize(){    
+  setVideoByScreenSize(){
     if(window.innerWidth <= 710 && this.videoShown != 'mobview'){
       this.videoShown = 'mobview';
       this.myPlayer.src({
