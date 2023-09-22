@@ -5,6 +5,9 @@
   height: 2rem;
   object-fit: contain;
   z-index: 3;
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 .menubar {
