@@ -3,13 +3,13 @@
     <div class="col-12">
       <div class="row navigation">
 
-        <div class="col-2" style="background-color:#fff;">
+        <div class="col-2">
           <img [routerLink]="'/'" src="assets/logos_icons/logo-Guud.webp" width="160" height="80" alt="Logo" class="logo" i18n-alt i18n-src *ngIf="currentRoute!='/'">
         </div>
-        <div class="col-1 webdisplay" routerLinkActive="activeElement" routerLink="/aboutus" style="background-color:#fff;"><span i18n>About us</span></div>
-        <div class="col-1 webdisplay" routerLinkActive="activeElement" routerLink="/history" style="background-color:#fff;"><span i18n>History</span></div>
-        <div class="col-1 webdisplay" style="background-color:#fff;" routerLinkActive="activeElement" routerLink="/caring"><span i18n>Caring & giving</span></div>
-        <div class="col-1 webdisplay" style="background-color:#fff;" routerLinkActive="activeElement" routerLink="/guudideas"><span i18n>Ideas</span></div>
+        <div class="col-1 webdisplay" routerLinkActive="activeElement" routerLink="/aboutus"><span i18n>About us</span></div>
+        <div class="col-1 webdisplay" routerLinkActive="activeElement" routerLink="/history"><span i18n>History</span></div>
+        <div class="col-1 webdisplay" routerLinkActive="activeElement" routerLink="/caring"><span i18n>Caring & giving</span></div>
+        <div class="col-1 webdisplay" routerLinkActive="activeElement" routerLink="/guudideas"><span i18n>Ideas</span></div>
 
         <div class="col-2 webdisplay">
           <div class="row">
@@ -17,7 +17,7 @@
             <div class="col-6 bluefont" routerLinkActive="activeElement" routerLink="/coach" style="font-weight:bold;"><span i18n>Coach</span></div>
           </div>
         </div>
-        <div class="col-2 webdisplay" style="background-color:#fff;">
+        <div class="col-2 webdisplay">
           <div class="row">
             <div class="col-4" style="font-size: 0.8rem;font-weight: bold;line-height: 1.6rem;"><span i18n>Follow us!</span></div>
             <div class="col-8">
@@ -30,8 +30,8 @@
             </div>
           </div>
         </div>
-        <div class="col-8 mobdisplay" style="background-color:#fff;"></div>
-        <div class="col-2" style="background-color:#fff;">
+        <div class="col-8 mobdisplay"></div>
+        <div class="col-2">
           <guud-burguermenu></guud-burguermenu>
           <guud-langmenu></guud-langmenu>
         </div>
