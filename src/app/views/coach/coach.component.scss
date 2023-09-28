@@ -1,4 +1,9 @@
-
+@media (max-width: 1244px) {
+  .displayshadow{
+    height: unset !important;
+    min-height: 119vh !important;
+  }
+}
 .coachbanner {
   position: absolute;
   bottom: -9.2rem;
