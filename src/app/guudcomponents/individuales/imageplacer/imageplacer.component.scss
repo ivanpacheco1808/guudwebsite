@@ -190,6 +190,193 @@ img {
 }
 
 
+@media (min-width: 811px) and (max-width: 1200px) {
+  $sizeMultiplier: 1;
+  img {
+    height: unset;
+    &[alt="GUUD"] {
+      left: calc(21.8vw * $sizeMultiplier);
+      top: calc(32.4vw * $sizeMultiplier);
+      width: calc(49vw * $sizeMultiplier);
+    }
+
+    &[alt="slogan"] {
+      opacity: 0;
+      left: calc(1vw * $sizeMultiplier);
+      top: calc(1vw * $sizeMultiplier);
+      width: calc(1vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase9"] {
+      left: calc(43vw * $sizeMultiplier);
+      top: calc(47.6vw * $sizeMultiplier);
+      width: calc(12vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase13"] {
+      left: calc(75vw * $sizeMultiplier);
+      top: calc(55.3vw * $sizeMultiplier);
+      width: calc(17vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase1"] {
+      left: calc(-0.3vw * $sizeMultiplier);
+      top: calc(3.4vw * $sizeMultiplier);
+      width: calc(20vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase15"] {
+      left: calc(62.9vw * $sizeMultiplier);
+      top: calc(20.2vw * $sizeMultiplier);
+      width: calc(11.2vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase8"] {
+      left: calc(17vw * $sizeMultiplier);
+      top: calc(42vw * $sizeMultiplier);
+      width: calc(9vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase2"] {
+      left: calc(3.3vw * $sizeMultiplier);
+      top: calc(20vw * $sizeMultiplier);
+      width: calc(10vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase17"] {
+      left: calc(79vw * $sizeMultiplier);
+      top: calc(15vw * $sizeMultiplier);
+      width: calc(10vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase20"] {
+      left: calc(44vw * $sizeMultiplier);
+      top: calc(21vw * $sizeMultiplier);
+      width: calc(14vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase10"] {
+      left: calc(41vw * $sizeMultiplier);
+      top: calc(59.5vw * $sizeMultiplier);
+      width: calc(16vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase11"] {
+      left: calc(60vw * $sizeMultiplier);
+      top: calc(47vw * $sizeMultiplier);
+      width: calc(12vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase18"] {
+      left: calc(75vw * $sizeMultiplier);
+      top: calc(3vw * $sizeMultiplier);
+      width: calc(18vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase6"] {
+      left: calc(2vw * $sizeMultiplier);
+      top: calc(37vw * $sizeMultiplier);
+      width: calc(10vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase4"] {
+      left: calc(18vw * $sizeMultiplier);
+      top: calc(8vw * $sizeMultiplier);
+      width: calc(19vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase16"] {
+      left: calc(81vw * $sizeMultiplier);
+      top: calc(22.6vw * $sizeMultiplier);
+      width: calc(9vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase0"] {
+      left: calc(24vw * $sizeMultiplier);
+      top: calc(50.4vw * $sizeMultiplier);
+      width: calc(14vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase5"] {
+      left: calc(30.7vw * $sizeMultiplier);
+      top: calc(3.2vw * $sizeMultiplier);
+      width: calc(24vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase12"] {
+      left: calc(70vw * $sizeMultiplier);
+      top: calc(62.6vw * $sizeMultiplier);
+      width: calc(21vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase14"] {
+      left: calc(73vw * $sizeMultiplier);
+      top: calc(38vw * $sizeMultiplier);
+      width: calc(21vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase7"] {
+      left: calc(0vw * $sizeMultiplier);
+      top: calc(57vw * $sizeMultiplier);
+      width: calc(28vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase19"] {
+      left: calc(59vw * $sizeMultiplier);
+      top: calc(4.2vw * $sizeMultiplier);
+      width: calc(11vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase21"] {
+      left: calc(52vw * $sizeMultiplier);
+      top: calc(11vw * $sizeMultiplier);
+      width: calc(5vw * $sizeMultiplier);
+    }
+
+    &[id="webphrase3"] {
+      left: calc(24.8vw * $sizeMultiplier);
+      top: calc(21.1vw * $sizeMultiplier);
+      width: calc(11vw * $sizeMultiplier);
+    }
+
+
+
+    &[id="webarrow1"] {
+      left: calc(4vw * $sizeMultiplier);
+      top: calc(49vw * $sizeMultiplier);
+      width: calc(10vw * $sizeMultiplier);
+    }
+
+    &[id="webarrow2"] {
+      left: calc(66vw * $sizeMultiplier);
+      top: calc(12vw * $sizeMultiplier);
+      width: calc(11vw * $sizeMultiplier);
+    }
+
+    &[id="webarrow3"] {
+      left: calc(58vw * $sizeMultiplier);
+      top: calc(64vw * $sizeMultiplier);
+      width: calc(9vw * $sizeMultiplier);
+    }
+
+    &[id="webarrow4"] {
+      left: calc(89.4vw * $sizeMultiplier);
+      top: calc(32vw * $sizeMultiplier);
+      width: calc(3vw * $sizeMultiplier);
+    }
+
+    &[id="webarrow5"] {
+      left: calc(28vw * $sizeMultiplier);
+      top: calc(65vw * $sizeMultiplier);
+      width: calc(9vw * $sizeMultiplier);
+    }
+
+
+
+  }
+}
+
+
 @media (max-width: 810px) {
   .webdisplay{
     [id*="webphrase"],[id*="webarrow"],[alt="GUUD"],[alt="slogan"] {
