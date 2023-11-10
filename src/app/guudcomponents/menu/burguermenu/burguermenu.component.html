@@ -5,6 +5,10 @@
     <img alt="close" class="burgertoggler" id="closeburguer" src="assets/logos_icons/close.webp" width="25" height="25">
   </label>
   <div id="burgerdisplay">
+    <div class="langbutton" [routerLink]="'/es/'" i18n>
+      <img alt="langmenu" id="langicon" src="assets/logos_icons/sphere.webp"  width="35" height="35">
+      <span>ES</span>
+    </div>
     <!--div class="whitedecoration"></div-->
     <ul class="top">
       <li [routerLink]="'/'" (click)="_menuOpened=false;" i18n>Home</li>
@@ -17,6 +21,20 @@
       <!--li i18n>Want to be...</li-->
       <li [routerLink]="'/supplier'" (click)="_menuOpened=false;" i18n>Supplier</li>
       <li [routerLink]="'/coach'" (click)="_menuOpened=false;" i18n>Coach</li>
+      <li style="font-size: 0.8rem; line-height: 4rem;">
+        <div class="row">
+          <div class="col-12" style="position: relative;top: 1rem;" i18n>Follow us!</div>
+          <div class="col-12">
+            <div class="socialbar">
+              <span class="icon-facebook bubble"></span>
+              <span class="icon-instagram bubble"></span>
+              <span class="icon-twitter bubble"></span>
+              <span class="icon-linkedin2 bubble"></span>
+            </div>
+          </div>
+        </div>
+      </li>
     </ul>
+    <div class="colordetail"></div>
   </div>
 </div>
