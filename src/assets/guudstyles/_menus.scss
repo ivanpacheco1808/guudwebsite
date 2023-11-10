@@ -7,6 +7,40 @@
   color: $blue-font;
 }
 
+.langbutton {
+  background-color: $greybackground;
+  width: 77%;
+  margin: auto;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: $blue-font;
+
+  #langicon {
+    height: 1.2rem;
+    width: 1.2rem;
+    position: relative;
+    bottom: 0.1rem;
+    right: 0.3rem;
+  }
+}
+
+
+.socialbar {
+  text-align: center;
+  white-space: nowrap;
+  .bubble {
+   display: inline-block;
+   vertical-align: middle;
+   background-color: #68E242;
+   border-radius: 100%;
+   padding: 0.4rem;
+   margin-right: 0.6rem;
+   color: #fff;
+ }
+}
+
 .menubar {
   .mobileNavigation {
     z-index: 3;
@@ -29,10 +63,11 @@
     font-family: $mainfont;
     color: $gray-font;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     padding: 4rem 0;
     position: absolute;
     display: none;
+    padding-bottom: 4rem;
 
     ul {
       list-style: none;
@@ -40,13 +75,12 @@
       position: relative;
 
       &.top {
-        background-color: $mainbackground;
-        width: 76%;
+        width: 77%;
         margin: auto;
       }
 
       &.bottom {
-        border-top: 0.1rem solid;
+        //border-top: 0.1rem solid;
         width: 76%;
         margin: auto;
         li {
@@ -56,7 +90,7 @@
             background-color: $greybackground;
             cursor: pointer;
           }
-          &:first-child {
+          &:last-child {
             font-weight: normal;
             height: 4rem;
           }
@@ -64,8 +98,9 @@
       }
 
       li {
-        height: 4rem;
-        line-height: 4rem;
+        height: 3.2rem;
+        line-height: 3.2rem;
+        border-radius: .5rem;
         &:hover {
           background-color: $greybackground;
           cursor: pointer;
@@ -97,7 +132,9 @@
     opacity: 1;
     display: block;
     overflow: auto;
-    width: 77vw;
-    right: 0;
+    width: 60vw;
+    right: 0.7rem;
+    -webkit-box-shadow: 0 14px 10px -15px #C4C4C4;
+    box-shadow: 0 14px 10px -15px #C4C4C4;
   }
 }
