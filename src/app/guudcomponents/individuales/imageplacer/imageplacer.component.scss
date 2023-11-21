@@ -1,6 +1,9 @@
-.phrase.ondisplay {
+/*.phrase.ondisplay {
   opacity: 1;
 }
+
+
+
 
 $sizeMultiplier: .94;
 
@@ -9,8 +12,6 @@ $sizeMultiplier: .94;
     transform: translate(3vw, 0);
   }
 }
-
-
 img {
   height: unset;
 
@@ -188,9 +189,10 @@ img {
     width: calc(10vw * $sizeMultiplier);
   }
 }
-
+*/
 
 @media (min-width: 811px) and (max-width: 1200px) {
+  /*
   $sizeMultiplier: 1;
   img {
     height: unset;
@@ -370,14 +372,13 @@ img {
       top: calc(65vw * $sizeMultiplier);
       width: calc(9vw * $sizeMultiplier);
     }
-
-
-
-  }
+  }*/
 }
 
 
 @media (max-width: 810px) {
+/*
+  $sizeMultiplier: 1;
   .webdisplay{
     [id*="webphrase"],[id*="webarrow"],[alt="GUUD"],[alt="slogan"] {
       transform: translate(3vw, 5vh);
@@ -537,5 +538,5 @@ img {
       top: calc(131vw * $sizeMultiplier);
       width: calc(34vw * $sizeMultiplier);
     }
-  }
+  }*/
 }

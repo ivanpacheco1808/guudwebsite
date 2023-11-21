@@ -124,6 +124,20 @@
     }
   }
 }
+@media (min-width: 1031px) and (max-width: 1139px) {
+  .homearea {
+    .webdisplay {
+      transform: translateY(0.5vh);
+    }
+  }
+}
+@media (min-width: 1139px) and (max-width: 1200px) {
+  .homearea {
+    .webdisplay {
+      transform: translateY(.5vh);
+    }
+  }
+}
 @media (min-width: 1201px) and (max-width: 1440px) {
   .homearea {
     .webdisplay {

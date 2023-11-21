@@ -6,7 +6,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./topbar.component.scss']
 })
 export class TopbarComponent {
-
+  @Input() isMobile:boolean=false;
   @Input() currentRoute:string;
   constructor() { }
 
