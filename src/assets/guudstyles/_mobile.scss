@@ -1,30 +1,30 @@
 .burguermenu {
   display: none;
 }
-.navigation{
-  .mobdisplay {
-    display: none;
-  }
+
+.mobdisplay {
+  display: none;
 }
 @media (max-width: 830px) {
-  .bannermessage{
+  .bannermessage {
     font-size: 6.4vw !important;
     width: 100% !important;
     right: 0 !important;
+
     #join {
       margin-bottom: 0.5rem;
     }
   }
 }
 @media (max-width: 666px) {
-  guudform-guudidea .headericon{
+  guudform-guudidea .headericon {
     left: 1rem;
   }
-  guudview-supplier .headericon{
+
+  guudview-supplier .headericon {
     left: -1rem;
   }
 }
-
 /*
 .menubar .logo {
   left: 10%;
@@ -57,112 +57,105 @@
 }
 */
 @media (min-width: 1244px) {
-  h3{
-    font-size: 3.5rem !important;
+  h3 {
+    font-size: 2.4rem !important;
   }
 }
 @media (max-width: 1244px) {
+  .langNavigation {
+    right: unset !important;
+  }
   //Menu
   .menubar {
     .logo {
       left: 10%;
     }
 
-    .navigation{
-      .mobdisplay {
-        display: block;
-      }
-      .webdisplay {
-        display: none;
-      }
+    .webmenu {
+      display: none;
     }
 
     .burguermenu {
       display: block;
     }
 
-    .logo{
+    .logo {
       left: 33% !important;
       width: 34% !important;
     }
-    .langmenu{
+
+    .langmenu {
       left: 1.8rem;
       right: unset !important;
+
       .langlist {
-        right: 0rem !important;
+        right: 0 !important;
       }
     }
-
   }
+
   .displayshadow {
     height: unset;
     min-height: 90vh;
   }
-  .coachbanner{
+
+  .coachbanner {
     //bottom: -14vh !important;
-    #app{
+    #app {
       opacity: 0;
     }
-    .bannermessage{
+
+    .bannermessage {
       //font-size: 4.4vw !important;
     }
   }
-
 }
 //Hom Specific
 @media (min-width: 811px) and (max-width: 909px) {
   .homearea {
     .webdisplay {
-      transform: translateY(4vh);
+      transform: translateY(-3rem);
     }
   }
 }
 @media (min-width: 910px) and (max-width: 1030px) {
   .homearea {
     .webdisplay {
-      transform: translateY(6vh);
+      transform: translateY(-3rem);
     }
   }
 }
 @media (min-width: 1031px) and (max-width: 1139px) {
   .homearea {
     .webdisplay {
-      transform: translateY(0.5vh);
+      transform: translateY(-3rem);
     }
   }
 }
 @media (min-width: 1139px) and (max-width: 1200px) {
   .homearea {
     .webdisplay {
-      transform: translateY(.5vh);
+      transform: translateY(-3rem);
     }
   }
 }
-@media (min-width: 1201px) and (max-width: 1440px) {
-  .homearea {
-    .webdisplay {
-      transform: translateY(6vh);
-    }
-  }
-}
-@media (min-width: 1140px) and (max-width: 1200px) {
-  .homearea {
-    .webdisplay {
-      transform: scale(0.9) translateY(3vh);
-    }
-  }
-}
-
 @media (min-width: 810px) and (max-width: 1777px) {
   .homearea {
     translate: 0 1.6rem;
   }
 }
 @media (max-width: 810px) {
+  .mobdisplay {
+    display: block;
+  }
+
+  .webdisplay {
+    display: none;
+  }
+
   .homearea {
     height: 200vw;
   }
-
 }
 @media (max-width: 420px) {
   .homearea {
@@ -180,42 +173,48 @@
   }
 }
 @media (max-width: 1010px) {
-  guud-footer *{
-    font-size: .8rem !important;
+  guud-footer * {
+    font-size: 0.8rem !important;
   }
-  .applist{
+
+  .applist {
     position: unset !important;
   }
 }
 @media (max-width: 909px) {
-  .displayshadow{
+  .displayshadow {
     min-height: 80vh;
   }
-  guud-footer{
+
+  guud-footer {
     text-align: center;
   }
 
   .caringdisplay {
     height: unset !important;
+
     [class*="-display"] {
       margin-bottom: 3rem !important;
+
       &.left-display {
         position: relative;
-        left: 0rem !important;
+        left: 0 !important;
         top: 2rem !important;
         z-index: 0 !important;
         transform: rotate(0deg) scale(1) !important;
       }
+
       &.middle-display {
         position: relative;
-        left: 0rem !important;
+        left: 0 !important;
         top: 2rem !important;
         z-index: 0 !important;
         transform: rotate(0deg) scale(1) !important;
       }
+
       &.right-display {
         position: relative;
-        right: 0rem !important;
+        right: 0 !important;
         top: 2rem !important;
         z-index: 0 !important;
         transform: rotate(0deg) scale(1) !important;
@@ -226,7 +225,7 @@
   input:not([type="checkbox"], [type="radio"]),
   select,
   .fileinput {
-    margin-bottom: 0rem;
+    margin-bottom: 0;
   }
 
   .footerarea {
