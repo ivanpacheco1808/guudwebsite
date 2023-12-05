@@ -5,6 +5,25 @@
 @import '_menus.scss';
 @import '_detailgrid.scss';
 
+* {
+  font-family: $mainfont;
+}
+
+/*VIDEOPLAYER*/
+.vjs-control-bar {
+  background-color: #fff !important;
+}
+[class*="amp-controlbaricons"] {
+  display: none;
+}
+.vjs-play-progress {
+  background-color: $contrastbackground !important;
+}
+.azuremediaplayer {
+  background-color: unset;
+}
+/*VIDEOPLAYER*/
+
 #socialacc {
   position: absolute;
   bottom: 1rem;
@@ -56,10 +75,8 @@
 }
 
 .guudvideo {
-  position: absolute;
-  width: 99.9%;
-  height: 89.8vh;
-  top: 6vh;
+  position: relative;
+  height: 37rem;
   [id*="videoplayerhistory"]{
     width: 100%;
     height: 97%;

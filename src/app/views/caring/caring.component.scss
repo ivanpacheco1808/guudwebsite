@@ -5,6 +5,8 @@
 .caringdisplay {
   height: 22rem;
   margin: 5vh 0;
+  z-index: 1;
+  position: relative;
 
   [class*="-display"] {
     display: inline-block;
