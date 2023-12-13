@@ -12,6 +12,7 @@ import { SupplierComponent } from './supplier/supplier.component';
 import { SustainabilityComponent } from './sustainability/sustainability.component';
 import { GuudideasComponent } from './guudideas/guudideas.component';
 import { TerminosComponent } from './terminos/terminos.component';
+import { DeleteaccComponent } from './deleteacc/deleteacc.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { TerminosComponent } from './terminos/terminos.component';
     SustainabilityComponent,
     GuudideasComponent,
     TerminosComponent,
+    DeleteaccComponent,
   ],
   exports: [
     MainviewComponent,
