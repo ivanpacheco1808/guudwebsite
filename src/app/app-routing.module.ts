@@ -11,6 +11,7 @@ import { SupplierComponent } from '@views/supplier/supplier.component';
 import { SustainabilityComponent } from '@views/sustainability/sustainability.component';
 import { GuudideasComponent } from '@views/guudideas/guudideas.component';
 import { TerminosComponent } from '@views/terminos/terminos.component';
+import { DeleteaccComponent } from '@views/deleteacc/deleteacc.component';
 
 const routes: Routes = [
   { path: '', component: MainviewComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'supplier', component: SupplierComponent },
   { path: 'guudideas', component: GuudideasComponent },
   { path: 'terminos', component: TerminosComponent },
+  { path: 'delete-account', component: DeleteaccComponent },
 
   //{ path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: '**', redirectTo: '' },
