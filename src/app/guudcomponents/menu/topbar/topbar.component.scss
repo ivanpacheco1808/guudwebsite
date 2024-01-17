@@ -9,7 +9,11 @@
     cursor: pointer;
   }
 }
-
+.socialbar {
+  span:hover{
+    cursor: pointer;
+  }
+}
 .menubar {
   position: fixed;
   width: 100%;
@@ -26,6 +30,9 @@
   position: relative;
   text-align: center;
   height: 6vh;
+  .col-1.webmenu:hover{
+    cursor: pointer;
+  }
   .webdisplay:hover{
     cursor: pointer;
   }
