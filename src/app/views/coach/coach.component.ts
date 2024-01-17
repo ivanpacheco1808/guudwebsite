@@ -32,14 +32,14 @@ export class CoachComponent implements OnInit, OnDestroy {
     if(window.innerWidth <= 710 && this.videoShown != 'mobview'){
       this.videoShown = 'mobview';
       this.myPlayer.src({
-        type: "application/vnd.apple.mpegurl",
-        src: "https://epcsguudprod-guudvideo2-usea.streaming.media.azure.net/41ae4036-85da-41ba-b076-9172b499758e/tmpEC76.ism/manifest(format=m3u8-aapl)"
+        type: "video/mp4",
+        src: "https://d2lhr769yt64fs.cloudfront.net/videos/b17c3425-d63f-4fe4-b09b-5de4a5d80496.mp4"
       });
     }else if(window.innerWidth > 710 && this.videoShown != 'webview'){
       this.videoShown = 'webview';
       this.myPlayer.src({
-        type: "application/vnd.apple.mpegurl",
-        src: "https://epcsguudprod-guudvideo2-usea.streaming.media.azure.net/4c8f2efc-874b-49dc-bffc-eb3a0609e4cc/tmp2300.ism/manifest(format=m3u8-aapl)"
+        type: "video/mp4",
+        src: "https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/a5fe8a6d-326a-4b2f-b702-5e57c75dba82.mp4"
       });
     }
   }
