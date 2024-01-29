@@ -1,0 +1,37 @@
+.tutosmenu {
+  width: 7rem;
+  height: 3rem;
+  line-height: 3rem;
+  position: absolute;
+  /*top: 0.2rem;
+  right: 7vw;*/
+  :hover {
+    cursor: pointer;
+  }
+  #tutostrigger {
+    display: none;
+    &:checked ~ .tutoarea {
+      display: block;
+    }
+
+    ~ .tutoarea {
+      display: none;
+    }
+  }
+  .tutoarea {
+    background-color: #fff;
+    list-style: none;
+    padding: 1rem;
+    width: 9rem;
+    top: 2.6rem;
+    right: 0.5vw;
+    position: absolute;
+    border: 1px solid #f0f0f0;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px -2px #737373;
+    li:hover {
+      cursor: pointer;
+      background-color: #f0f0f0;
+    }
+  }
+}

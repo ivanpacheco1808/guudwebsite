@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class BurguermenuComponent  {
   _menuOpened:boolean=false;
+  activeTutos:boolean=false;
   constructor() { }
 
 }
