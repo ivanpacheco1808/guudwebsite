@@ -40,7 +40,9 @@
    color: #fff;
  }
 }
-
+.tutos li {
+  font-weight:  100 !important;
+}
 .menubar {
   .mobileNavigation {
     z-index: 3;
@@ -64,7 +66,7 @@
     color: $gray-font;
     text-align: center;
     font-size: 1.2rem;
-    padding: 4rem 0;
+    padding: 1rem 0;
     position: absolute;
     display: none;
     padding-bottom: 4rem;
@@ -136,6 +138,7 @@
     right: 0.7rem;
     -webkit-box-shadow: 0 14px 10px -15px #C4C4C4;
     box-shadow: 0 14px 10px -15px #C4C4C4;
-    max-height: 100vh;
+    max-height: 92vh;
+    top: 3.3rem;
   }
 }
