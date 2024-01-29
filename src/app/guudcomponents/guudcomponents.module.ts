@@ -6,6 +6,7 @@ import { FormsModule }   from '@angular/forms';
 import { TopbarComponent } from './menu/topbar/topbar.component';
 import { BurguermenuComponent } from './menu/burguermenu/burguermenu.component';
 import { LangmenuComponent } from './menu/langmenu/langmenu.component';
+import { TutosmenuComponent } from './menu/tutosmenu/tutosmenu.component';
 
 import { ModalesComponent } from './modales/modales.component';
 import { FooterComponent } from './footer/footer.component';
@@ -22,6 +23,7 @@ import { GuudideaComponent } from './formularios/guudidea/guudidea.component';
   declarations: [
     TopbarComponent,
     BurguermenuComponent,
+    TutosmenuComponent,
 
     FooterComponent,
     ModalesComponent,
@@ -36,6 +38,7 @@ import { GuudideaComponent } from './formularios/guudidea/guudidea.component';
   exports: [
     TopbarComponent,
     BurguermenuComponent,
+    TutosmenuComponent,
 
     FooterComponent,
     ModalesComponent,

@@ -21,6 +21,19 @@
       <!--li i18n>Want to be...</li-->
       <li [routerLink]="'/supplier'" (click)="_menuOpened=false;" i18n>Supplier</li>
       <li [routerLink]="'/coach'" (click)="_menuOpened=false;" i18n>Coach</li>
+      <li style="height: unset;">
+        <input type="checkbox" id="droptutoriales" [(ngModel)]="activeTutos">
+        <label for="droptutoriales" i18n>Tutorial</label>
+        <div class="tutoarea">
+          <ul class="tutos">
+            <li [routerLink]="'/welcome'" i18n>Welcome</li>
+            <li [routerLink]="'/calendars'" i18n>Calendar</li>
+            <li [routerLink]="'/tips'" i18n>Tips</li>
+            <li [routerLink]="'/workouts'" i18n>Workouts</li>
+            <li [routerLink]="'/sports'" style="font-weight: bold;" i18n>Sports</li>
+          </ul>
+        </div>
+      </li>
       <li style="font-size: 0.8rem; line-height: 4rem;">
         <div class="row">
           <div class="col-12" style="position: relative;top: 1rem;" i18n>Follow us!</div>
@@ -35,6 +48,6 @@
         </div>
       </li>
     </ul>
-    <div class="colordetail"></div>
+    <div class="colordetail" [ngClass]="{'active': activeTutos}"></div>
   </div>
 </div>

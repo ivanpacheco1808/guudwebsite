@@ -1,0 +1,11 @@
+<div class="tutosmenu">
+  <input type="checkbox" [(ngModel)]="activemenu" id="tutostrigger"/>
+  <label for="tutostrigger" i18n>Tutorial</label>
+  <ul class="tutoarea">
+    <li [routerLink]="'/welcome'" i18n>Welcome</li>
+    <li [routerLink]="'/calendars'" i18n>Calendar</li>
+    <li [routerLink]="'/tips'" i18n>Tips</li>
+    <li [routerLink]="'/workouts'" i18n>Workouts</li>
+    <li [routerLink]="'/sports'" i18n>Sports</li>
+  </ul>
+</div>

@@ -14,6 +14,12 @@ import { GuudideasComponent } from './guudideas/guudideas.component';
 import { TerminosComponent } from './terminos/terminos.component';
 import { DeleteaccComponent } from './deleteacc/deleteacc.component';
 
+import { WelcomeComponent } from './tutorials/welcome/welcome.component';
+import { TipsComponent } from './tutorials/tips/tips.component';
+import { SportsComponent } from './tutorials/sports/sports.component';
+import { CalendarsComponent } from './tutorials/calendars/calendars.component';
+import { WorkoutsComponent } from './tutorials/workouts/workouts.component';
+
 
 @NgModule({
   declarations: [
@@ -28,6 +34,11 @@ import { DeleteaccComponent } from './deleteacc/deleteacc.component';
     GuudideasComponent,
     TerminosComponent,
     DeleteaccComponent,
+    WelcomeComponent,
+    TipsComponent,
+    SportsComponent,
+    CalendarsComponent,
+    WorkoutsComponent,
   ],
   exports: [
     MainviewComponent,
@@ -39,6 +50,13 @@ import { DeleteaccComponent } from './deleteacc/deleteacc.component';
     SupplierComponent,
     SustainabilityComponent,
     GuudideasComponent,
+    TerminosComponent,
+    DeleteaccComponent,
+    WelcomeComponent,
+    TipsComponent,
+    SportsComponent,
+    CalendarsComponent,
+    WorkoutsComponent,
   ],
   imports: [
     CommonModule,

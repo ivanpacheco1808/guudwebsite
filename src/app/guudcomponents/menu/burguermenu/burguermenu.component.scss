@@ -1,9 +1,23 @@
-
 .colordetail {
   width: 100%;
-  background-color: #f8f8f8;
+  //background-color: #f8f8f8;
   height: 15.7rem;
   position: absolute;
-  bottom: 0;
+  top: 48vh;
   z-index: -1;
+
+  &.active {
+    height: 66vh;
+  }
+}
+
+
+#droptutoriales {
+  display: none;
+}
+#droptutoriales ~ [class*="area"] {
+  display: none;
+}
+#droptutoriales:checked ~ [class*="area"] {
+  display: block;
 }
