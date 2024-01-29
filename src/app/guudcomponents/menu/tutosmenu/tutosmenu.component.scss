@@ -5,17 +5,33 @@
   position: absolute;
   /*top: 0.2rem;
   right: 7vw;*/
+  label {
+    padding: 0 1rem;
+  }
   :hover {
     cursor: pointer;
   }
   #tutostrigger {
     display: none;
-    &:checked ~ .tutoarea {
-      display: block;
+    &:checked {
+      ~ label {
+        background-color: #f0f0f0;
+      }
+      ~ .tutoarea {
+        display: block;
+      }
     }
 
     ~ .tutoarea {
       display: none;
+    }
+  }
+  &:hover{
+    label{
+      background-color: #f0f0f0;
+    }
+    .tutoarea{
+      display: block !important;
     }
   }
   .tutoarea {
@@ -24,7 +40,7 @@
     padding: 1rem;
     width: 9rem;
     top: 2.6rem;
-    right: 0.5vw;
+    right: -1vw;
     position: absolute;
     border: 1px solid #f0f0f0;
     border-radius: 0.5rem;

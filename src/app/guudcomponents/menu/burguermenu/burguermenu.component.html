@@ -11,26 +11,26 @@
     </div>
     <!--div class="whitedecoration"></div-->
     <ul class="top">
-      <li [routerLink]="'/'" (click)="_menuOpened=false;" i18n>Home</li>
-      <li [routerLink]="'/aboutus'" (click)="_menuOpened=false;" i18n>About us</li>
-      <li [routerLink]="'/history'" (click)="_menuOpened=false;" i18n>History</li>
-      <li [routerLink]="'/caring'" (click)="_menuOpened=false;" i18n>Caring & giving</li>
-      <li [routerLink]="'/guudideas'" (click)="_menuOpened=false;" i18n>Ideas</li>
+      <li [routerLink]="'/'" (click)="activeTutos=false;_menuOpened=false;" i18n>Home</li>
+      <li [routerLink]="'/aboutus'" (click)="activeTutos=false;_menuOpened=false;" i18n>About us</li>
+      <li [routerLink]="'/history'" (click)="activeTutos=false;_menuOpened=false;" i18n>History</li>
+      <li [routerLink]="'/caring'" (click)="activeTutos=false;_menuOpened=false;" i18n>Caring & giving</li>
+      <li [routerLink]="'/guudideas'" (click)="activeTutos=false;_menuOpened=false;" i18n>Ideas</li>
     </ul>
     <ul class="bottom">
       <!--li i18n>Want to be...</li-->
-      <li [routerLink]="'/supplier'" (click)="_menuOpened=false;" i18n>Supplier</li>
-      <li [routerLink]="'/coach'" (click)="_menuOpened=false;" i18n>Coach</li>
+      <li [routerLink]="'/supplier'" (click)="activeTutos=false;_menuOpened=false;" i18n>Supplier</li>
+      <li [routerLink]="'/coach'" (click)="activeTutos=false;_menuOpened=false;" i18n>Coach</li>
       <li style="height: unset;">
         <input type="checkbox" id="droptutoriales" [(ngModel)]="activeTutos">
-        <label for="droptutoriales" i18n>Tutorial</label>
+        <label for="droptutoriales" style="width: 100%;" i18n>Tutorial</label>
         <div class="tutoarea">
           <ul class="tutos">
-            <li [routerLink]="'/welcome'" i18n>Welcome</li>
-            <li [routerLink]="'/calendars'" i18n>Calendar</li>
-            <li [routerLink]="'/tips'" i18n>Tips</li>
-            <li [routerLink]="'/workouts'" i18n>Workouts</li>
-            <li [routerLink]="'/sports'" style="font-weight: bold;" i18n>Sports</li>
+            <li [routerLink]="'/welcome'" (click)="activeTutos=false;_menuOpened=false;" i18n>Welcome</li>
+            <li [routerLink]="'/calendars'" (click)="activeTutos=false;_menuOpened=false;" i18n>Calendar</li>
+            <li [routerLink]="'/tips'" (click)="activeTutos=false;_menuOpened=false;" i18n>Tips</li>
+            <li [routerLink]="'/workouts'" (click)="activeTutos=false;_menuOpened=false;" i18n>Workouts</li>
+            <li [routerLink]="'/sports'" (click)="activeTutos=false;_menuOpened=false;" style="font-weight: bold;" i18n>Sports</li>
           </ul>
         </div>
       </li>
