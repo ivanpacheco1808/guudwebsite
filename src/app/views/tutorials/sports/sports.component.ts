@@ -9,8 +9,8 @@ export class SportsComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
-  videoH = "https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/c27ed809-d673-4e3c-b013-1f5faf400357.mp4";
-  videoV = "https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/817c70da-40ad-4e33-a43c-d5e1b6fd0bce.mp4";
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/c27ed809-d673-4e3c-b013-1f5faf400357.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/817c70da-40ad-4e33-a43c-d5e1b6fd0bce.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
