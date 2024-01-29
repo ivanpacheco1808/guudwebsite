@@ -871,6 +871,20 @@
           <context context-type="linenumber">19,21</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="5698150121794923956" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/f6bd9284-7455-407a-b63e-ee1862c1670b.mp4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/tutorials/tips/tips.component.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="813906804860640980" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/ea381469-243b-4b77-960f-ad98d23dd3b3.mp4</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/tutorials/tips/tips.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>

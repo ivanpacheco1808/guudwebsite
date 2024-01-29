@@ -9,8 +9,8 @@ export class TipsComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
-  videoH = "https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/f6bd9284-7455-407a-b63e-ee1862c1670b.mp4";
-  videoV = "https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/ea381469-243b-4b77-960f-ad98d23dd3b3.mp4";
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/f6bd9284-7455-407a-b63e-ee1862c1670b.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/ea381469-243b-4b77-960f-ad98d23dd3b3.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {

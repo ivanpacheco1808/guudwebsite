@@ -27,9 +27,7 @@ export class HistoryComponent implements OnInit, OnDestroy {
     });
     this.myPlayer.src({
       type: "video/mp4",
-      //src: "https://guudvideo2-usea.streaming.media.azure.net/88ba8898-f0c7-48eb-b138-bdf267589411/HistoriaGUUD.ism/manifest(format=m3u8-cmaf)"
-      src: "https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/9b88ccd5-2e9d-45ec-8c12-8eca32f3d633.mp4"
-      //src: "https://epcsguudprod-guudvideo2-usea.streaming.media.azure.net/4c8f2efc-874b-49dc-bffc-eb3a0609e4cc/tmp2300.ism/manifest(format=m3u8-aapl)"
+      src: $localize`https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/9b88ccd5-2e9d-45ec-8c12-8eca32f3d633.mp4`
     });
 
   }

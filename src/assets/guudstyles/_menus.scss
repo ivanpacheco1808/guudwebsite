@@ -73,7 +73,7 @@
 
     ul {
       list-style: none;
-      padding: 0.6rem 0;
+      padding: 0;
       position: relative;
 
       &.top {
@@ -87,7 +87,7 @@
         margin: auto;
         li {
           color: $blue-font;
-          font-weight: bold;
+          //font-weight: bold;
           &:hover {
             background-color: $greybackground;
             cursor: pointer;
