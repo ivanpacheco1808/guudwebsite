@@ -1,6 +1,6 @@
 <div class="tutosmenu">
-  <input type="checkbox" [(ngModel)]="activemenu" id="tutostrigger"/>
-  <label for="tutostrigger" style="width: 100%;" i18n>Tutorial</label>
+  <input type="checkbox" [(ngModel)]="activemenu" id="tutostrigger" disabled/>
+  <label for="tutostrigger" i18n [ngClass]="{active: currentRouteIsTutorial}">Tutorial</label>
   <ul class="tutoarea">
     <li [routerLink]="'/welcome'"  (click)="activemenu=false;" i18n>Welcome</li>
     <li [routerLink]="'/calendars'"  (click)="activemenu=false;" i18n>Calendar</li>
