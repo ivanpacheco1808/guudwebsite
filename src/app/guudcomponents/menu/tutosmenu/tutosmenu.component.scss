@@ -1,12 +1,12 @@
 .tutosmenu {
   width: 7rem;
   height: 3rem;
-  line-height: 3rem;
   position: absolute;
-  /*top: 0.2rem;
-  right: 7vw;*/
   label {
-    padding: 0 1rem;
+    padding-top: 0.8rem;
+    &.active {
+      border-bottom: 3px solid #68E242 !important;
+    }
   }
   :hover {
     cursor: pointer;
@@ -15,7 +15,7 @@
     display: none;
     &:checked {
       ~ label {
-        background-color: #f0f0f0;
+        border-bottom: 3px solid #68E242;
       }
       ~ .tutoarea {
         display: block;
@@ -28,7 +28,7 @@
   }
   &:hover{
     label{
-      background-color: #f0f0f0;
+      border-bottom: 3px solid #68E242 !important;
     }
     .tutoarea{
       display: block !important;
@@ -39,12 +39,13 @@
     list-style: none;
     padding: 1rem;
     width: 9rem;
-    top: 2.6rem;
+    top: 2.7rem;
     right: -1vw;
     position: absolute;
     border: 1px solid #f0f0f0;
     border-radius: 0.5rem;
     box-shadow: 0 3px 6px -2px #737373;
+    line-height: 3rem;
     li:hover {
       cursor: pointer;
       background-color: #f0f0f0;

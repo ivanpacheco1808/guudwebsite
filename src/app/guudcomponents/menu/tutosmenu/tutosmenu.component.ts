@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'guud-tutosmenu',
@@ -13,5 +13,9 @@ export class TutosmenuComponent implements OnInit {
   }
 
   activemenu:boolean=false;
+  currentRouteIsTutorial:boolean=false;
+  @Input() set currentRoute(cr){
+    this.currentRouteIsTutorial = (cr == "/welcome" || cr == "/calendars" || cr == "/tips" || cr == "/workouts" || cr == "/sports") ? true : false;
+  }
 
 }
