@@ -6,6 +6,7 @@
     padding-top: 0.8rem;
     &.active {
       border-bottom: 3px solid #68E242 !important;
+      color: #68E242;
     }
   }
   :hover {
@@ -16,6 +17,7 @@
     &:checked {
       ~ label {
         border-bottom: 3px solid #68E242;
+        color: #68E242;
       }
       ~ .tutoarea {
         display: block;
@@ -29,6 +31,7 @@
   &:hover{
     label{
       border-bottom: 3px solid #68E242 !important;
+      color: #68E242;
     }
     .tutoarea{
       display: block !important;
