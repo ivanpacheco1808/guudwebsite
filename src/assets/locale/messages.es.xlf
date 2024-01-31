@@ -559,14 +559,6 @@
           <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6700520153684344918" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;langmenu&quot; id=&quot;langicon&quot; src=&quot;assets/logos_icons/sphere.webp&quot;  width=&quot;35&quot; height=&quot;35&quot;&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>ES<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <target><x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;langmenu&quot; id=&quot;langicon&quot; src=&quot;assets/logos_icons/sphere.webp&quot;  width=&quot;35&quot; height=&quot;35&quot;&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>EN<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/guudcomponents/menu/burguermenu/burguermenu.component.html</context>
-          <context context-type="linenumber">9,10</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="2821179408673282599" datatype="html">
         <source>Home</source>
         <target>Inicio</target>
@@ -817,9 +809,9 @@
           <context context-type="linenumber">7</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1512299078049046492" datatype="html">
-        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;iconMission&quot; src=&quot;assets/images/Our.webp&quot; style=&quot;height: 2rem;filter: brightness(50%);&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> is to create wellness and happiness!!!</source>
-        <target>Nuestro propósito: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> ¡Es crear bienestar y felicidad en todo el mundo!</target>
+      <trans-unit id="7536338905177227793" datatype="html">
+        <source><x id="TAG_IMG" ctype="image" equiv-text="&lt;img alt=&quot;iconMission&quot; src=&quot;assets/images/Our.webp&quot; style=&quot;height: 2rem;filter: brightness(50%);&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> Create health, well-being and bring happiness to the world!</source>
+        <target>Nuestro propósito: <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> ¡Crear salud, bienestar y felicidad al mundo! </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
           <context context-type="linenumber">8</context>
