@@ -5,6 +5,12 @@
 .mobdisplay {
   display: none;
 }
+@media(max-width: 710px){
+  .guudvideo {
+    height: 79vh !important;
+    width: 97vw !important;
+  }
+}
 @media (max-width: 830px) {
   .bannermessage {
     font-size: 6.4vw !important;
