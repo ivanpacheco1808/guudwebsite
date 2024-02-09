@@ -9,8 +9,8 @@ export class CalendarsComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
-  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/223664a6-a6e8-47b6-be97-cd012d6d4690.mp4`;
-  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/223664a6-a6e8-47b6-be97-cd012d6d4690.mp4`;
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/a9b800db-adc7-4975-8063-0f827d714306.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/a69f62a9-34da-41db-bbee-d018011c9b75.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
