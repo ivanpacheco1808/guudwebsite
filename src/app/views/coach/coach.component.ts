@@ -9,6 +9,8 @@ export class CoachComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/725a163f-af31-49d3-8e73-ea8842a6aed5.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/63c9219c-f082-4cc6-ab7e-124a381b91d9.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
@@ -33,13 +35,13 @@ export class CoachComponent implements OnInit, OnDestroy {
       this.videoShown = 'mobview';
       this.myPlayer.src({
         type: "video/mp4",
-        src: $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/38faa3dd-7c3d-48ac-a2ad-fcfdcaf7c20f.mp4`
+        src: this.videoV
       });
     }else if(window.innerWidth > 710 && this.videoShown != 'webview'){
       this.videoShown = 'webview';
       this.myPlayer.src({
         type: "video/mp4",
-        src: $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/90cdfab9-bd5b-48ea-b7ee-7f0c6e223d3b.mp4`
+        src: this.videoH
       });
     }
   }
