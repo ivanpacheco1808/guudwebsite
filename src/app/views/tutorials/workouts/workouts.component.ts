@@ -9,8 +9,8 @@ export class WorkoutsComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
-  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/1c1e1c65-4d6d-4827-be9a-5ad67a4810c2.mp4`;
-  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/2d926c03-8a25-41fe-a81e-e9e2c75b372a.mp4`;
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/8c8a4176-0272-4571-9646-35b1a285b91c.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/2ecb98a5-a257-40d8-8c81-66abd5bb7964.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {

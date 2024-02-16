@@ -69,12 +69,20 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
 
   _mobInterval: any;
   _mobStarted = false;
+  _skipabble = false;
   _startMobAnimation() {
     this._mobStarted = true;
     this._switchgroup('grupod');
     this._mobInterval = setInterval(() => {
       var selectedcat = this._mobilekeys[Math.floor(Math.random() * (this._mobilekeys.length - 2))];
-      this._switchgroup(selectedcat);
+      if(selectedcat != 'grupoe'){
+        this._switchgroup(selectedcat);
+      }else{
+        this._skipabble = this._skipabble ? false : true;
+        if(this._skipabble){
+          this._switchgroup(selectedcat);
+        }
+      }
     }, 3000);
   }
 
@@ -84,8 +92,8 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
     var lastref: any = document.querySelector("[id='web" + lastalt + "']");
     var nextalt = this._imageList[group][rindx];
     var nextref: any = document.querySelector("[id='web" + nextalt + "']");
-
     var randfade = Math.floor((Math.random() * 6) / 2);
+    //this._skipabble = nextalt == 'phrase16' ? true : false;
     $(lastref).addClass(this._fadecolors[randfade]);
     setTimeout(() => {
       $(lastref).removeClass(this._fadecolors[randfade]);
