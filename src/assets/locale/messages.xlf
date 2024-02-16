@@ -921,8 +921,8 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5698150121794923956" datatype="html">
-        <source>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/f6bd9284-7455-407a-b63e-ee1862c1670b.mp4</source>
+      <trans-unit id="7225873336563737207" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/65362d8b-59a3-4d0c-ae86-650850987751.mp4</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/tips/tips.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -935,15 +935,15 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1536264135389138578" datatype="html">
-        <source>https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/1c1e1c65-4d6d-4827-be9a-5ad67a4810c2.mp4</source>
+      <trans-unit id="3286430224803226182" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/8c8a4176-0272-4571-9646-35b1a285b91c.mp4</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/workouts/workouts.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="3885430864261677732" datatype="html">
-        <source>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/2d926c03-8a25-41fe-a81e-e9e2c75b372a.mp4</source>
+      <trans-unit id="2164251045094740335" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/2ecb98a5-a257-40d8-8c81-66abd5bb7964.mp4</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/workouts/workouts.component.ts</context>
           <context context-type="linenumber">13</context>
