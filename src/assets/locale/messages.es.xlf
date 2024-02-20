@@ -977,16 +977,16 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="7764347691248072148" datatype="html">
-        <source>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/c27ed809-d673-4e3c-b013-1f5faf400357.mp4</source>
+      <trans-unit id="3165625489695386242" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/PROD/introduccion/41ea08fb-23b6-40c8-a719-c0f1fde7fc8d.mp4</source>
         <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/c27ed809-d673-4e3c-b013-1f5faf400357.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/sports/sports.component.ts</context>
           <context context-type="linenumber">12</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5310555303414359235" datatype="html">
-        <source>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/817c70da-40ad-4e33-a43c-d5e1b6fd0bce.mp4</source>
+      <trans-unit id="4478574941415460231" datatype="html">
+        <source>https://d2lhr769yt64fs.cloudfront.net/PROD/introduccion/55f029ac-5dd5-4aa2-aa1d-b38f6d161145.mp4</source>
         <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/817c70da-40ad-4e33-a43c-d5e1b6fd0bce.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/sports/sports.component.ts</context>
