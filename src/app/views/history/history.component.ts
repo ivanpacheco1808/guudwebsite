@@ -29,6 +29,7 @@ export class HistoryComponent implements OnInit, OnDestroy {
       controls: true
     });
     this.setVideoByScreenSize();
+    console.log('Cambio Aceptado');
   }
   setVideoByScreenSize(){
     if(window.innerWidth <= 710 && this.videoShown != 'mobview'){
