@@ -9,8 +9,8 @@ export class HistoryComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
-  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/79aa8cc5-ac3a-4d23-a776-2076726225b0.mp4`;
-  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/08249950-7adc-4920-b217-0a0bf6195982.mp4`;
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/9b30ed6f-1f4e-4b3f-9965-8c62b3096e39.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/7037fda5-62a5-49d9-81e2-ce5cc09e682f.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
@@ -29,6 +29,7 @@ export class HistoryComponent implements OnInit, OnDestroy {
       controls: true
     });
     this.setVideoByScreenSize();
+    console.log('Cambio Aceptado');
   }
   setVideoByScreenSize(){
     if(window.innerWidth <= 710 && this.videoShown != 'mobview'){

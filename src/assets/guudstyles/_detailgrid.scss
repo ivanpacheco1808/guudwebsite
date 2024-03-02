@@ -363,6 +363,14 @@ guud-imageplacer {
         width: 4.4vw;
       }
     }
+
+    #webphrasenew23 {
+      top: -36vh;
+      width: 16vw;
+      @media (max-width: 1200px) {
+
+      }
+    }
   }
 
 
@@ -535,6 +543,12 @@ guud-imageplacer {
         left: calc(62vw * $sizeMultiplierX);
         top: calc(131vw * $sizeMultiplierY);
         width: calc(34vw * $sizeMultiplier);
+      }
+
+      &[id="webphrasenew23"] {
+        left: calc(10vw * $sizeMultiplierX);
+        top: calc(160vw * $sizeMultiplierY);
+        width: calc(83vw * $sizeMultiplier);
       }
     }
   }

@@ -93,7 +93,7 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
     var nextalt = this._imageList[group][rindx];
     var nextref: any = document.querySelector("[id='web" + nextalt + "']");
     var randfade = Math.floor((Math.random() * 6) / 2);
-    //this._skipabble = nextalt == 'phrase16' ? true : false;
+    this._skipabble = nextalt == 'phrasenew23' ? true : false;
     $(lastref).addClass(this._fadecolors[randfade]);
     setTimeout(() => {
       $(lastref).removeClass(this._fadecolors[randfade]);
@@ -121,7 +121,7 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
     'arrow5', 'phrase1', 'phrase15', 'phrase8', 'phrase2', 'phrase17',
     'phrase20', 'phrase10', 'phrase11', 'phrase18', 'phrase6', 'phrase4',
     'phrase16', 'phrase0', 'phrase5', 'phrase12', 'phrase14', 'phrase7',
-    'phrase19', 'phrase21', 'phrase3'];
+    'phrase19', 'phrase21', 'phrase3', 'phrasenew23'];
   _fadecolors = ["fadeToRed", "fadeToBlue", "fadeToGreen"];
   _mobilekeys = ['grupoa', 'grupob', 'grupoc', 'grupod', 'grupoe', 'grupof'];
   _imageList = {
@@ -130,7 +130,7 @@ export class ImageplacerComponent implements OnDestroy, OnInit {
     grupob: ['phrase2', 'phrase19', 'phrase11', 'phrase9'],
     grupoc: ['phrase20', 'phrase12', 'phrase13', 'phrase6'],
     grupod: ['phrase4', 'phrase18', 'phrase8'],
-    grupoe: ['phrase5', 'phrase16', 'phrase14', 'phrase7'],
+    grupoe: ['phrase5', 'phrasenew23', 'phrase16', 'phrase14', 'phrase7'],
     grupof: ['phrase0', 'phrase21', 'phrase15', 'phrase3'],
   };
 
