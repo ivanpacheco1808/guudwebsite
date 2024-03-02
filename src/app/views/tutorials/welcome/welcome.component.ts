@@ -9,8 +9,8 @@ export class WelcomeComponent implements OnInit, OnDestroy {
   constructor() { }
   innerWidth: any;
   innerHeight: any;
-  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/725a163f-af31-49d3-8e73-ea8842a6aed5.mp4`;
-  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/63c9219c-f082-4cc6-ab7e-124a381b91d9.mp4`;
+  videoH = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/c91b83c4-b5e2-4da8-a5b9-39fdd150e9af.mp4`;
+  videoV = $localize`https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/f0562d34-8291-4e37-b1c1-7fcbf35df416.mp4`;
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
