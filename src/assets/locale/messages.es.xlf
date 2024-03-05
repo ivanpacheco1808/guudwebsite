@@ -910,7 +910,7 @@
       </trans-unit>
       <trans-unit id="3792239838982446536" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/c91b83c4-b5e2-4da8-a5b9-39fdd150e9af.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/90cdfab9-bd5b-48ea-b7ee-7f0c6e223d3b.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/01fda33f-5c26-410e-817d-6a4137f65e79.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/coach/coach.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -922,7 +922,7 @@
       </trans-unit>
       <trans-unit id="1091067075884729003" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/f0562d34-8291-4e37-b1c1-7fcbf35df416.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/38faa3dd-7c3d-48ac-a2ad-fcfdcaf7c20f.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/7c04284b-9913-4211-bc5c-34dbcaf12af7.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/coach/coach.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -934,7 +934,7 @@
       </trans-unit>
       <trans-unit id="1140202117201500527" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/9b30ed6f-1f4e-4b3f-9965-8c62b3096e39.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/9b88ccd5-2e9d-45ec-8c12-8eca32f3d633.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/8fedc484-6fa7-44eb-bf9c-f127af9a417a.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/history/history.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -942,7 +942,7 @@
       </trans-unit>
       <trans-unit id="685343897954319264" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/7037fda5-62a5-49d9-81e2-ce5cc09e682f.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/435b1b4b-b137-417c-a22a-f1164538c38d.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/669a0f25-ecc8-4656-8964-b981d527739a.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/history/history.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -974,7 +974,7 @@
       </trans-unit>
       <trans-unit id="6220375926733104834" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/0bb7f9f3-0e0c-44be-bed8-5a7a74046206.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/STAGING/introduccion/5da3638b-399e-486a-bda5-aa915af9f5f4.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/495693e3-d43c-425d-90d5-fea9eeea24e3.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/calendars/calendars.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -982,7 +982,7 @@
       </trans-unit>
       <trans-unit id="5533571876732219261" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/7dae0f3b-db4e-4e55-8d40-8688acb6d160.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/223664a6-a6e8-47b6-be97-cd012d6d4690.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/81ad7baf-5c2d-4e74-8654-c11ef12df747.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/calendars/calendars.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -990,7 +990,7 @@
       </trans-unit>
       <trans-unit id="7304314090899679" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/6ba3f245-8017-47af-8954-72083e4cfdb2.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/c27ed809-d673-4e3c-b013-1f5faf400357.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/8238186d-1fc2-4c6a-8f29-85123ae50965.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/sports/sports.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -998,7 +998,7 @@
       </trans-unit>
       <trans-unit id="7784567790468242340" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/721e11ec-6657-42e6-a6a9-4443ab379647.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/817c70da-40ad-4e33-a43c-d5e1b6fd0bce.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/85d0da13-eee2-47bc-a842-27fc816c006d.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/sports/sports.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -1006,7 +1006,7 @@
       </trans-unit>
       <trans-unit id="2392027793156567263" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/bb85c261-8f01-43aa-af71-92bf9443142e.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/f6bd9284-7455-407a-b63e-ee1862c1670b.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/c5c82fd8-1b7b-45eb-8ad9-fa7e4770421e.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/tips/tips.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -1014,7 +1014,7 @@
       </trans-unit>
       <trans-unit id="932487357002632840" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/a3e8ef1a-c879-4593-89a0-21d2fc4c7c91.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/ea381469-243b-4b77-960f-ad98d23dd3b3.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/0da368aa-05c4-45e0-b1ea-b7fd45903b43.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/tips/tips.component.ts</context>
           <context context-type="linenumber">13</context>
@@ -1022,7 +1022,7 @@
       </trans-unit>
       <trans-unit id="5746360271895705472" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/77edda5f-326d-48be-980e-b95c82f27a35.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/introduccion/1c1e1c65-4d6d-4827-be9a-5ad67a4810c2.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/3ae98657-4ac4-40b0-9672-2ce8122af93f.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/workouts/workouts.component.ts</context>
           <context context-type="linenumber">12</context>
@@ -1030,7 +1030,7 @@
       </trans-unit>
       <trans-unit id="3990089057163966626" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/eee8c92b-5696-470b-8236-b3ed80551b5f.mp4</source>
-        <target>https://d2lhr769yt64fs.cloudfront.net/videos/rutinas/2d926c03-8a25-41fe-a81e-e9e2c75b372a.mp4</target>
+        <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/7ae283b2-0c85-4b7b-9b06-0b6aed062076.mp4</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/tutorials/workouts/workouts.component.ts</context>
           <context context-type="linenumber">13</context>
