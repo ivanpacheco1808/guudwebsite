@@ -860,9 +860,9 @@
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="4284688756543354796" datatype="html">
-        <source>Passion, Innovation &amp; Humbleness</source>
-        <target>Pasión, Innovación &amp; Humildad</target>
+      <trans-unit id="6004883111397791127" datatype="html">
+        <source>Passion, Innovation &amp; Teamwork</source>
+        <target>Pasión, Innovación &amp; Trabajo en equipo</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
           <context context-type="linenumber">25</context>
