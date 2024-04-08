@@ -1,4 +1,6 @@
-<guud-topbar [currentRoute]="currentRoute" [isMobile]="isMobile"></guud-topbar>
+<guud-topbar *ngIf="currentRoute!='/terminos'" [currentRoute]="currentRoute" [isMobile]="isMobile"></guud-topbar>
 <router-outlet></router-outlet>
-<guud-footer *ngIf="(currentRoute!='/guudideas' && currentRoute!='/supplier') || isMobile == false"></guud-footer>
-<guudapp-modales></guudapp-modales>
+<ng-container *ngIf="currentRoute!='/terminos'">
+  <guud-footer *ngIf="(currentRoute!='/guudideas' && currentRoute!='/supplier') || isMobile == false"></guud-footer>
+</ng-container>
+<guudapp-modales *ngIf="currentRoute!='/terminos'"></guudapp-modales>
