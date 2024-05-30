@@ -20,6 +20,12 @@ import { TipsComponent } from '@views/tutorials/tips/tips.component';
 import { WorkoutsComponent } from '@views/tutorials/workouts/workouts.component';
 import { SportsComponent } from '@views/tutorials/sports/sports.component';
 
+//PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS - PRODUCTOS
+import { ProductsComponent } from '@views/products/products.component';
+import { SupplementsComponent } from '@views/products/supplements/supplements.component';
+import { SkincareComponent } from '@views/products/skincare/skincare.component';
+
+
 const routes: Routes = [
   { path: '', component: MainviewComponent },
 
@@ -37,6 +43,10 @@ const routes: Routes = [
   { path: 'tips', component: TipsComponent },
   { path: 'workouts', component: WorkoutsComponent },
   { path: 'sports', component: SportsComponent },
+
+  { path: 'products', component: ProductsComponent },
+  { path: 'products/suplementos', component: SupplementsComponent },
+  { path: 'products/skincare', component: SkincareComponent },
 
 
   //{ path: '', component: HomeComponent, canActivate: [AuthGuard] },
