@@ -791,8 +791,8 @@
           <context context-type="linenumber">19</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="2648639107378082937" datatype="html">
-        <source>Improve quality of life around the world.</source>
+      <trans-unit id="9205201770196849058" datatype="html">
+        <source>Let&apos;s find the Guud in YOU.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
           <context context-type="linenumber">20</context>
@@ -805,8 +805,8 @@
           <context context-type="linenumber">24</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6004883111397791127" datatype="html">
-        <source>Passion, Innovation &amp; Teamwork</source>
+      <trans-unit id="4284688756543354796" datatype="html">
+        <source>Passion, Innovation &amp; Humbleness</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/views/aboutus/aboutus.component.html</context>
           <context context-type="linenumber">25</context>

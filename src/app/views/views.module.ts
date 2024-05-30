@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 import { GuudcomponentsModule } from '@guudcomponents/guudcomponents.module';
@@ -19,6 +20,9 @@ import { TipsComponent } from './tutorials/tips/tips.component';
 import { SportsComponent } from './tutorials/sports/sports.component';
 import { CalendarsComponent } from './tutorials/calendars/calendars.component';
 import { WorkoutsComponent } from './tutorials/workouts/workouts.component';
+import { ProductsComponent } from './products/products.component';
+import { SupplementsComponent } from './products/supplements/supplements.component';
+import { SkincareComponent } from './products/skincare/skincare.component';
 
 
 @NgModule({
@@ -39,6 +43,9 @@ import { WorkoutsComponent } from './tutorials/workouts/workouts.component';
     SportsComponent,
     CalendarsComponent,
     WorkoutsComponent,
+    ProductsComponent,
+    SupplementsComponent,
+    SkincareComponent,
   ],
   exports: [
     MainviewComponent,
@@ -57,10 +64,14 @@ import { WorkoutsComponent } from './tutorials/workouts/workouts.component';
     SportsComponent,
     CalendarsComponent,
     WorkoutsComponent,
+    ProductsComponent,
+    SupplementsComponent,
+    SkincareComponent,
   ],
   imports: [
     CommonModule,
-    GuudcomponentsModule
+    GuudcomponentsModule,
+    RouterModule
   ]
 })
 export class ViewsModule { }
