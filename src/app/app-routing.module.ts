@@ -44,9 +44,9 @@ const routes: Routes = [
   { path: 'workouts', component: WorkoutsComponent },
   { path: 'sports', component: SportsComponent },
 
-  { path: 'products', component: ProductsComponent },
-  { path: 'products/suplementos', component: SupplementsComponent },
-  { path: 'products/skincare', component: SkincareComponent },
+  { path: 'es/productos', component: ProductsComponent },
+  { path: 'es/productos/suplementos', component: SupplementsComponent },
+  { path: 'es/productos/skincare', component: SkincareComponent },
 
 
   //{ path: '', component: HomeComponent, canActivate: [AuthGuard] },
