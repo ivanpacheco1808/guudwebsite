@@ -22,7 +22,6 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/TerminoYCondiciones.pdf",
               "src/routes.json"
             ],
             "styles": [

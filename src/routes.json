@@ -1,7 +1,11 @@
 {
   "routes": [{
-    "route": "/es/*",
-    "serve": "/es/index.html",
+    "route": "/esMX/*",
+    "serve": "/esMX/index.html",
+    "statusCode": 200
+  },{
+    "route": "/esCO/*",
+    "serve": "/esCO/index.html",
     "statusCode": 200
   },{
     "route": "/en/*",
