@@ -972,6 +972,14 @@
           <context context-type="linenumber">19,21</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="6592204763325550478" datatype="html">
+        <source>US</source>
+        <target>MX</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/views/terminos/terminos.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="6220375926733104834" datatype="html">
         <source>https://d2lhr769yt64fs.cloudfront.net/DEV/introduccion/0bb7f9f3-0e0c-44be-bed8-5a7a74046206.mp4</source>
         <target>https://d2lhr769yt64fs.cloudfront.net/DEV/otros/495693e3-d43c-425d-90d5-fea9eeea24e3.mp4</target>
