@@ -38,7 +38,7 @@ export class AppComponent {
   currentRoute:string;
   isMobile:boolean = false;
   constructor(private router: Router) {
-    console.log('checking2');
+    console.log('github');
     this.isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     this.routerEvents = this.router.events.subscribe(
       (event:any)=>{
