@@ -25,6 +25,7 @@
     "@angular/router": "^14.0.0",
     "bootstrap": "^5.2.3",
     "firebase": "^10.2.0",
+    "http-server": "^14.1.1",
     "jquery": "^3.6.2",
     "jsonpack": "^1.1.5",
     "path-browserify": "^1.0.1",

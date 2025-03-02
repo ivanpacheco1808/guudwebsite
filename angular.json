@@ -104,7 +104,8 @@
       "i18n": {
         "sourceLocale": "en",
         "locales": {
-          "es": "src/assets/locale/messages.es.xlf"
+          "esMX": "src/assets/locale/messages.esMX.xlf",
+          "esCO": "src/assets/locale/messages.esCO.xlf"
         }
       },
       "schematics": {
